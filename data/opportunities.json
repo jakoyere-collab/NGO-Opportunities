@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T22:12:07+00:00",
-  "count": 4,
+  "generated_at": "2026-07-18T22:17:00+00:00",
+  "count": 3,
   "opportunities": [
     {
       "title": "Nigeria Monitoring, Evaluation and Learning Specialist",
@@ -28,15 +28,6 @@
       "remote": false,
       "apply_url": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/21319",
       "posted": "Fri, 17 Jul 2026 17:08:25 +0000"
-    },
-    {
-      "title": "African Epidemic Services (AES) Fellowship Programme 2026 – Epidemiology Track (Funded)",
-      "organization": "Africa CDC",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://jobs.au.int/job/The-Africa-Epidemic-Services-Epidemiology-track/3040-en_US/",
-      "posted": "Fri, 17 Jul 2026 14:33:17 +0000"
     }
   ]
 }

@@ -25,10 +25,12 @@ GitHub Actions with a bare `python3` install.
 import html
 import json
 import re
+import ssl
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from urllib.error import URLError
 from urllib.parse import urlparse
 
 USER_AGENT = "NGOOpportunitiesBot/1.0 (+https://ngoopportunities.com; daily opportunities digest)"
@@ -67,6 +69,29 @@ def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=PAGE_TIMEOUT) as resp:
         return resp.read().decode("utf-8", errors="replace")
+
+
+def has_valid_certificate(url):
+    """Checks that an https:// destination presents a currently-valid TLS
+    certificate, so we never publish a link that greets visitors with a
+    browser security warning. A non-cert error (timeout, 404, 405 on HEAD,
+    etc.) doesn't fail this check — only certificate problems do, since
+    those are the one failure mode that's unsafe to send people to."""
+    if not url.lower().startswith("https://"):
+        return True
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": USER_AGENT})
+        urllib.request.urlopen(req, timeout=PAGE_TIMEOUT)
+        return True
+    except URLError as exc:
+        reason = exc.reason
+        if isinstance(reason, ssl.SSLCertVerificationError) or "CERTIFICATE" in str(reason).upper():
+            return False
+        return True
+    except ssl.SSLCertVerificationError:
+        return False
+    except Exception:
+        return True
 
 
 def strip_html(text):
@@ -191,6 +216,10 @@ def fetch_ngo_jobs_in_africa():
             print(f"[skip] No specific application URL found for: {item['title']}", file=sys.stderr)
             continue
 
+        if not has_valid_certificate(apply_url):
+            print(f"[skip] {apply_url} has an invalid/expired certificate: {item['title']}", file=sys.stderr)
+            continue
+
         org_name = None
         try:
             page_html = fetch(item["link"])
@@ -233,6 +262,10 @@ def fetch_opportunity_desk_fellowships():
 
         if not org_link:
             print(f"[skip] No organization link found for: {item['title']}", file=sys.stderr)
+            continue
+
+        if not has_valid_certificate(org_link):
+            print(f"[skip] {org_link} has an invalid/expired certificate: {item['title']}", file=sys.stderr)
             continue
 
         results.append({
