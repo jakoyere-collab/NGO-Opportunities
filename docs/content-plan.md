@@ -55,6 +55,13 @@ Suggested: 2–3 videos per week, cycling through categories, e.g. Mon = CV/Cove
 4. Building a Network in the NGO/Development Sector
 5. Volunteering and Internships as a Way In
 
+### 6. Career Growth & Development
+1. Turning Your First NGO Job Into a Career
+2. Building Skills Employers Actually Look For
+3. Getting Promoted: What Performance Reviews Really Measure
+4. Free and Low-Cost Certifications Worth Adding to Your CV
+5. Moving From Officer to Manager: What Changes
+
 ## Example scripts
 
 Two fully written example scripts, showing the target quality bar, are in `docs/scripts/`.
