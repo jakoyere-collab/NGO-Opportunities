@@ -4,11 +4,16 @@ Pulls current NGO jobs and fellowships relevant to Nigerians from public RSS
 feeds and writes them to data/opportunities.json for the opportunities page.
 
 Sources (see docs/opportunities-sources.md for why these were chosen):
+  - ReliefWeb (UN OCHA): a plain RSS view of its jobs board, filtered to
+    Nigeria, that needs no API key. Each item already contains the full
+    job text plus a "How to apply" section with the exact application
+    link, and the organization's name directly in the feed's <author>.
   - NGO Jobs in Africa: dedicated Nigeria-location feed, already scoped to
-    Nigeria-based NGO/development jobs. Each item's "How to apply" section
-    carries the exact application URL for that specific posting (its
-    Greenhouse/Workday/Oracle HCM job page), and the job's own detail page
-    carries schema.org hiringOrganization markup for the org's name.
+    Nigeria-based NGO/development jobs. Appears to republish some of the
+    same postings as ReliefWeb, so its results are deduplicated against
+    ReliefWeb's. Each item's "How to apply" section carries the exact
+    application URL, and the job's own detail page carries schema.org
+    hiringOrganization markup for the org's name.
   - Opportunity Desk: dedicated Fellowships feed, filtered here by keyword
     for Africa/Nigeria/global-eligibility relevance since it covers
     opportunities worldwide. Each post tags the hosting/funding
@@ -148,6 +153,7 @@ def parse_rss(raw_text):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
         pub_date = (item.findtext("pubDate") or "").strip()
+        author = (item.findtext("author") or "").strip()
         categories = [c.text.strip() for c in item.findall("category") if c.text]
         content_encoded = ""
         for child in item:
@@ -158,6 +164,7 @@ def parse_rss(raw_text):
             "title": html.unescape(title),
             "link": link,
             "pub_date": pub_date,
+            "author": html.unescape(author) if author else None,
             "content": content_encoded or description,
             "categories": categories,
         })
@@ -239,6 +246,72 @@ def fetch_ngo_jobs_in_africa():
     return results
 
 
+def extract_reliefweb_countries(description):
+    """ReliefWeb tags every posting with all of its eligible countries
+    (e.g. "Countries: Ethiopia, Kenya, Nigeria" for a multi-country
+    regional role). Returns that list so callers can tell a Nigeria-based
+    posting apart from one where Nigeria is just one of several options."""
+    match = re.search(r'"tag country">\s*(?:Country|Countries):\s*([^<]+)</div>', description or "")
+    if not match:
+        return []
+    return [c.strip() for c in match.group(1).split(",") if c.strip()]
+
+
+def extract_reliefweb_apply_url(description):
+    """ReliefWeb's own RSS description already contains the full job text,
+    ending in a "How to apply" section (heading level varies by posting).
+    Takes the first link appearing after that heading, which skips over
+    any scam-warning boilerplate some organizations prepend (e.g. CARE)."""
+    marker = re.search(r"how to apply", description or "", re.IGNORECASE)
+    if not marker:
+        return None
+    tail = description[marker.start():]
+    href_match = re.search(r'href="(https?://[^"]+)"', tail)
+    if href_match:
+        return html.unescape(href_match.group(1))
+    url_match = re.search(r'https?://[^\s<>"]+', tail)
+    if url_match:
+        return url_match.group(0).rstrip(").,;\"'")
+    return None
+
+
+def fetch_reliefweb_jobs():
+    """ReliefWeb (UN OCHA) publishes a plain RSS view of its jobs board,
+    separate from its REST API — the API needs a pre-approved appname
+    (see docs/opportunities-sources.md), but this RSS view doesn't."""
+    feed_url = 'https://reliefweb.int/jobs/rss.xml?search=country.exact:"Nigeria"'
+    try:
+        raw = fetch(feed_url)
+    except Exception as exc:
+        print(f"[warn] ReliefWeb feed failed: {exc}", file=sys.stderr)
+        return []
+
+    results = []
+    for item in parse_rss(raw)[:MAX_PER_SOURCE]:
+        apply_url = extract_reliefweb_apply_url(item["content"])
+        if not apply_url:
+            print(f"[skip] No specific application URL found for: {item['title']}", file=sys.stderr)
+            continue
+
+        if not has_valid_certificate(apply_url):
+            print(f"[skip] {apply_url} has an invalid/expired certificate: {item['title']}", file=sys.stderr)
+            continue
+
+        countries = extract_reliefweb_countries(item["content"])
+        is_nigeria_only = countries == ["Nigeria"]
+
+        results.append({
+            "title": item["title"],
+            "organization": item["author"],
+            "type": "Job",
+            "location": "Nigeria" if is_nigeria_only else "Regional (incl. Nigeria)",
+            "remote": not is_nigeria_only,
+            "apply_url": apply_url,
+            "posted": item["pub_date"],
+        })
+    return results
+
+
 def fetch_opportunity_desk_fellowships():
     feed_url = "https://opportunitydesk.org/category/fellowships/feed/"
     try:
@@ -280,8 +353,36 @@ def fetch_opportunity_desk_fellowships():
     return results
 
 
+def normalize_for_dedup(text):
+    return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
+
+
+def dedupe(opportunities):
+    """Keeps the first occurrence of each listing, matching on either the
+    application URL or the normalized title — ReliefWeb and NGO Jobs in
+    Africa sometimes carry the exact same posting (the latter appears to
+    republish the former), so ReliefWeb is fetched first to win ties as
+    the more authoritative, original source."""
+    seen_urls = set()
+    seen_titles = set()
+    deduped = []
+    for opp in opportunities:
+        url_key = opp["apply_url"].rstrip("/").lower()
+        title_key = normalize_for_dedup(opp["title"])
+        if url_key in seen_urls or title_key in seen_titles:
+            continue
+        seen_urls.add(url_key)
+        seen_titles.add(title_key)
+        deduped.append(opp)
+    return deduped
+
+
 def main():
-    opportunities = fetch_ngo_jobs_in_africa() + fetch_opportunity_desk_fellowships()
+    opportunities = dedupe(
+        fetch_reliefweb_jobs()
+        + fetch_ngo_jobs_in_africa()
+        + fetch_opportunity_desk_fellowships()
+    )
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

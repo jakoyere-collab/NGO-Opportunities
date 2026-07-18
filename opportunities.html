@@ -98,7 +98,7 @@
                 <article class="opportunity-card">
                     <div class="opportunity-tags">
                         <span class="tag tag-${o.type === 'Fellowship' ? 'fellowship' : 'job'}">${o.type}</span>
-                        <span class="tag tag-location">${o.remote ? 'Remote / Varies' : o.location}</span>
+                        <span class="tag tag-location">${o.location}</span>
                     </div>
                     <h3><a href="${o.apply_url}" target="_blank" rel="noopener">${o.title}</a></h3>
                     <p class="opportunity-org">${o.organization || 'Organization not specified'}</p>
