@@ -1,0 +1,34 @@
+name: Update opportunities feed
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 06:00 UTC daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest opportunities
+        run: python3 scripts/fetch_opportunities.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/opportunities.json; then
+            git add data/opportunities.json
+            git commit -m "Update opportunities feed"
+            git push
+          else
+            echo "No changes to opportunities feed."
+          fi
