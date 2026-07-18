@@ -58,6 +58,13 @@
         let allOpportunities = [];
         let activeFilter = 'all';
 
+        function formatPosted(posted) {
+            if (!posted) return '';
+            const parsed = new Date(posted);
+            if (isNaN(parsed)) return '';
+            return parsed.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+        }
+
         async function loadOpportunities() {
             const listEl = document.getElementById('opportunitiesList');
             try {
@@ -94,8 +101,8 @@
                         <span class="tag tag-location">${o.remote ? 'Remote / Varies' : o.location}</span>
                     </div>
                     <h3><a href="${o.apply_url}" target="_blank" rel="noopener">${o.title}</a></h3>
-                    ${o.organization ? `<p class="opportunity-org">${o.organization}</p>` : ''}
-                    <p class="opportunity-meta">Source: ${o.source}</p>
+                    <p class="opportunity-org">${o.organization || 'Organization not specified'}</p>
+                    <p class="opportunity-meta">Posted ${formatPosted(o.posted)}</p>
                 </article>
             `).join('');
         }

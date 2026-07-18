@@ -5,11 +5,16 @@ feeds and writes them to data/opportunities.json for the opportunities page.
 
 Sources (see docs/opportunities-sources.md for why these were chosen):
   - NGO Jobs in Africa: dedicated Nigeria-location feed, already scoped to
-    Nigeria-based NGO/development jobs. The feed content includes a
-    "How to apply" line with the original organization's application link.
+    Nigeria-based NGO/development jobs. Each job's own page carries
+    schema.org hiringOrganization markup and a "Connect with us on Website"
+    link straight to the hiring organization's own homepage.
   - Opportunity Desk: dedicated Fellowships feed, filtered here by keyword
     for Africa/Nigeria/global-eligibility relevance since it covers
-    opportunities worldwide.
+    opportunities worldwide. Each post tags the hosting/funding
+    organization as a category and links out to its official portal.
+
+Every listing links to the organization's own site (or its official
+application portal), never to the aggregator page it was found on.
 
 No third-party dependencies: uses only the standard library so this runs in
 GitHub Actions with a bare `python3` install.
@@ -21,10 +26,12 @@ import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 
 USER_AGENT = "NGOOpportunitiesBot/1.0 (+https://ngoopportunities.com; daily opportunities digest)"
 OUTPUT_PATH = "data/opportunities.json"
 MAX_PER_SOURCE = 20
+PAGE_TIMEOUT = 20
 
 FELLOWSHIP_KEYWORDS = [
     "nigeria", "nigerian", "africa", "african", "sub-saharan",
@@ -32,11 +39,31 @@ FELLOWSHIP_KEYWORDS = [
     "worldwide", "international applicants", "any country",
 ]
 
+NON_ORG_DOMAINS = {
+    "facebook.com", "twitter.com", "x.com", "instagram.com", "linkedin.com",
+    "pinterest.com", "wordpress.org", "whatsapp.com", "wa.me",
+    "api.whatsapp.com", "t.me", "telegram.org", "telegram.me",
+    "googleapis.com", "gstatic.com", "googlesyndication.com",
+    "doubleclick.net", "google.com", "youtube.com", "opportunitydesk.org",
+    "ngojobsinafrica.com", "w.org", "gravatar.com", "jetpack.com", "wp.com",
+    "feedburner.com", "addtoany.com", "sharethis.com", "disqus.com",
+    "plus.google.com", "reddit.com", "tumblr.com", "getpocket.com",
+    "flipboard.com", "mix.com", "digg.com", "vk.com", "line.me",
+    "viber.com", "skype.com",
+}
+
+REGION_OR_TYPE_TAGS = {
+    "africa", "america", "americas", "asia", "europe", "oceania",
+    "australia and oceania", "north america", "south america", "global",
+    "world", "fellowships", "scholarships", "grants", "competitions",
+    "conferences", "jobs", "internships", "awards", "funding opportunities",
+}
+
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read()
+    with urllib.request.urlopen(req, timeout=PAGE_TIMEOUT) as resp:
+        return resp.read().decode("utf-8", errors="replace")
 
 
 def strip_html(text):
@@ -44,46 +71,32 @@ def strip_html(text):
     return html.unescape(re.sub(r"\s+", " ", text)).strip()
 
 
-ORG_STOPWORDS = {
-    "founded", "is", "was", "based", "established", "working", "with",
-    "for", "we", "our", "since", "a", "an", "the", "role", "operates",
-    "works", "provides", "supports", "believes", "has", "have",
-}
+def is_org_domain(url):
+    try:
+        netloc = urlparse(url).netloc.lower()
+    except Exception:
+        return False
+    if netloc.startswith("www."):
+        netloc = netloc[len("www."):]
+    return netloc and not any(netloc == d or netloc.endswith("." + d) for d in NON_ORG_DOMAINS)
 
 
-def extract_apply_url(content, fallback_url):
-    match = re.search(r"Apply here:\s*(\S+)", content or "")
-    if match:
+def first_outbound_link(page_html):
+    for match in re.finditer(r'href="(https?://[^"]+)"', page_html):
         url = match.group(1)
-        url = url.split("<", 1)[0]  # drop any trailing HTML like </p>
-        return url.rstrip(").,;\"'")
-    return fallback_url
+        if is_org_domain(url):
+            return url
+    return None
 
 
-def extract_organization(content):
-    plain = strip_html(content)
-    match = re.search(r"\bAbout\s+([A-Z][\w&.,'()/-]*(?:\s+[A-Z][\w&.,'()/-]*){0,4})", plain)
-    if not match:
-        return None
-    words = match.group(1).strip().split()
-    kept = []
-    for word in words:
-        if word.lower().rstrip(".,") in ORG_STOPWORDS:
-            break
-        kept.append(word)
-    name = " ".join(kept).strip()
-    if len(name) < 2:
-        return None
-    return name
-
-
-def parse_rss(raw_bytes):
-    root = ET.fromstring(raw_bytes)
+def parse_rss(raw_text):
+    root = ET.fromstring(raw_text)
     items = []
     for item in root.findall("./channel/item"):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
         pub_date = (item.findtext("pubDate") or "").strip()
+        categories = [c.text.strip() for c in item.findall("category") if c.text]
         content_encoded = ""
         for child in item:
             if child.tag.endswith("encoded"):
@@ -94,38 +107,90 @@ def parse_rss(raw_bytes):
             "link": link,
             "pub_date": pub_date,
             "content": content_encoded or description,
+            "categories": categories,
         })
     return items
 
 
+def extract_apply_here(content):
+    match = re.search(r"Apply here:\s*(\S+)", content or "")
+    if not match:
+        return None
+    url = match.group(1).split("<", 1)[0]
+    return url.rstrip(").,;\"'")
+
+
+def extract_job_org_details(page_html):
+    """Returns (organization_name, organization_website) from a
+    ngojobsinafrica.com job page using its schema.org + profile-widget markup."""
+    org_name = None
+    name_match = re.search(
+        r'itemprop="hiringOrganization"[^>]*>\s*<span itemprop="name">([^<]+)',
+        page_html,
+    )
+    if name_match:
+        org_name = html.unescape(name_match.group(1)).strip()
+
+    org_site = None
+    site_match = re.search(
+        r'title="Connect with us on Website"[^>]*href="([^"]+)"',
+        page_html,
+    )
+    if site_match:
+        org_site = site_match.group(1).strip()
+
+    return org_name, org_site
+
+
+def extract_fellowship_org(categories):
+    for tag in categories:
+        normalized = tag.strip().lower()
+        if normalized in REGION_OR_TYPE_TAGS:
+            continue
+        if " apply" in normalized or re.match(r"^[a-z0-9-]+$", normalized):
+            continue
+        return tag.strip()
+    return None
+
+
 def fetch_ngo_jobs_in_africa():
-    url = "https://ngojobsinafrica.com/job-location/nigeria/feed/"
+    feed_url = "https://ngojobsinafrica.com/job-location/nigeria/feed/"
     try:
-        raw = fetch(url)
+        raw = fetch(feed_url)
     except Exception as exc:
         print(f"[warn] NGO Jobs in Africa feed failed: {exc}", file=sys.stderr)
         return []
 
     results = []
     for item in parse_rss(raw)[:MAX_PER_SOURCE]:
+        org_name, org_site = None, None
+        try:
+            page_html = fetch(item["link"])
+            org_name, org_site = extract_job_org_details(page_html)
+        except Exception as exc:
+            print(f"[warn] Could not load job page {item['link']}: {exc}", file=sys.stderr)
+
+        apply_url = org_site or extract_apply_here(item["content"])
+        if not apply_url:
+            print(f"[skip] No organization link found for: {item['title']}", file=sys.stderr)
+            continue
+
         results.append({
             "title": item["title"],
-            "organization": extract_organization(item["content"]),
+            "organization": org_name,
             "type": "Job",
             "location": "Nigeria",
             "remote": False,
-            "source": "NGO Jobs in Africa",
-            "source_url": "https://ngojobsinafrica.com/job-location/nigeria/",
-            "apply_url": extract_apply_url(item["content"], item["link"]),
+            "apply_url": apply_url,
             "posted": item["pub_date"],
         })
     return results
 
 
 def fetch_opportunity_desk_fellowships():
-    url = "https://opportunitydesk.org/category/fellowships/feed/"
+    feed_url = "https://opportunitydesk.org/category/fellowships/feed/"
     try:
-        raw = fetch(url)
+        raw = fetch(feed_url)
     except Exception as exc:
         print(f"[warn] Opportunity Desk feed failed: {exc}", file=sys.stderr)
         return []
@@ -135,15 +200,25 @@ def fetch_opportunity_desk_fellowships():
         haystack = (item["title"] + " " + strip_html(item["content"])).lower()
         if not any(keyword in haystack for keyword in FELLOWSHIP_KEYWORDS):
             continue
+
+        org_link = None
+        try:
+            page_html = fetch(item["link"])
+            org_link = first_outbound_link(page_html)
+        except Exception as exc:
+            print(f"[warn] Could not load fellowship page {item['link']}: {exc}", file=sys.stderr)
+
+        if not org_link:
+            print(f"[skip] No organization link found for: {item['title']}", file=sys.stderr)
+            continue
+
         results.append({
             "title": item["title"],
-            "organization": None,
+            "organization": extract_fellowship_org(item["categories"]),
             "type": "Fellowship",
             "location": "Remote / Varies",
             "remote": True,
-            "source": "Opportunity Desk",
-            "source_url": "https://opportunitydesk.org/category/fellowships/",
-            "apply_url": item["link"],
+            "apply_url": org_link,
             "posted": item["pub_date"],
         })
     return results

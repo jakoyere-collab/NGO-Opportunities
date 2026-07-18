@@ -6,10 +6,12 @@
 
 | Source | What it covers | Why this one |
 |---|---|---|
-| [NGO Jobs in Africa — Nigeria feed](https://ngojobsinafrica.com/job-location/nigeria/feed/) | NGO/development jobs physically based in Nigeria | Publishes an official RSS feed already scoped to Nigeria, permitted by `robots.txt`, and each entry's content includes a "How to apply" line with the original organization's application link (e.g. a Greenhouse/Workday link), not just a link back to the aggregator. |
-| [Opportunity Desk — Fellowships category feed](https://opportunitydesk.org/category/fellowships/feed/) | Global fellowships, filtered here to ones mentioning Nigeria/Africa/global eligibility | Official RSS feed, but covers fellowships worldwide, so the script keeps only items whose title/description mention Nigeria, Africa, or open/global eligibility. This is a keyword heuristic, not a guarantee — always read the original posting's eligibility section. |
+| [NGO Jobs in Africa — Nigeria feed](https://ngojobsinafrica.com/job-location/nigeria/feed/) | NGO/development jobs physically based in Nigeria | Official RSS feed already scoped to Nigeria, permitted by `robots.txt`. Each job's own page carries schema.org `hiringOrganization` markup (exact org name) and a "Connect with us on Website" link straight to that organization's homepage — used as the listing's link instead of the aggregator page. |
+| [Opportunity Desk — Fellowships category feed](https://opportunitydesk.org/category/fellowships/feed/) | Global fellowships, filtered here to ones mentioning Nigeria/Africa/global eligibility | Official RSS feed, but covers fellowships worldwide, so the script keeps only items whose title/description mention Nigeria, Africa, or open/global eligibility. The hosting/funding organization is read from the post's own category tags (e.g. "Africa CDC", "University of Oslo"), and the listing links to the first outbound link on the org's own post — its official application portal — rather than back to Opportunity Desk. |
 
-Both are pulled via plain RSS (`urllib` + `xml.etree.ElementTree`, no scraping framework, no headless browser), which is what these feeds are published for.
+Both are pulled via plain RSS + a single follow-up page fetch per item (`urllib` + regex, no scraping framework, no headless browser, no third-party dependencies) — this is what these feeds are published for.
+
+**Every listing links to the organization's own site or official application portal, never to the aggregator page.** If a job or fellowship page doesn't yield a clear organization link, it's dropped from the feed rather than falling back to a 3rd-party link (see `[skip]` lines in the workflow logs). This also filters out Opportunity Desk's periodic "N opportunities currently open" round-up posts, since those don't point to a single organization.
 
 ## Sites considered but not automated (yet)
 
@@ -23,6 +25,6 @@ Both are pulled via plain RSS (`urllib` + `xml.etree.ElementTree`, no scraping f
 ## Extending the pipeline
 
 To add a new source:
-1. Write a `fetch_<source>()` function in `scripts/fetch_opportunities.py` returning a list of dicts with the same shape as the existing ones (`title`, `organization`, `type`, `location`, `remote`, `source`, `source_url`, `apply_url`, `posted`).
+1. Write a `fetch_<source>()` function in `scripts/fetch_opportunities.py` returning a list of dicts with the same shape as the existing ones (`title`, `organization`, `type`, `location`, `remote`, `apply_url`, `posted`), where `apply_url` is the organization's own site or official application portal — not the aggregator's page.
 2. Add its results to the list built in `main()`.
 3. If it needs credentials (like a ReliefWeb appname), read them from an environment variable and pass the corresponding GitHub Actions secret through the workflow's `env:`.
