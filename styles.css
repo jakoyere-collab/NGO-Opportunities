@@ -1,11 +1,16 @@
 :root {
-    --navy: #0F2A3F;
-    --navy-dark: #0A1D2C;
-    --gold: #E0A526;
+    --navy: #0A2A43;
+    --navy-dark: #071D2F;
+    --blue: #1E6FB8;
+    --green: #3FA34D;
+    --orange: #F2994A;
     --bg: #FAF9F6;
     --text: #1A1A1A;
     --muted: #5B6670;
     --card-border: #E3E1DA;
+
+    --font-heading: "Poppins", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --font-body: "Lora", Georgia, "Times New Roman", serif;
 }
 
 * {
@@ -15,10 +20,14 @@
 }
 
 body {
-    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-family: var(--font-body);
     background-color: var(--bg);
     color: var(--text);
-    line-height: 1.6;
+    line-height: 1.65;
+}
+
+h1, h2, h3, .brand, .btn, .nav-cta, .site-nav a, .hero-eyebrow {
+    font-family: var(--font-heading);
 }
 
 a {
@@ -38,14 +47,20 @@ a {
 
 .brand {
     display: flex;
-    align-items: baseline;
-    gap: 6px;
+    align-items: center;
+    gap: 10px;
     font-weight: 700;
     font-size: 1.2rem;
 }
 
+.brand-logo {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
 .brand-mark {
-    color: var(--gold);
+    color: var(--orange);
     letter-spacing: 1px;
 }
 
@@ -70,7 +85,7 @@ a {
 }
 
 .nav-cta {
-    background-color: var(--gold);
+    background-color: var(--orange);
     color: var(--navy-dark) !important;
     padding: 8px 16px;
     border-radius: 6px;
@@ -89,7 +104,7 @@ a {
 }
 
 .hero-eyebrow {
-    color: var(--gold);
+    color: var(--orange);
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
@@ -98,6 +113,7 @@ a {
 }
 
 .hero h1 {
+    font-family: var(--font-heading);
     font-size: 2.6rem;
     font-weight: 800;
     line-height: 1.25;
@@ -105,6 +121,7 @@ a {
 }
 
 .hero-subtitle {
+    font-family: var(--font-body);
     font-size: 1.1rem;
     color: #C7D0D6;
     margin-bottom: 32px;
@@ -131,14 +148,18 @@ a {
 }
 
 .btn-primary {
-    background-color: var(--gold);
+    background-color: var(--orange);
     color: var(--navy-dark);
 }
 
 .btn-secondary {
     background-color: transparent;
     color: #ffffff;
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    border: 2px solid var(--green);
+}
+
+.btn-secondary:hover {
+    background-color: var(--green);
 }
 
 main section {
@@ -149,6 +170,7 @@ main section {
 
 .topics h2,
 .about h2 {
+    font-family: var(--font-heading);
     font-size: 1.9rem;
     font-weight: 800;
     color: var(--navy);
@@ -171,12 +193,18 @@ main section {
 .topic-card {
     background-color: #ffffff;
     border: 1px solid var(--card-border);
+    border-top: 4px solid var(--blue);
     border-radius: 12px;
     padding: 26px;
-    box-shadow: 0 2px 6px rgba(15, 42, 63, 0.05);
+    box-shadow: 0 2px 6px rgba(10, 42, 67, 0.05);
 }
 
+.topic-card:nth-child(4n+2) { border-top-color: var(--green); }
+.topic-card:nth-child(4n+3) { border-top-color: var(--orange); }
+.topic-card:nth-child(4n+4) { border-top-color: var(--navy); }
+
 .topic-card h3 {
+    font-family: var(--font-heading);
     color: var(--navy);
     margin-bottom: 10px;
     font-size: 1.15rem;
@@ -207,7 +235,7 @@ main section {
 }
 
 .site-footer a {
-    color: var(--gold);
+    color: var(--blue);
     font-weight: 600;
 }
 
