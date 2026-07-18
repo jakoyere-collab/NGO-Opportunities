@@ -9,6 +9,15 @@ A repeatable checklist for turning a script in `docs/scripts/` into a published 
 - Add the logo as a burned-in watermark (see below) as part of the export, not as an afterthought.
 - Export vertical (9:16) to be Shorts-eligible, or horizontal (16:9) for a standard long-form upload.
 
+### Synthesia walkthrough (first-time setup)
+
+1. Sign up at synthesia.io (free trial or a paid plan — check current pricing; free/trial tiers typically stamp Synthesia's own watermark on exports).
+2. Set up your **Brand Kit** first (Settings → Brand Kit): upload `assets/logo.png` and your brand colors. This auto-applies your logo to every video you make afterward — one-time setup.
+3. Create new video → blank/AI-avatar template → pick an avatar and voice.
+4. Build one scene per script section: paste that scene's *Voiceover* line into the script box (the avatar reads it aloud), add the *On-screen text* as a text overlay on the same scene, and set the *Visual suggestion* as the scene's background (stock library or your own upload).
+5. Add a final scene for the **Call to action**.
+6. Preview scene-by-scene for timing and pacing, confirm the logo is showing (via Brand Kit), then Generate/Export and download the MP4.
+
 ## 2. Watermark — always both layers
 
 1. **Burned into the export** (in the video tool itself): logo as an image overlay for the entire timeline, small, bottom-right corner, semi-transparent. This is what stays with the file even if it's downloaded or reposted elsewhere — the durable brand mark.
