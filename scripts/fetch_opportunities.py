@@ -5,16 +5,19 @@ feeds and writes them to data/opportunities.json for the opportunities page.
 
 Sources (see docs/opportunities-sources.md for why these were chosen):
   - NGO Jobs in Africa: dedicated Nigeria-location feed, already scoped to
-    Nigeria-based NGO/development jobs. Each job's own page carries
-    schema.org hiringOrganization markup and a "Connect with us on Website"
-    link straight to the hiring organization's own homepage.
+    Nigeria-based NGO/development jobs. Each item's "How to apply" section
+    carries the exact application URL for that specific posting (its
+    Greenhouse/Workday/Oracle HCM job page), and the job's own detail page
+    carries schema.org hiringOrganization markup for the org's name.
   - Opportunity Desk: dedicated Fellowships feed, filtered here by keyword
     for Africa/Nigeria/global-eligibility relevance since it covers
     opportunities worldwide. Each post tags the hosting/funding
-    organization as a category and links out to its official portal.
+    organization as a category and links out to the specific fellowship's
+    official announcement/application page.
 
-Every listing links to the organization's own site (or its official
-application portal), never to the aggregator page it was found on.
+Every listing links to the *specific* job or fellowship page on the
+organization's own site (or its official application portal) — never a
+generic homepage, and never the aggregator page it was found on.
 
 No third-party dependencies: uses only the standard library so this runs in
 GitHub Actions with a bare `python3` install.
@@ -71,6 +74,30 @@ def strip_html(text):
     return html.unescape(re.sub(r"\s+", " ", text)).strip()
 
 
+ORG_STOPWORDS = {
+    "founded", "is", "was", "based", "established", "working", "with",
+    "for", "we", "our", "since", "a", "an", "the", "role", "operates",
+    "works", "provides", "supports", "believes", "has", "have",
+}
+
+
+def extract_organization(content):
+    """Best-effort fallback: pulls an org name out of an "About <Org>..."
+    sentence when schema.org markup isn't available."""
+    plain = strip_html(content)
+    match = re.search(r"\bAbout\s+([A-Z][\w&.,'()/-]*(?:\s+[A-Z][\w&.,'()/-]*){0,4})", plain)
+    if not match:
+        return None
+    words = match.group(1).strip().split()
+    kept = []
+    for word in words:
+        if word.lower().rstrip(".,") in ORG_STOPWORDS:
+            break
+        kept.append(word)
+    name = " ".join(kept).strip()
+    return name if len(name) >= 2 else None
+
+
 def is_org_domain(url):
     try:
         netloc = urlparse(url).netloc.lower()
@@ -112,34 +139,30 @@ def parse_rss(raw_text):
     return items
 
 
-def extract_apply_here(content):
-    match = re.search(r"Apply here:\s*(\S+)", content or "")
-    if not match:
+def extract_specific_apply_url(content):
+    """Returns the exact application URL for this job (e.g. its Greenhouse,
+    Workday, or Oracle HCM posting) from the job's own "How to apply"
+    section, which ReliefWeb-style themes render as either
+    "Apply here: <url>" or a bare URL on its own line."""
+    section_match = re.search(r"rw-how-to-apply.*?</section>", content or "", re.DOTALL)
+    if not section_match:
         return None
-    url = match.group(1).split("<", 1)[0]
-    return url.rstrip(").,;\"'")
+    url_match = re.search(r'https?://[^\s<>"]+', section_match.group(0))
+    if not url_match:
+        return None
+    return url_match.group(0).rstrip(").,;\"'")
 
 
-def extract_job_org_details(page_html):
-    """Returns (organization_name, organization_website) from a
-    ngojobsinafrica.com job page using its schema.org + profile-widget markup."""
-    org_name = None
+def extract_job_organization_name(page_html):
+    """Returns the hiring organization's name from a ngojobsinafrica.com
+    job page's schema.org markup, falling back to its "About <Org>" text."""
     name_match = re.search(
         r'itemprop="hiringOrganization"[^>]*>\s*<span itemprop="name">([^<]+)',
         page_html,
     )
     if name_match:
-        org_name = html.unescape(name_match.group(1)).strip()
-
-    org_site = None
-    site_match = re.search(
-        r'title="Connect with us on Website"[^>]*href="([^"]+)"',
-        page_html,
-    )
-    if site_match:
-        org_site = site_match.group(1).strip()
-
-    return org_name, org_site
+        return html.unescape(name_match.group(1)).strip()
+    return extract_organization(page_html)
 
 
 def extract_fellowship_org(categories):
@@ -163,17 +186,17 @@ def fetch_ngo_jobs_in_africa():
 
     results = []
     for item in parse_rss(raw)[:MAX_PER_SOURCE]:
-        org_name, org_site = None, None
+        apply_url = extract_specific_apply_url(item["content"])
+        if not apply_url:
+            print(f"[skip] No specific application URL found for: {item['title']}", file=sys.stderr)
+            continue
+
+        org_name = None
         try:
             page_html = fetch(item["link"])
-            org_name, org_site = extract_job_org_details(page_html)
+            org_name = extract_job_organization_name(page_html)
         except Exception as exc:
             print(f"[warn] Could not load job page {item['link']}: {exc}", file=sys.stderr)
-
-        apply_url = org_site or extract_apply_here(item["content"])
-        if not apply_url:
-            print(f"[skip] No organization link found for: {item['title']}", file=sys.stderr)
-            continue
 
         results.append({
             "title": item["title"],
