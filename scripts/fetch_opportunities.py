@@ -34,7 +34,8 @@ import ssl
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from urllib.error import URLError
 from urllib.parse import urlparse
 
@@ -42,6 +43,7 @@ USER_AGENT = "NGOOpportunitiesBot/1.0 (+https://ngoopportunities.com; daily oppo
 OUTPUT_PATH = "data/opportunities.json"
 MAX_PER_SOURCE = 20
 PAGE_TIMEOUT = 20
+MAX_AGE_DAYS = 28  # postings older than this are likely expired/closed
 
 FELLOWSHIP_KEYWORDS = [
     "nigeria", "nigerian", "africa", "african", "sub-saharan",
@@ -377,12 +379,51 @@ def dedupe(opportunities):
     return deduped
 
 
+def parse_posted_date(posted):
+    try:
+        parsed = parsedate_to_datetime(posted)
+    except (TypeError, ValueError):
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed
+
+
+def drop_expired(opportunities, max_age_days=MAX_AGE_DAYS):
+    """Drops postings older than max_age_days — likely expired or no
+    longer accepting applications. A posting with an unparseable date is
+    kept rather than dropped, since that's a parsing gap, not evidence
+    it's stale."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+    kept = []
+    dropped = 0
+    for opp in opportunities:
+        posted_at = parse_posted_date(opp["posted"])
+        if posted_at is not None and posted_at < cutoff:
+            dropped += 1
+            continue
+        kept.append(opp)
+    if dropped:
+        print(f"[info] Dropped {dropped} posting(s) older than {max_age_days} days", file=sys.stderr)
+    return kept
+
+
+def sort_by_recency(opportunities):
+    """Most recent first; postings with an unparseable date sort last."""
+    return sorted(
+        opportunities,
+        key=lambda opp: parse_posted_date(opp["posted"]) or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+
+
 def main():
     opportunities = dedupe(
         fetch_reliefweb_jobs()
         + fetch_ngo_jobs_in_africa()
         + fetch_opportunity_desk_fellowships()
     )
+    opportunities = sort_by_recency(drop_expired(opportunities))
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

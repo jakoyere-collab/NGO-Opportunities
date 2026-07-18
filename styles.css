@@ -265,9 +265,21 @@ main section {
 .filter-bar {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     margin-top: 24px;
     flex-wrap: wrap;
+}
+
+.sort-bar {
+    margin-top: 12px;
+}
+
+.sort-label {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--muted);
+    font-size: 0.9rem;
 }
 
 .filter-btn {
