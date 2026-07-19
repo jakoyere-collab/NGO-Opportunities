@@ -43,7 +43,7 @@ USER_AGENT = "NGOOpportunitiesBot/1.0 (+https://ngoopportunities.com; daily oppo
 OUTPUT_PATH = "data/opportunities.json"
 MAX_PER_SOURCE = 20
 PAGE_TIMEOUT = 20
-MAX_AGE_DAYS = 28  # postings older than this are likely expired/closed
+MAX_AGE_DAYS = 14  # postings older than this are auto-removed to keep only recent openings
 
 FELLOWSHIP_KEYWORDS = [
     "nigeria", "nigerian", "africa", "african", "sub-saharan",
