@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="site-header">
-        <a href="#top" class="brand">
+        <a href="/" class="brand" id="logoLink">
             <img src="assets/logo-icon.png" alt="NGO Opportunities" class="brand-logo">
             <span class="brand-mark">NGO</span><span class="brand-text">Opportunities</span>
         </a>
@@ -115,6 +115,12 @@
                 navToggle.classList.remove('active');
                 navToggle.setAttribute('aria-expanded', 'false');
             });
+        });
+
+        document.getElementById('logoLink').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            history.replaceState(null, '', '/');
         });
     </script>
 </body>
