@@ -37,7 +37,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from urllib.error import URLError
-from urllib.parse import urlparse
+from urllib.parse import urlencode, urlparse
 
 USER_AGENT = "NGOOpportunitiesBot/1.0 (+https://ngoopportunities.com; daily opportunities digest)"
 OUTPUT_PATH = "data/opportunities.json"
@@ -213,13 +213,13 @@ def extract_fellowship_org(categories):
 def fetch_ngo_jobs_in_africa():
     feed_url = "https://ngojobsinafrica.com/job-location/nigeria/feed/"
     try:
-        raw = fetch(feed_url)
+        items = parse_rss(fetch(feed_url))
     except Exception as exc:
         print(f"[warn] NGO Jobs in Africa feed failed: {exc}", file=sys.stderr)
         return []
 
     results = []
-    for item in parse_rss(raw)[:MAX_PER_SOURCE]:
+    for item in items[:MAX_PER_SOURCE]:
         apply_url = extract_specific_apply_url(item["content"])
         if not apply_url:
             print(f"[skip] No specific application URL found for: {item['title']}", file=sys.stderr)
@@ -281,15 +281,15 @@ def fetch_reliefweb_jobs():
     """ReliefWeb (UN OCHA) publishes a plain RSS view of its jobs board,
     separate from its REST API — the API needs a pre-approved appname
     (see docs/opportunities-sources.md), but this RSS view doesn't."""
-    feed_url = 'https://reliefweb.int/jobs/rss.xml?search=country.exact:"Nigeria"'
+    feed_url = "https://reliefweb.int/jobs/rss.xml?" + urlencode({"search": 'country.exact:"Nigeria"'})
     try:
-        raw = fetch(feed_url)
+        items = parse_rss(fetch(feed_url))
     except Exception as exc:
         print(f"[warn] ReliefWeb feed failed: {exc}", file=sys.stderr)
         return []
 
     results = []
-    for item in parse_rss(raw)[:MAX_PER_SOURCE]:
+    for item in items[:MAX_PER_SOURCE]:
         apply_url = extract_reliefweb_apply_url(item["content"])
         if not apply_url:
             print(f"[skip] No specific application URL found for: {item['title']}", file=sys.stderr)
@@ -317,13 +317,13 @@ def fetch_reliefweb_jobs():
 def fetch_opportunity_desk_fellowships():
     feed_url = "https://opportunitydesk.org/category/fellowships/feed/"
     try:
-        raw = fetch(feed_url)
+        items = parse_rss(fetch(feed_url))
     except Exception as exc:
         print(f"[warn] Opportunity Desk feed failed: {exc}", file=sys.stderr)
         return []
 
     results = []
-    for item in parse_rss(raw)[:MAX_PER_SOURCE]:
+    for item in items[:MAX_PER_SOURCE]:
         haystack = (item["title"] + " " + strip_html(item["content"])).lower()
         if not any(keyword in haystack for keyword in FELLOWSHIP_KEYWORDS):
             continue
