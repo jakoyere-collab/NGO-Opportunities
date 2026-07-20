@@ -24,11 +24,20 @@ Every listing links to the *specific* job or fellowship page on the
 organization's own site (or its official application portal) — never a
 generic homepage, and never the aggregator page it was found on.
 
+This is additive, not a full rebuild: each run loads the existing
+data/opportunities.json, adds only genuinely new listings from this run's
+fetch, drops anything older than MAX_AGE_DAYS (by original posting date),
+then caps each type at MAX_JOBS_DISPLAYED / MAX_FELLOWSHIPS_DISPLAYED,
+keeping the most recent. A listing already on the page stays there as-is
+until it ages out or gets capped, even if a source's own feed stops
+surfacing it (RSS feeds only show their most recent items).
+
 No third-party dependencies: uses only the standard library so this runs in
 GitHub Actions with a bare `python3` install.
 """
 import html
 import json
+import os
 import re
 import ssl
 import sys
@@ -43,7 +52,9 @@ USER_AGENT = "NGOOpportunitiesBot/1.0 (+https://ngoopportunities.com; daily oppo
 OUTPUT_PATH = "data/opportunities.json"
 MAX_PER_SOURCE = 20
 PAGE_TIMEOUT = 20
-MAX_AGE_DAYS = 14  # postings older than this are auto-removed to keep only recent openings
+MAX_AGE_DAYS = 10  # postings older than this (by original advertised date) are auto-removed at the next run
+MAX_JOBS_DISPLAYED = 20
+MAX_FELLOWSHIPS_DISPLAYED = 10
 
 FELLOWSHIP_KEYWORDS = [
     "nigeria", "nigerian", "africa", "african", "sub-saharan",
@@ -417,13 +428,63 @@ def sort_by_recency(opportunities):
     )
 
 
+def load_existing_opportunities():
+    """Yesterday's list, so today's run can add to it instead of replacing
+    it outright — a job that's scrolled out of a source's own RSS window
+    (which only shows its most recent items) shouldn't disappear from our
+    page just because this run's fetch didn't happen to see it again."""
+    if not os.path.exists(OUTPUT_PATH):
+        return []
+    try:
+        with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+            return json.load(f).get("opportunities", [])
+    except (json.JSONDecodeError, OSError) as exc:
+        print(f"[warn] Could not read existing {OUTPUT_PATH}: {exc}", file=sys.stderr)
+        return []
+
+
+def merge_with_existing(existing, fresh):
+    """Keeps every existing listing as-is and appends only fresh ones not
+    already present (matched the same way dedupe() matches — by apply_url
+    or normalized title), so a listing already on the page doesn't shift
+    or get overwritten by a re-fetch of the same posting."""
+    seen_urls = {opp["apply_url"].rstrip("/").lower() for opp in existing}
+    seen_titles = {normalize_for_dedup(opp["title"]) for opp in existing}
+    merged = list(existing)
+    added = 0
+    for opp in fresh:
+        url_key = opp["apply_url"].rstrip("/").lower()
+        title_key = normalize_for_dedup(opp["title"])
+        if url_key in seen_urls or title_key in seen_titles:
+            continue
+        merged.append(opp)
+        seen_urls.add(url_key)
+        seen_titles.add(title_key)
+        added += 1
+    print(f"[info] {added} new opportunity(ies); {len(existing)} carried over from before this run", file=sys.stderr)
+    return merged
+
+
+def cap_per_type(opportunities):
+    """Applied after sorting by recency, so a cap keeps the freshest ones
+    of each type rather than an arbitrary cut across both types."""
+    jobs = [o for o in opportunities if o["type"] == "Job"][:MAX_JOBS_DISPLAYED]
+    fellowships = [o for o in opportunities if o["type"] == "Fellowship"][:MAX_FELLOWSHIPS_DISPLAYED]
+    return sort_by_recency(jobs + fellowships)
+
+
 def main():
-    opportunities = dedupe(
+    existing = load_existing_opportunities()
+    fresh = drop_expired(dedupe(
         fetch_reliefweb_jobs()
         + fetch_ngo_jobs_in_africa()
         + fetch_opportunity_desk_fellowships()
-    )
-    opportunities = sort_by_recency(drop_expired(opportunities))
+    ))
+
+    opportunities = merge_with_existing(existing, fresh)
+    opportunities = drop_expired(opportunities)  # catches existing listings that just aged out since the last run
+    opportunities = sort_by_recency(opportunities)
+    opportunities = cap_per_type(opportunities)
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

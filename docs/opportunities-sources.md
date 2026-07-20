@@ -1,6 +1,12 @@
 # Opportunities Feed — Sources & Automation
 
-`data/opportunities.json` powers the **See Current Opportunities** page. It's regenerated daily by `.github/workflows/update-opportunities.yml`, which runs `scripts/fetch_opportunities.py` and commits the result if anything changed.
+`data/opportunities.json` powers the **See Current Opportunities** page. It's updated daily by `.github/workflows/update-opportunities.yml`, which runs `scripts/fetch_opportunities.py` and commits the result if anything changed.
+
+## Additive, not a full rebuild
+
+Each run loads the existing file, adds only genuinely new listings found in that run's fetch (matched the same way as `dedupe()` — by `apply_url` or normalized title), drops anything older than `MAX_AGE_DAYS` (10, by original advertised posting date), then caps each type at `MAX_JOBS_DISPLAYED` (20) / `MAX_FELLOWSHIPS_DISPLAYED` (10), keeping the most recent. A listing already on the page stays there as-is — same `apply_url`, same everything — until it ages out or gets capped, even if a source's own RSS feed (which only shows its most recent items) stops surfacing it on a later run. This is why the displayed count won't necessarily match "how many new things were found today"; it's the surviving total after merge → age cutoff → cap.
+
+One trade-off worth knowing: once a listing is already saved, later runs don't re-check its certificate or re-extract its application link — only genuinely new fetches go through that validation. In practice this is low-risk (a previously-valid link breaking within a 10-day window is rare), but it's a real gap if it matters more than the added complexity of re-validating every saved listing on every run.
 
 ## Current sources
 
