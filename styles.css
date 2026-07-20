@@ -271,7 +271,8 @@ main section {
 }
 
 .topics h2,
-.about h2 {
+.about h2,
+.pillars h2 {
     font-family: var(--font-heading);
     font-size: 1.9rem;
     font-weight: 800;
@@ -284,6 +285,77 @@ main section {
     text-align: center;
     color: var(--muted);
     margin-bottom: 40px;
+}
+
+.pillars {
+    padding-bottom: 40px !important;
+}
+
+.pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.pillar-card {
+    background-color: #ffffff;
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 36px 32px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(10, 42, 67, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    animation: fadeInUp 0.6s ease both;
+}
+
+.pillar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(10, 42, 67, 0.12);
+}
+
+.pillar-card:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.pillar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background: linear-gradient(160deg, rgba(30, 111, 184, 0.12), rgba(63, 163, 77, 0.12));
+}
+
+.pillar-card h3 {
+    font-family: var(--font-heading);
+    color: var(--navy);
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.pillar-card p {
+    color: var(--muted);
+    font-size: 0.98rem;
+    margin-bottom: 22px;
+}
+
+.pillar-card .btn-secondary {
+    color: var(--green);
+}
+
+.pillar-card .btn-secondary:hover {
+    color: #ffffff;
+}
+
+.pillars-note {
+    text-align: center;
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 32px;
 }
 
 .topic-grid {
