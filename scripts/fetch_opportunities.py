@@ -41,6 +41,7 @@ import os
 import re
 import ssl
 import sys
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -87,6 +88,25 @@ def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=PAGE_TIMEOUT) as resp:
         return resp.read().decode("utf-8", errors="replace")
+
+
+def fetch_and_parse_feed(url, attempts=3, base_delay=3):
+    """Fetches and parses an RSS feed, retrying with backoff on either
+    step failing — a source's own feed endpoint has occasionally
+    returned an empty/non-XML response to a single request (transient
+    block or rate limit), which otherwise silently zeroes out that
+    entire source for the run. parse_rss() must be defined below;
+    Python resolves this at call time, not at module-load time."""
+    last_exc = None
+    for attempt in range(attempts):
+        try:
+            return parse_rss(fetch(url))
+        except Exception as exc:
+            last_exc = exc
+            if attempt < attempts - 1:
+                print(f"[warn] Fetch/parse attempt {attempt + 1} failed for {url}: {exc}; retrying...", file=sys.stderr)
+                time.sleep(base_delay * (attempt + 1))
+    raise last_exc
 
 
 def has_valid_certificate(url):
@@ -224,7 +244,7 @@ def extract_fellowship_org(categories):
 def fetch_ngo_jobs_in_africa():
     feed_url = "https://ngojobsinafrica.com/job-location/nigeria/feed/"
     try:
-        items = parse_rss(fetch(feed_url))
+        items = fetch_and_parse_feed(feed_url)
     except Exception as exc:
         print(f"[warn] NGO Jobs in Africa feed failed: {exc}", file=sys.stderr)
         return []
@@ -294,7 +314,7 @@ def fetch_reliefweb_jobs():
     (see docs/opportunities-sources.md), but this RSS view doesn't."""
     feed_url = "https://reliefweb.int/jobs/rss.xml?" + urlencode({"search": 'country.exact:"Nigeria"'})
     try:
-        items = parse_rss(fetch(feed_url))
+        items = fetch_and_parse_feed(feed_url)
     except Exception as exc:
         print(f"[warn] ReliefWeb feed failed: {exc}", file=sys.stderr)
         return []
@@ -328,7 +348,7 @@ def fetch_reliefweb_jobs():
 def fetch_opportunity_desk_fellowships():
     feed_url = "https://opportunitydesk.org/category/fellowships/feed/"
     try:
-        items = parse_rss(fetch(feed_url))
+        items = fetch_and_parse_feed(feed_url)
     except Exception as exc:
         print(f"[warn] Opportunity Desk feed failed: {exc}", file=sys.stderr)
         return []

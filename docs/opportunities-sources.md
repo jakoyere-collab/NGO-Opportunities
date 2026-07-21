@@ -1,6 +1,8 @@
 # Opportunities Feed — Sources & Automation
 
-`data/opportunities.json` powers the **See Current Opportunities** page. It's updated daily by `.github/workflows/update-opportunities.yml`, which runs `scripts/fetch_opportunities.py` and commits the result if anything changed.
+`data/opportunities.json` powers the **See Current Opportunities** page. It's updated twice daily (09:00 and 17:00 WAT) by `.github/workflows/update-opportunities.yml`, which runs `scripts/fetch_opportunities.py` and commits the result if anything changed.
+
+**Retries:** each source's feed fetch retries up to 3 times with backoff (`fetch_and_parse_feed()`) before being treated as failed for that run — one source's feed endpoint has occasionally returned an empty/non-XML response to a single request, which used to silently zero out that entire source's contribution for the run.
 
 ## Additive, not a full rebuild
 

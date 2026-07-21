@@ -2,7 +2,7 @@ name: Update opportunities feed
 
 on:
   schedule:
-    - cron: "0 6 * * *" # 06:00 UTC daily
+    - cron: "0 8,16 * * *" # 09:00 and 17:00 WAT (UTC+1, no DST) daily
   workflow_dispatch: {}
 
 permissions:

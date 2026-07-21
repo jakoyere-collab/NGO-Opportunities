@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-21T08:25:51+00:00",
-  "count": 6,
+  "generated_at": "2026-07-21T09:25:53+00:00",
+  "count": 7,
   "opportunities": [
+    {
+      "title": "Frontend Developer",
+      "organization": "3iS",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://3is.org/jobs/frontenddeveloper/",
+      "posted": "Tue, 21 Jul 2026 08:57:51 +0000"
+    },
     {
       "title": "Nigeria Monitoring, Evaluation and Learning Specialist",
       "organization": "One Acre Fund",
