@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-23T10:10:44+00:00",
+  "generated_at": "2026-07-23T17:08:42+00:00",
   "count": 7,
   "opportunities": [
+    {
+      "title": "UNESCO AfriMAB GRÓ-LRT Land Restoration Fellowships 2027 (Fully-funded)",
+      "organization": "UNESCO AfriMAB GRÓ-LRT Land Restoration Fellowships",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.unesco.org/sites/default/files/styles/paragraph_medium_desktop/article/2026-07/2026%20AfriMAB%20GR%C3%93%20LRT%20cohort%20.png.webp?itok=xQgCCKjq",
+      "posted": "Thu, 23 Jul 2026 08:59:48 +0000"
+    },
     {
       "title": "African Plant Nutrition Outreach Fellowship 2026 (up to $5,000)",
       "organization": "African Plant Nutrition Institute",
@@ -55,15 +64,6 @@
       "remote": true,
       "apply_url": "https://jobs.au.int/job/The-Africa-Epidemic-Services-Epidemiology-track/3040-en_US/",
       "posted": "Fri, 17 Jul 2026 14:33:17 +0000"
-    },
-    {
-      "title": "Programme and Partnerships Lead",
-      "organization": "Christian Aid",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.christianaid.org.uk/jobs/vacancy/programme-and-partnerships-lead-5148/5166/description/",
-      "posted": "Mon, 13 Jul 2026 15:37:38 +0000"
     }
   ]
 }
