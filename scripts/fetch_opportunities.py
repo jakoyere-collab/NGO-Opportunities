@@ -19,12 +19,13 @@ Sources (see docs/opportunities-sources.md for why these were chosen):
     opportunities worldwide. Each post tags the hosting/funding
     organization as a category and links out to the specific fellowship's
     official announcement/application page.
-  - Known organizations (BAMBOOHR_ORGS, SMARTRECRUITERS_ORGS, and Terre
-    des hommes' own RSS feed): specific organizations that don't reliably
-    appear in the three aggregators above. Queried via each org's ATS's own
-    public API — the same JSON calls their career page makes in a browser,
-    not scraping. Adding another organization on one of these ATS
-    platforms is a config-list entry, not new code.
+  - Known organizations (BAMBOOHR_ORGS, SMARTRECRUITERS_ORGS,
+    WORKABLE_ORGS, ORACLE_FUSION_ORGS, and the Terre des hommes/IFDC own
+    RSS feeds): specific organizations that don't reliably appear in the
+    three aggregators above. Queried via each org's ATS's own public API —
+    the same JSON calls their career page makes in a browser, not
+    scraping. Adding another organization on one of these ATS platforms is
+    a config-list entry, not new code.
 
 Every listing links to the *specific* job or fellowship page on the
 organization's own site (or its official application portal) — never a
@@ -100,6 +101,22 @@ BAMBOOHR_ORGS = [
 
 SMARTRECRUITERS_ORGS = [
     {"company_id": "SNV", "name": "SNV"},
+]
+
+WORKABLE_ORGS = [
+    {"account": "nutritionintl", "name": "Nutrition International"},
+]
+
+# Oracle Fusion HCM Cloud Recruiting: {tenant}.fa.{datacenter}.oraclecloud.com
+# is the pattern already seen in ReliefWeb-sourced NRC listings (a different
+# tenant/datacenter). This is the same REST API the org's own public
+# candidate-experience site calls to render its job search page.
+ORACLE_FUSION_ORGS = [
+    {"tenant": "eipn", "datacenter": "us2", "site_number": "CX_1", "name": "Catholic Relief Services (CRS)"},
+]
+
+IFDC_RELEVANCE_KEYWORDS = [
+    "nigeria", "west africa", "remote", "regional", "anglophone", "global",
 ]
 
 TDH_RELEVANCE_KEYWORDS = [
@@ -561,6 +578,157 @@ def fetch_tdh_jobs():
     return results
 
 
+def fetch_workable_jobs():
+    """Workable's own career page calls this same public JSON widget API
+    — documented for public embedding, not scraping. Gives title,
+    location, and a direct application_url in one call, no follow-up
+    page fetch needed."""
+    results = []
+    for org in WORKABLE_ORGS:
+        url = f"https://apply.workable.com/api/v1/widget/accounts/{org['account']}"
+        try:
+            data = json.loads(fetch(url))
+        except Exception as exc:
+            print(f"[warn] Workable feed failed for {org['name']}: {exc}", file=sys.stderr)
+            continue
+
+        for job in data.get("jobs", []):
+            title = (job.get("title") or "").strip()
+            if not title:
+                continue
+
+            classification = classify_org_location(job.get("country"), bool(job.get("telecommuting")))
+            if not classification:
+                continue
+            location_label, remote = classification
+
+            apply_url = job.get("application_url") or job.get("url")
+            if not apply_url or not has_valid_certificate(apply_url):
+                print(f"[skip] Invalid/missing application URL: {title}", file=sys.stderr)
+                continue
+
+            posted = None
+            published_on = job.get("published_on")
+            if published_on:
+                try:
+                    posted = format_datetime(datetime.fromisoformat(published_on).replace(tzinfo=timezone.utc))
+                except ValueError:
+                    posted = None
+
+            results.append({
+                "title": title,
+                "organization": org["name"],
+                "type": "Job",
+                "location": location_label,
+                "remote": remote,
+                "apply_url": apply_url,
+                "posted": posted,
+            })
+    return results
+
+
+def fetch_oracle_fusion_jobs():
+    """Oracle Fusion HCM Cloud Recruiting's own candidate-experience site
+    calls this same REST endpoint to render its public job search page —
+    the finder parameters below were reverse-engineered from that page's
+    own network calls, since Oracle doesn't publish this as a stable
+    documented API the way Greenhouse/Workable/SmartRecruiters do. More
+    fragile than those; if a tenant stops returning results, check
+    whether Oracle changed the expected finder/facet parameters."""
+    results = []
+    for org in ORACLE_FUSION_ORGS:
+        base = f"https://{org['tenant']}.fa.{org['datacenter']}.oraclecloud.com"
+        finder = (
+            f"findReqs;siteNumber={org['site_number']},"
+            "facetsList=LOCATIONS!WORKPLACE_TYPES!WORK_LOCATIONS!TITLES!CATEGORIES!ORGANIZATIONS!POSTING_DATES!FLEX_FIELDS,"
+            "limit=50,offset=0,sortBy=POSTING_DATES_DESC"
+        )
+        url = (
+            f"{base}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+            f"?onlyData=true&expand=requisitionList.secondaryLocations&finder={finder}"
+        )
+        try:
+            data = json.loads(fetch(url))
+            reqs = data["items"][0]["requisitionList"]
+        except Exception as exc:
+            print(f"[warn] Oracle Fusion feed failed for {org['name']}: {exc}", file=sys.stderr)
+            continue
+
+        for req in reqs:
+            title = (req.get("Title") or "").strip()
+            if not title:
+                continue
+
+            is_remote = (req.get("WorkplaceTypeCode") or "").upper() == "ORA_REMOTE"
+            classification = classify_org_location(req.get("PrimaryLocationCountry"), is_remote)
+            if not classification:
+                continue
+            location_label, remote = classification
+
+            apply_url = f"{base}/hcmUI/CandidateExperience/en/sites/{org['site_number']}/job/{req['Id']}"
+            if not has_valid_certificate(apply_url):
+                print(f"[skip] {apply_url} has an invalid/expired certificate: {title}", file=sys.stderr)
+                continue
+
+            posted = None
+            posted_date = req.get("PostedDate")
+            if posted_date:
+                try:
+                    posted = format_datetime(datetime.fromisoformat(posted_date).replace(tzinfo=timezone.utc))
+                except ValueError:
+                    posted = None
+
+            results.append({
+                "title": title,
+                "organization": org["name"],
+                "type": "Job",
+                "location": location_label,
+                "remote": remote,
+                "apply_url": apply_url,
+                "posted": posted,
+            })
+    return results
+
+
+def fetch_ifdc_jobs():
+    """IFDC's SilkRoad career portal RSS. Individual job links redirect
+    into an embedded widget on ifdc.org rendered client-side — the same
+    situation as BambooHR/SmartRecruiters' own hosted pages not
+    rendering in a plain fetch, but functioning normally for a real
+    visitor's browser. IFDC posts globally, so filtered by keyword like
+    Opportunity Desk/TDH."""
+    feed_url = "https://jobs.silkroad.com/IFDC/Careers/rss"
+    try:
+        items = fetch_and_parse_feed(feed_url)
+    except Exception as exc:
+        print(f"[warn] IFDC feed failed: {exc}", file=sys.stderr)
+        return []
+
+    results = []
+    for item in items[:MAX_PER_SOURCE]:
+        categories = " ".join(item.get("categories") or [])
+        haystack = (item["title"] + " " + categories).lower()
+        if not any(keyword in haystack for keyword in IFDC_RELEVANCE_KEYWORDS):
+            continue
+
+        apply_url = item["link"]
+        if not has_valid_certificate(apply_url):
+            print(f"[skip] {apply_url} has an invalid/expired certificate: {item['title']}", file=sys.stderr)
+            continue
+
+        is_nigeria = "nigeria" in haystack
+        results.append({
+            "title": item["title"],
+            "organization": "IFDC",
+            "type": "Job",
+            "location": "Nigeria" if is_nigeria else "Regional (incl. Nigeria)",
+            "remote": not is_nigeria,
+            "apply_url": apply_url,
+            "posted": item["pub_date"],
+        })
+    return results
+
+
 def normalize_for_dedup(text):
     return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
 
@@ -690,6 +858,9 @@ def main():
         + fetch_bamboohr_jobs()
         + fetch_smartrecruiters_jobs()
         + fetch_tdh_jobs()
+        + fetch_workable_jobs()
+        + fetch_oracle_fusion_jobs()
+        + fetch_ifdc_jobs()
     )
     fresh = drop_expired(stamp_missing_posted_date(fresh))
 
