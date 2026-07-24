@@ -65,7 +65,7 @@ OUTPUT_PATH = "data/opportunities.json"
 MAX_PER_SOURCE = 20
 PAGE_TIMEOUT = 20
 MAX_AGE_DAYS = 10  # postings older than this (by original advertised date) are auto-removed at the next run
-MAX_JOBS_DISPLAYED = 20
+MAX_JOBS_DISPLAYED = 30
 MAX_FELLOWSHIPS_DISPLAYED = 10
 
 FELLOWSHIP_KEYWORDS = [
@@ -80,7 +80,8 @@ NON_ORG_DOMAINS = {
     "api.whatsapp.com", "t.me", "telegram.org", "telegram.me",
     "googleapis.com", "gstatic.com", "googlesyndication.com",
     "doubleclick.net", "google.com", "youtube.com", "opportunitydesk.org",
-    "ngojobsinafrica.com", "w.org", "gravatar.com", "jetpack.com", "wp.com",
+    "ngojobsinafrica.com", "opportunitiesforafricans.com", "gmpg.org",
+    "w.org", "gravatar.com", "jetpack.com", "wp.com",
     "feedburner.com", "addtoany.com", "sharethis.com", "disqus.com",
     "plus.google.com", "reddit.com", "tumblr.com", "getpocket.com",
     "flipboard.com", "mix.com", "digg.com", "vk.com", "line.me",
@@ -225,9 +226,25 @@ def is_org_domain(url):
     return netloc and not any(netloc == d or netloc.endswith("." + d) for d in NON_ORG_DOMAINS)
 
 
+NON_PAGE_EXTENSIONS = (
+    ".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".ico",
+    ".pdf", ".doc", ".docx", ".ppt", ".pptx", ".zip",
+)
+
+
 def first_outbound_link(page_html):
+    """Skips file downloads (a featured image, an application-form .docx,
+    a PDF annex) even when hosted on the organization's own domain — a
+    fellowship post's body can link one of these before its first real
+    "apply here" link, and a direct file is never the application page
+    itself. Caught in practice: an Opportunity Desk post whose featured
+    image happened to be hosted on unesco.org was being kept as if it were
+    the specific application page, instead of the actual article further
+    down."""
     for match in re.finditer(r'href="(https?://[^"]+)"', page_html):
         url = match.group(1)
+        if urlparse(url).path.lower().endswith(NON_PAGE_EXTENSIONS):
+            continue
         if is_org_domain(url):
             return url
     return None
@@ -431,6 +448,78 @@ def fetch_opportunity_desk_fellowships():
         results.append({
             "title": item["title"],
             "organization": extract_fellowship_org(item["categories"]),
+            "type": "Fellowship",
+            "location": "Remote / Varies",
+            "remote": True,
+            "apply_url": org_link,
+            "posted": item["pub_date"],
+        })
+    return results
+
+
+def extract_ofa_fellowship_org(title):
+    """Best-effort org-name extraction from an Opportunities For Africans
+    title, which reliably reads "The <Org> <...> Fellowship/Program ...".
+    There's no structured org field in this feed (its category tags are
+    just fragments of the title/slug, unlike Opportunity Desk's, which
+    tag the actual funding org) — approximate, like extract_organization()
+    elsewhere in this file."""
+    text = re.sub(r"^The\s+", "", title)
+    match = re.search(r"^(.+?)\s+(?:Fellowships?|Fellows|Programm?e?s?)\b", text)
+    if match:
+        return match.group(1).strip(" '’")
+    return None
+
+
+def fetch_opportunities_for_africans_fellowships():
+    """Opportunities For Africans' Fellowships category — unlike Opportunity
+    Desk, this whole site is already scoped to opportunities Africans can
+    apply for, so no additional relevance filtering beyond the shared
+    FELLOWSHIP_KEYWORDS check (kept for consistency, though it rarely
+    excludes anything here). Its RSS description is just a short excerpt,
+    so each item's own page is fetched for the real application link — the
+    first outbound link inside its "entry-content" div, the same
+    first_outbound_link() helper Opportunity Desk uses. Restricting to that
+    div (rather than the whole page) matters here: this site's WordPress
+    theme also emits an unrelated boilerplate link before the article body
+    that would otherwise be picked up as if it were the apply link.
+    Overlaps with Opportunity Desk's own fellowship postings (both have
+    carried African Union/APNI fellowships identically) are caught by the
+    usual dedupe() apply_url match, since this is fetched after Opportunity
+    Desk in main()."""
+    feed_url = "https://www.opportunitiesforafricans.com/category/fellowships/feed/"
+    try:
+        items = fetch_and_parse_feed(feed_url)
+    except Exception as exc:
+        print(f"[warn] Opportunities For Africans feed failed: {exc}", file=sys.stderr)
+        return []
+
+    results = []
+    for item in items[:MAX_PER_SOURCE]:
+        haystack = (item["title"] + " " + strip_html(item["content"])).lower()
+        if not any(keyword in haystack for keyword in FELLOWSHIP_KEYWORDS):
+            continue
+
+        org_link = None
+        try:
+            page_html = fetch(item["link"])
+            content_start = page_html.find('id="penci-post-entry-inner"')
+            body_html = page_html[content_start:] if content_start != -1 else page_html
+            org_link = first_outbound_link(body_html)
+        except Exception as exc:
+            print(f"[warn] Could not load fellowship page {item['link']}: {exc}", file=sys.stderr)
+
+        if not org_link:
+            print(f"[skip] No organization link found for: {item['title']}", file=sys.stderr)
+            continue
+
+        if not has_valid_certificate(org_link):
+            print(f"[skip] {org_link} has an invalid/expired certificate: {item['title']}", file=sys.stderr)
+            continue
+
+        results.append({
+            "title": item["title"],
+            "organization": extract_ofa_fellowship_org(item["title"]),
             "type": "Fellowship",
             "location": "Remote / Varies",
             "remote": True,
@@ -982,6 +1071,7 @@ def main():
         fetch_reliefweb_jobs()
         + fetch_ngo_jobs_in_africa()
         + fetch_opportunity_desk_fellowships()
+        + fetch_opportunities_for_africans_fellowships()
         + fetch_bamboohr_jobs()
         + fetch_smartrecruiters_jobs()
         + fetch_tdh_jobs()
