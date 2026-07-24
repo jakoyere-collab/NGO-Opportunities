@@ -19,6 +19,12 @@ Sources (see docs/opportunities-sources.md for why these were chosen):
     opportunities worldwide. Each post tags the hosting/funding
     organization as a category and links out to the specific fellowship's
     official announcement/application page.
+  - Known organizations (BAMBOOHR_ORGS, SMARTRECRUITERS_ORGS, and Terre
+    des hommes' own RSS feed): specific organizations that don't reliably
+    appear in the three aggregators above. Queried via each org's ATS's own
+    public API — the same JSON calls their career page makes in a browser,
+    not scraping. Adding another organization on one of these ATS
+    platforms is a config-list entry, not new code.
 
 Every listing links to the *specific* job or fellowship page on the
 organization's own site (or its official application portal) — never a
@@ -45,8 +51,8 @@ import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
-from email.utils import parsedate_to_datetime
-from urllib.error import URLError
+from email.utils import format_datetime, parsedate_to_datetime
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urlparse
 
 USER_AGENT = "NGOOpportunitiesBot/1.0 (+https://ngoopportunities.com; daily opportunities digest)"
@@ -83,6 +89,23 @@ REGION_OR_TYPE_TAGS = {
     "conferences", "jobs", "internships", "awards", "funding opportunities",
 }
 
+# Specific organizations that don't reliably appear in the three aggregator
+# feeds above, whose ATS exposes a public API we can query directly — the
+# same JSON calls the organization's own career page makes in a browser, not
+# scraping. Add more by appending an entry; no new code needed per org.
+BAMBOOHR_ORGS = [
+    {"subdomain": "internetsociety", "name": "Internet Society"},
+    {"subdomain": "precisiondev", "name": "Precision Development (PxD)"},
+]
+
+SMARTRECRUITERS_ORGS = [
+    {"company_id": "SNV", "name": "SNV"},
+]
+
+TDH_RELEVANCE_KEYWORDS = [
+    "nigeria", "west africa", "remote", "home-based", "any location", "global",
+]
+
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
@@ -110,17 +133,27 @@ def fetch_and_parse_feed(url, attempts=3, base_delay=3):
 
 
 def has_valid_certificate(url):
-    """Checks that an https:// destination presents a currently-valid TLS
-    certificate, so we never publish a link that greets visitors with a
-    browser security warning. A non-cert error (timeout, 404, 405 on HEAD,
-    etc.) doesn't fail this check — only certificate problems do, since
-    those are the one failure mode that's unsafe to send people to."""
-    if not url.lower().startswith("https://"):
-        return True
+    """Checks that a destination ends up on a currently-valid, encrypted
+    HTTPS connection, so we never publish a link that greets visitors
+    with a browser security warning or sends them over plain HTTP. Some
+    sources give an http:// redirect-gateway URL as the "application
+    link" (e.g. a talent-management redirect service) rather than the
+    final destination — urllib follows redirects automatically, so this
+    checks where it actually lands, not just the URL we were given. A
+    non-cert error (timeout, 404, 405 on HEAD, etc.) doesn't fail this
+    check — only landing on plain HTTP or a bad certificate does, since
+    those are the failure modes that are unsafe to send people to."""
     try:
         req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": USER_AGENT})
-        urllib.request.urlopen(req, timeout=PAGE_TIMEOUT)
-        return True
+        with urllib.request.urlopen(req, timeout=PAGE_TIMEOUT) as resp:
+            final_url = resp.geturl()
+        return final_url.lower().startswith("https://")
+    except HTTPError as exc:
+        # A non-2xx final response (e.g. 405 on HEAD) still tells us where
+        # we landed — HTTPError.geturl() is the last request's URL, after
+        # any redirects, so check that URL's scheme rather than assuming.
+        final_url = exc.geturl() or url
+        return final_url.lower().startswith("https://")
     except URLError as exc:
         reason = exc.reason
         if isinstance(reason, ssl.SSLCertVerificationError) or "CERTIFICATE" in str(reason).upper():
@@ -386,6 +419,148 @@ def fetch_opportunity_desk_fellowships():
     return results
 
 
+def classify_org_location(country_text, is_remote_flag=False):
+    """Best-effort relevance/labeling for a known-organization posting,
+    using whatever location signal that org's ATS provides. Returns
+    (location_label, remote) if the posting is Nigeria-relevant, or None
+    if it's clearly restricted to a different specific country — these
+    orgs post across many countries, and most ATS location fields don't
+    give us enough to know for certain, so ambiguous/missing location
+    data is treated as possibly-relevant rather than excluded."""
+    text = (country_text or "").strip().lower()
+    if text in ("ng", "nigeria"):
+        return ("Nigeria", False)
+    if is_remote_flag or not text or text in ("multiple", "various", "remote", "global", "worldwide"):
+        return ("Regional (incl. Nigeria)", True)
+    return None
+
+
+def fetch_bamboohr_jobs():
+    """BambooHR's own career site is a JS app with no job data in its raw
+    HTML, but it calls a public JSON endpoint to render it — the same one
+    used here. https://{subdomain}.bamboohr.com/careers/{id} is BambooHR's
+    standard public posting page, confirmed live for each org below."""
+    results = []
+    for org in BAMBOOHR_ORGS:
+        url = f"https://{org['subdomain']}.bamboohr.com/careers/list"
+        try:
+            data = json.loads(fetch(url))
+        except Exception as exc:
+            print(f"[warn] BambooHR feed failed for {org['name']}: {exc}", file=sys.stderr)
+            continue
+
+        for job in data.get("result", []):
+            title = (job.get("jobOpeningName") or "").strip()
+            if not title:
+                continue
+
+            ats_location = job.get("atsLocation") or {}
+            classification = classify_org_location(ats_location.get("country"), bool(job.get("isRemote")))
+            if not classification:
+                continue
+            location_label, remote = classification
+
+            apply_url = f"https://{org['subdomain']}.bamboohr.com/careers/{job['id']}"
+            if not has_valid_certificate(apply_url):
+                print(f"[skip] {apply_url} has an invalid/expired certificate: {title}", file=sys.stderr)
+                continue
+
+            results.append({
+                "title": title,
+                "organization": org["name"],
+                "type": "Job",
+                "location": location_label,
+                "remote": remote,
+                "apply_url": apply_url,
+                "posted": None,  # BambooHR's list endpoint doesn't expose a posting date
+            })
+    return results
+
+
+def fetch_smartrecruiters_jobs():
+    """https://jobs.smartrecruiters.com/{company}/{id} is SmartRecruiters'
+    own standard public posting page — confirmed live for each org below."""
+    results = []
+    for org in SMARTRECRUITERS_ORGS:
+        url = f"https://api.smartrecruiters.com/v1/companies/{org['company_id']}/postings"
+        try:
+            data = json.loads(fetch(url))
+        except Exception as exc:
+            print(f"[warn] SmartRecruiters feed failed for {org['name']}: {exc}", file=sys.stderr)
+            continue
+
+        for job in data.get("content", []):
+            title = (job.get("name") or "").strip()
+            if not title:
+                continue
+
+            location = job.get("location") or {}
+            classification = classify_org_location(location.get("country"), bool(location.get("remote")))
+            if not classification:
+                continue
+            location_label, remote = classification
+
+            apply_url = f"https://jobs.smartrecruiters.com/{org['company_id']}/{job['id']}"
+            if not has_valid_certificate(apply_url):
+                print(f"[skip] {apply_url} has an invalid/expired certificate: {title}", file=sys.stderr)
+                continue
+
+            posted = None
+            released = job.get("releasedDate")
+            if released:
+                try:
+                    posted = format_datetime(datetime.fromisoformat(released.replace("Z", "+00:00")))
+                except ValueError:
+                    posted = None
+
+            results.append({
+                "title": title,
+                "organization": org["name"],
+                "type": "Job",
+                "location": location_label,
+                "remote": remote,
+                "apply_url": apply_url,
+                "posted": posted,
+            })
+    return results
+
+
+def fetch_tdh_jobs():
+    """Terre des hommes runs its own recruiting site with a native RSS
+    feed (jobs.tdh.org) — each item's own link is already the organization's
+    direct application page, no extraction needed. TDH posts globally, so
+    this is filtered by keyword the same way Opportunity Desk is."""
+    feed_url = "https://jobs.tdh.org/en-GB/jobs.rss"
+    try:
+        items = fetch_and_parse_feed(feed_url)
+    except Exception as exc:
+        print(f"[warn] Terre des hommes feed failed: {exc}", file=sys.stderr)
+        return []
+
+    results = []
+    for item in items[:MAX_PER_SOURCE]:
+        haystack = (item["title"] + " " + strip_html(item["content"])).lower()
+        if not any(keyword in haystack for keyword in TDH_RELEVANCE_KEYWORDS):
+            continue
+
+        apply_url = item["link"]
+        if not has_valid_certificate(apply_url):
+            print(f"[skip] {apply_url} has an invalid/expired certificate: {item['title']}", file=sys.stderr)
+            continue
+
+        is_nigeria = "nigeria" in haystack
+        results.append({
+            "title": item["title"],
+            "organization": "Terre des hommes",
+            "type": "Job",
+            "location": "Nigeria" if is_nigeria else "Regional (incl. Nigeria)",
+            "remote": not is_nigeria,
+            "apply_url": apply_url,
+            "posted": item["pub_date"],
+        })
+    return results
+
+
 def normalize_for_dedup(text):
     return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
 
@@ -418,6 +593,19 @@ def parse_posted_date(posted):
     if parsed.tzinfo is None:
         parsed = parsed.replace(tzinfo=timezone.utc)
     return parsed
+
+
+def stamp_missing_posted_date(opportunities):
+    """Some sources (BambooHR's list endpoint) don't expose a posting
+    date at all. Without one, drop_expired() would keep an item forever
+    since an unparseable date is treated as "not evidence of staleness" —
+    so a first-seen listing without a date gets stamped with today's
+    date, the closest honest substitute, making it age out normally."""
+    now_str = format_datetime(datetime.now(timezone.utc))
+    for opp in opportunities:
+        if not opp.get("posted"):
+            opp["posted"] = now_str
+    return opportunities
 
 
 def drop_expired(opportunities, max_age_days=MAX_AGE_DAYS):
@@ -495,11 +683,15 @@ def cap_per_type(opportunities):
 
 def main():
     existing = load_existing_opportunities()
-    fresh = drop_expired(dedupe(
+    fresh = dedupe(
         fetch_reliefweb_jobs()
         + fetch_ngo_jobs_in_africa()
         + fetch_opportunity_desk_fellowships()
-    ))
+        + fetch_bamboohr_jobs()
+        + fetch_smartrecruiters_jobs()
+        + fetch_tdh_jobs()
+    )
+    fresh = drop_expired(stamp_missing_posted_date(fresh))
 
     opportunities = merge_with_existing(existing, fresh)
     opportunities = drop_expired(opportunities)  # catches existing listings that just aged out since the last run

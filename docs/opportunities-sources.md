@@ -20,13 +20,37 @@ One trade-off worth knowing: once a listing is already saved, later runs don't r
 
 All three are pulled via plain RSS (`urllib` + `xml.etree.ElementTree` + regex, no scraping framework, no headless browser, no third-party dependencies) — this is what these feeds are published for. NGO Jobs in Africa and Opportunity Desk need one follow-up page fetch per item for details the RSS itself doesn't carry; ReliefWeb doesn't.
 
+## Known organizations (specific orgs, not aggregators)
+
+Some organizations don't reliably post to ReliefWeb or the other two aggregators, but their own career page runs on an ATS with a genuine public API — the same JSON calls the career page's own JavaScript makes in a browser, not scraping. Currently configured:
+
+| Organization | ATS | Config list |
+|---|---|---|
+| Internet Society, Precision Development (PxD) | BambooHR — `{subdomain}.bamboohr.com/careers/list` | `BAMBOOHR_ORGS` |
+| SNV | SmartRecruiters — `api.smartrecruiters.com/v1/companies/{company}/postings` | `SMARTRECRUITERS_ORGS` |
+| Terre des hommes | Its own RSS feed — `jobs.tdh.org/en-GB/jobs.rss` | `fetch_tdh_jobs()` |
+
+Adding another organization already on BambooHR or SmartRecruiters is a one-line config addition (append to the relevant list) — no new code. `classify_org_location()` decides relevance/labeling from whatever location field that org's ATS provides: an explicit Nigeria match, or missing/ambiguous/remote location data, is kept (labeled `Nigeria` or `Regional (incl. Nigeria)`); a posting explicitly restricted to a specific *other* country is excluded. This is necessarily approximate for BambooHR, whose location fields are often sparse.
+
+**Missing posting dates:** BambooHR's list endpoint doesn't expose one at all. Without a date, `drop_expired()` would keep an item forever (an unparseable date is treated as "not evidence of staleness," not "assume it's ancient"). `stamp_missing_posted_date()` fills in the date we first saw the listing instead, so it still ages out normally on the usual `MAX_AGE_DAYS` clock — the closest honest substitute available.
+
+### Organizations checked but not added
+
+From a batch of 10 organization career pages checked against these same rules:
+- **AATF-Africa** — broken SSL certificate chain server-side (`unable to get local issuer certificate`); would fail our own certificate check regardless, so not worth scraping even if it were otherwise reachable.
+- **Corus International** (ApplicantPro) — career page is a Vue.js SPA with no discovered public API; job data only exists after JS execution.
+- **Sydani** — career page is a Frappe-based SPA; its generic API requires login (`403 PermissionError` on the unauthenticated endpoint), and job data isn't in the static HTML.
+- **CARE International** — this URL is just a directory linking out to ~10 separate national CARE entities' own career sites (CARE USA, UK, Canada, Egypt, India, etc.), not a single feed. CARE USA specifically uses Taleo, which doesn't have as standardized a public API as Greenhouse/Lever/SmartRecruiters.
+- **iCIMS** (the URL given was `careers.icims.com`) — this resolves to iCIMS's own generic/demo careers page, not a specific organization's iCIMS-powered board. Provide the actual organization-specific iCIMS URL (usually `careers-{org}.icims.com` or similar) to check this one properly.
+- **Green Africa Youth Organization** — a WordPress site with real job posts in plain HTML (not JS-rendered), but its `/category/jobs/feed/` RSS returns zero items even though the category page shows postings — worth a custom HTML parser (same regex-based approach already used for ReliefWeb/NGO Jobs in Africa pages) as a follow-up rather than a feed-based connector.
+
 **Deduplication:** `dedupe()` in `fetch_opportunities.py` keeps the first occurrence of each listing, matching on either the application URL or a normalized version of the title, since the same posting can appear in more than one feed.
 
 **Every listing links to the *specific* job or fellowship page on the organization's own site or official application portal — never a generic homepage, and never the aggregator page it was found on.** If a posting doesn't yield a specific application URL, it's dropped from the feed rather than falling back to something less precise (see `[skip]` lines in the workflow logs). This also filters out Opportunity Desk's periodic "N opportunities currently open" round-up posts, since those don't point to a single organization.
 
 **Trade-off:** many NGO Jobs in Africa postings don't include an external application link at all — they collect applications through their own on-site form instead of forwarding to the organization's career site. Those get dropped too, since there's nothing to link to that meets the "exact org page" requirement. In practice this can cut a day's job count roughly in half or more; it trades volume for every remaining listing being precise.
 
-**Certificate check:** before a listing is kept, `has_valid_certificate()` does a HEAD request against its `apply_url` and drops it if the destination's TLS certificate is invalid or expired (an org's own site occasionally lets this lapse — this happened with the African Union's careers portal, `jobs.au.int`). Non-certificate failures (timeouts, a 404, a site blocking HEAD requests) don't cause a drop, since those aren't necessarily the organization's fault day-to-day — only a broken certificate does, since that's the one failure mode that's unsafe to send people to (a browser security warning). If an org fixes their certificate, the listing reappears automatically next time it's still recent enough to be in the source feed.
+**Certificate check:** before a listing is kept, `has_valid_certificate()` does a HEAD request against its `apply_url` and drops it if the destination's TLS certificate is invalid or expired (an org's own site occasionally lets this lapse — this happened with the African Union's careers portal, `jobs.au.int`, since fixed). It also checks the *final* URL after following any redirects, not just the one we were given — some sources hand us an `http://` redirect-gateway link (e.g. a talent-management redirect service) rather than the final destination, and this now rejects a listing that ends up on plain HTTP instead of assuming the initial scheme is what matters. Non-certificate failures (timeouts, a 404, a site blocking HEAD requests) don't cause a drop, since those aren't necessarily the organization's fault day-to-day — only landing on an invalid certificate or unencrypted HTTP does, since those are the failure modes that are unsafe to send people to. If an org fixes their certificate, the listing reappears automatically next time it's still recent enough to be in the source feed.
 
 ## Sites considered but not automated (yet)
 
