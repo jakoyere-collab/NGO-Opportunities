@@ -26,6 +26,10 @@ Sources (see docs/opportunities-sources.md for why these were chosen):
     the same JSON calls their career page makes in a browser, not
     scraping. Adding another organization on one of these ATS platforms is
     a config-list entry, not new code.
+  - IPA and EHA Clinics: two organizations whose own career pages have no
+    feed/API at all, only plain (non-JS-rendered) HTML — parsed with the
+    same regex-based approach as NGO Jobs in Africa/ReliefWeb, not a
+    generic connector, since each site's markup is one-off.
 
 Every listing links to the *specific* job or fellowship page on the
 organization's own site (or its official application portal) — never a
@@ -729,6 +733,121 @@ def fetch_ifdc_jobs():
     return results
 
 
+def fetch_ipa_jobs():
+    """IPA (Innovations for Poverty Action) lists current openings in plain
+    HTML on its own site — a Drupal Views listing grouped by region then
+    country, not JS-rendered, but with no RSS/JSON feed to pull instead.
+    Only jobs grouped under "West Africa" > "Nigeria" or under the
+    "Global/Flexible Location" region are kept. Every posting's own detail
+    page links out to the same ADP application instance
+    (https://1.adp.com/<code>), confirmed consistent across a sample from
+    every region, so that's extracted as the apply_url rather than the IPA
+    page itself."""
+    listing_url = "https://poverty-action.org/current-opportunities"
+    try:
+        page_html = fetch(listing_url)
+    except Exception as exc:
+        print(f"[warn] IPA listing page failed: {exc}", file=sys.stderr)
+        return []
+
+    region_blocks = dict(re.findall(r"<h1>([^<]+)</h1>(.*?)(?=<h1>|\Z)", page_html, re.DOTALL))
+    job_link_re = re.compile(r'<a href="(/[^"]+)" class="link-stnd">([^<]+)')
+
+    candidates = []  # (relative_url, title, location_label)
+    global_block = region_blocks.get("Global/Flexible Location")
+    if global_block:
+        for href, title in job_link_re.findall(global_block):
+            candidates.append((href, title, "Regional (incl. Nigeria)"))
+
+    west_africa_block = region_blocks.get("West Africa")
+    if west_africa_block:
+        country_blocks = dict(re.findall(r"<h3>([^<]+)</h3>(.*?)(?=<h3>|\Z)", west_africa_block, re.DOTALL))
+        nigeria_block = country_blocks.get("Nigeria")
+        if nigeria_block:
+            for href, title in job_link_re.findall(nigeria_block):
+                candidates.append((href, title, "Nigeria"))
+
+    results = []
+    for href, title, location_label in candidates:
+        title = html.unescape(title).strip()
+        detail_url = "https://poverty-action.org" + href
+        try:
+            detail_html = fetch(detail_url)
+        except Exception as exc:
+            print(f"[warn] Could not load IPA job page {detail_url}: {exc}", file=sys.stderr)
+            continue
+
+        apply_match = re.search(r"https://1\.adp\.com/[A-Za-z0-9]+", detail_html)
+        if not apply_match:
+            print(f"[skip] No ADP application link found for: {title}", file=sys.stderr)
+            continue
+        apply_url = apply_match.group(0)
+        if not has_valid_certificate(apply_url):
+            print(f"[skip] {apply_url} has an invalid/expired certificate: {title}", file=sys.stderr)
+            continue
+
+        results.append({
+            "title": title,
+            "organization": "Innovations for Poverty Action (IPA)",
+            "type": "Job",
+            "location": location_label,
+            "remote": location_label != "Nigeria",
+            "apply_url": apply_url,
+            "posted": None,  # no posting date is published anywhere on the listing or detail page
+        })
+    return results
+
+
+def fetch_eha_clinics_jobs():
+    """EHA Clinics runs its own Odoo-hosted careers portal at erp.eha.ng —
+    unlike an aggregator, the job detail page (/jobs/detail/{slug}) is
+    already the organization's own official posting, and applying happens
+    through an on-page modal right there, so the detail page itself is the
+    correct apply_url with no further link to extract. All current
+    openings are Lagos/Abuja/Kano-based (the schema.org address on the
+    listing page is EHA's registered office, not the job's own location —
+    the actual city is in each job's title instead). The listing page
+    conveniently carries a real publish date per posting, unlike BambooHR
+    or IPA above."""
+    listing_url = "https://erp.eha.ng/jobs"
+    try:
+        page_html = fetch(listing_url)
+    except Exception as exc:
+        print(f"[warn] EHA Clinics listing page failed: {exc}", file=sys.stderr)
+        return []
+
+    results = []
+    entries = re.findall(
+        r'<a href="(/jobs/detail/[^"]+)">\s*<span>([^<]+)</span>.*?'
+        r'Publication date"[^>]*></i>\s*<span>([^<]+)</span>',
+        page_html, re.DOTALL,
+    )
+    for href, title, posted_str in entries:
+        title = html.unescape(title).strip()
+        apply_url = "https://erp.eha.ng" + href
+        if not has_valid_certificate(apply_url):
+            print(f"[skip] {apply_url} has an invalid/expired certificate: {title}", file=sys.stderr)
+            continue
+
+        posted = None
+        try:
+            parsed = datetime.strptime(posted_str.strip(), "%m/%d/%Y %I:%M:%S %p").replace(tzinfo=timezone.utc)
+            posted = format_datetime(parsed)
+        except ValueError:
+            posted = None
+
+        results.append({
+            "title": title,
+            "organization": "EHA Clinics",
+            "type": "Job",
+            "location": "Nigeria",
+            "remote": False,
+            "apply_url": apply_url,
+            "posted": posted,
+        })
+    return results
+
+
 def normalize_for_dedup(text):
     return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
 
@@ -764,28 +883,36 @@ def parse_posted_date(posted):
 
 
 def stamp_missing_posted_date(opportunities):
-    """Some sources (BambooHR's list endpoint) don't expose a posting
-    date at all. Without one, drop_expired() would keep an item forever
-    since an unparseable date is treated as "not evidence of staleness" —
-    so a first-seen listing without a date gets stamped with today's
-    date, the closest honest substitute, making it age out normally."""
+    """Some sources (BambooHR's list endpoint, IPA, IFDC) don't expose a
+    posting date at all. Without one, drop_expired() would keep an item
+    forever since an unparseable date is treated as "not evidence of
+    staleness" — so a first-seen listing without one gets a first_seen
+    timestamp instead, the closest honest substitute, so it still ages out
+    on the usual clock. This deliberately leaves "posted" itself alone
+    (None/missing) rather than filling it with today's date: sort_by_recency()
+    and cap_per_type() need to tell "genuinely posted today" apart from
+    "we simply don't know," so a dateless listing sorts as the oldest, not
+    the newest — otherwise it would permanently outrank and crowd out
+    honestly-dated postings from other sources for a limited cap."""
     now_str = format_datetime(datetime.now(timezone.utc))
     for opp in opportunities:
-        if not opp.get("posted"):
-            opp["posted"] = now_str
+        if not opp.get("posted") and not opp.get("first_seen"):
+            opp["first_seen"] = now_str
     return opportunities
 
 
 def drop_expired(opportunities, max_age_days=MAX_AGE_DAYS):
     """Drops postings older than max_age_days — likely expired or no
-    longer accepting applications. A posting with an unparseable date is
-    kept rather than dropped, since that's a parsing gap, not evidence
-    it's stale."""
+    longer accepting applications. Falls back to first_seen (see
+    stamp_missing_posted_date()) when there's no real posted date, so a
+    dateless listing still ages out on schedule instead of being kept
+    forever. A posting with neither is kept rather than dropped, since
+    that's a parsing gap, not evidence it's stale."""
     cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
     kept = []
     dropped = 0
     for opp in opportunities:
-        posted_at = parse_posted_date(opp["posted"])
+        posted_at = parse_posted_date(opp.get("posted")) or parse_posted_date(opp.get("first_seen"))
         if posted_at is not None and posted_at < cutoff:
             dropped += 1
             continue
@@ -861,6 +988,8 @@ def main():
         + fetch_workable_jobs()
         + fetch_oracle_fusion_jobs()
         + fetch_ifdc_jobs()
+        + fetch_ipa_jobs()
+        + fetch_eha_clinics_jobs()
     )
     fresh = drop_expired(stamp_missing_posted_date(fresh))
 
