@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-25T09:27:38+00:00",
-  "count": 39,
+  "generated_at": "2026-07-25T16:45:18+00:00",
+  "count": 40,
   "opportunities": [
+    {
+      "title": "FRIAS Sustainable Governance Senior Fellowship Programme for Researchers from Africa 2027/2028",
+      "organization": "Freiburg Institute for Advanced Studies",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://mobility.frias.uni-freiburg.de/mobility/BewerbungServlet?identifier=FRIAS&amp;kz_bew_pers=L&amp;kz_bew_art=IN&amp;aust_prog=SUSGOV_AFRICA&amp;sprache=en",
+      "posted": "Sat, 25 Jul 2026 15:19:51 +0000"
+    },
     {
       "title": "Talent Roster - Technical Design Consultant – Proposal Design",
       "organization": "IFDC",
