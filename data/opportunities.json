@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T22:21:19+00:00",
+  "generated_at": "2026-07-25T09:27:38+00:00",
   "count": 39,
   "opportunities": [
     {
@@ -219,6 +219,24 @@
       "posted": "Tue, 21 Jul 2026 13:14:09 +0000"
     },
     {
+      "title": "Chef.fe du Secteur Accès à la Justice",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8103705-chef-fe-du-secteur-acces-a-la-justice",
+      "posted": "Tue, 21 Jul 2026 15:00:27 +0200"
+    },
+    {
+      "title": "Regional Health and WaSH Coordinator Asia Hub",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8102815-regional-health-and-wash-coordinator-asia-hub",
+      "posted": "Tue, 21 Jul 2026 13:10:28 +0200"
+    },
+    {
       "title": "The Bosun Tijani Foundation Gen AI Fellowship Cohort 2 for young Nigerians (N50,000 monthly stipend)",
       "organization": "Bosun Tijani Foundation Gen AI",
       "type": "Fellowship",
@@ -262,6 +280,24 @@
       "remote": true,
       "apply_url": "https://jobs.au.int/job/The-Africa-Epidemic-Services-Epidemiology-track/3040-en_US/",
       "posted": "Fri, 17 Jul 2026 14:33:17 +0000"
+    },
+    {
+      "title": "Coordinateur(trice) Technique - BURUNDI",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8087088-coordinateur-trice-technique-burundi",
+      "posted": "Fri, 17 Jul 2026 14:31:21 +0200"
+    },
+    {
+      "title": "Chef comptable",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8086185-chef-comptable",
+      "posted": "Fri, 17 Jul 2026 12:45:43 +0200"
     },
     {
       "title": "Technical Advisor II, MEAL – Regional Focal Point (EMEA)",
@@ -316,44 +352,6 @@
       "remote": true,
       "apply_url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship#h1275",
       "posted": "Wed, 15 Jul 2026 16:57:48 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-kano-564",
-      "posted": "Wed, 15 Jul 2026 08:27:16 +0000"
-    },
-    {
-      "title": "Business Development Writer, Global Remote",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002709",
-      "posted": "Wed, 15 Jul 2026 00:00:00 +0000"
-    },
-    {
-      "title": "(Assoc) Program Manager, Human Trafficking Research Initiative",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/JfESjehcKHe",
-      "posted": null,
-      "first_seen": "Fri, 24 Jul 2026 22:21:19 +0000"
-    },
-    {
-      "title": "(Senior) Director of Philanthropic Partnerships",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/5VmqrYMw54S",
-      "posted": null,
-      "first_seen": "Fri, 24 Jul 2026 22:21:19 +0000"
     }
   ]
 }
