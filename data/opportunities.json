@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T16:46:19+00:00",
-  "count": 38,
+  "generated_at": "2026-07-27T11:10:22+00:00",
+  "count": 37,
   "opportunities": [
     {
       "title": "FRIAS Sustainable Governance Senior Fellowship Programme for Researchers from Africa 2027/2028",
@@ -300,42 +300,6 @@
       "posted": "Fri, 17 Jul 2026 14:31:21 +0200"
     },
     {
-      "title": "Chef comptable",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8086185-chef-comptable",
-      "posted": "Fri, 17 Jul 2026 12:45:43 +0200"
-    },
-    {
-      "title": "Technical Advisor II, MEAL – Regional Focal Point (EMEA)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002712",
-      "posted": "Fri, 17 Jul 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Business Development Specialist II, Project Design (Remote)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002713",
-      "posted": "Fri, 17 Jul 2026 00:00:00 +0000"
-    },
-    {
-      "title": "World Bank Group Africa Fellowship Program 2027 for Ph.D. students & recent graduates (Fully Funded to Washington, D.C. or a WBG country office)",
-      "organization": "World Bank Group Africa",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.worldbank.org/en/region/afr/brief/world-bank-group-africa-fellowship-program",
-      "posted": "Thu, 16 Jul 2026 20:10:11 +0000"
-    },
-    {
       "title": "(Assoc) Program Manager, Human Trafficking Research Initiative",
       "organization": "Innovations for Poverty Action (IPA)",
       "type": "Job",
@@ -344,6 +308,36 @@
       "apply_url": "https://1.adp.com/JfESjehcKHe",
       "posted": null,
       "first_seen": "Sun, 26 Jul 2026 09:50:46 +0000"
+    },
+    {
+      "title": "Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/179",
+      "posted": null,
+      "first_seen": "Mon, 27 Jul 2026 11:10:22 +0000"
+    },
+    {
+      "title": "(Senior) Director of Philanthropic Partnerships",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/5VmqrYMw54S",
+      "posted": null,
+      "first_seen": "Mon, 27 Jul 2026 11:10:22 +0000"
+    },
+    {
+      "title": "Data Scientist II",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/rQXCfPjYqPj",
+      "posted": null,
+      "first_seen": "Mon, 27 Jul 2026 11:10:22 +0000"
     }
   ]
 }
