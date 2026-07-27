@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-07-27T11:10:22+00:00",
+  "generated_at": "2026-07-27T17:29:33+00:00",
   "count": 37,
   "opportunities": [
+    {
+      "title": "Nigeria – Logistics Manager – Gusau – Zamfara State – NW (Nationals Only)",
+      "organization": "Solidarités International",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://forms.gle/eJumUTHoGvzXLJ1P9",
+      "posted": "Mon, 27 Jul 2026 16:29:30 +0000"
+    },
+    {
+      "title": "World Bank Group Africa Fellowship Program 2027",
+      "organization": "World Bank Group",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://wbgfellowship.worldbank.org/",
+      "posted": "Mon, 27 Jul 2026 14:29:35 +0000"
+    },
     {
       "title": "FRIAS Sustainable Governance Senior Fellowship Programme for Researchers from Africa 2027/2028",
       "organization": "Freiburg Institute for Advanced Studies",
@@ -255,51 +273,6 @@
       "posted": "Tue, 21 Jul 2026 10:37:41 +0000"
     },
     {
-      "title": "Nigeria Monitoring, Evaluation and Learning Specialist",
-      "organization": "One Acre Fund",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://grnh.se/6ft2fppb1us",
-      "posted": "Fri, 17 Jul 2026 17:14:51 +0000"
-    },
-    {
-      "title": "Nigeria Administrative Coordinator – Lafia, Nasarawa (Fixed-Term)",
-      "organization": "One Acre Fund",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://grnh.se/1bn5qy8a1us",
-      "posted": "Fri, 17 Jul 2026 17:12:06 +0000"
-    },
-    {
-      "title": "Information, Counselling and Legal Assistance(ICLA) Programme Development Manager Nigeria Maiduguri",
-      "organization": "Norwegian Refugee Council",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/21319",
-      "posted": "Fri, 17 Jul 2026 17:08:25 +0000"
-    },
-    {
-      "title": "African Epidemic Services (AES) Fellowship Programme 2026 – Epidemiology Track (Funded)",
-      "organization": "Africa CDC",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://jobs.au.int/job/The-Africa-Epidemic-Services-Epidemiology-track/3040-en_US/",
-      "posted": "Fri, 17 Jul 2026 14:33:17 +0000"
-    },
-    {
-      "title": "Coordinateur(trice) Technique - BURUNDI",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8087088-coordinateur-trice-technique-burundi",
-      "posted": "Fri, 17 Jul 2026 14:31:21 +0200"
-    },
-    {
       "title": "(Assoc) Program Manager, Human Trafficking Research Initiative",
       "organization": "Innovations for Poverty Action (IPA)",
       "type": "Job",
@@ -338,6 +311,36 @@
       "apply_url": "https://1.adp.com/rQXCfPjYqPj",
       "posted": null,
       "first_seen": "Mon, 27 Jul 2026 11:10:22 +0000"
+    },
+    {
+      "title": "IT Director",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/Dm42CHrTnP3",
+      "posted": null,
+      "first_seen": "Mon, 27 Jul 2026 17:29:33 +0000"
+    },
+    {
+      "title": "Senior Consumer Protection Fellow",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/gBhH5GLnQvi",
+      "posted": null,
+      "first_seen": "Mon, 27 Jul 2026 17:29:33 +0000"
+    },
+    {
+      "title": "Program Associate, Strategic Impact Evaluation and Learning",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/Pwm2QyWcSKS",
+      "posted": null,
+      "first_seen": "Mon, 27 Jul 2026 17:29:33 +0000"
     }
   ]
 }
