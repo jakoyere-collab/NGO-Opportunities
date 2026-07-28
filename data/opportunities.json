@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-07-28T10:23:20+00:00",
-  "count": 37,
+  "generated_at": "2026-07-28T17:18:43+00:00",
+  "count": 38,
   "opportunities": [
+    {
+      "title": "Community Development Advisor (ILM)",
+      "organization": "SNV",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000140302115",
+      "posted": "Tue, 28 Jul 2026 17:09:27 +0000"
+    },
+    {
+      "title": "Africa-Europe Innovation Platform (AEIP) Scholars Programme 2026-2027",
+      "organization": "AEIP Scholars Programme",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.research.net/r/AEIPSP26",
+      "posted": "Tue, 28 Jul 2026 10:54:02 +0000"
+    },
+    {
+      "title": "Practice & Quality Assurance Coordinator(REACH)",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-reach-753",
+      "posted": "Tue, 28 Jul 2026 03:48:55 +0000"
+    },
+    {
+      "title": "Technical Advisor II – Emergency Response and Recovery, East and Southern Africa (ESARO)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002520",
+      "posted": "Tue, 28 Jul 2026 00:00:00 +0000"
+    },
     {
       "title": "Nigeria – Logistics Manager – Gusau – Zamfara State – NW (Nationals Only)",
       "organization": "Solidarités International",
@@ -309,36 +345,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/179",
       "posted": null,
       "first_seen": "Mon, 27 Jul 2026 11:10:22 +0000"
-    },
-    {
-      "title": "(Senior) Director of Philanthropic Partnerships",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/5VmqrYMw54S",
-      "posted": null,
-      "first_seen": "Mon, 27 Jul 2026 11:10:22 +0000"
-    },
-    {
-      "title": "Data Scientist II",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/rQXCfPjYqPj",
-      "posted": null,
-      "first_seen": "Mon, 27 Jul 2026 11:10:22 +0000"
-    },
-    {
-      "title": "IT Director",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/Dm42CHrTnP3",
-      "posted": null,
-      "first_seen": "Mon, 27 Jul 2026 17:29:33 +0000"
     }
   ]
 }
