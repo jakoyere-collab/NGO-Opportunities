@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-29T10:29:28+00:00",
+  "generated_at": "2026-07-29T17:03:53+00:00",
   "count": 38,
   "opportunities": [
+    {
+      "title": "Client Experience Agent - Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/client-experience-agent-kano-108",
+      "posted": "Wed, 29 Jul 2026 06:08:04 +0000"
+    },
     {
       "title": "Medical Doctor- Lagos",
       "organization": "EHA Clinics",
@@ -334,16 +343,6 @@
       "remote": true,
       "apply_url": "https://www.bosuntijanifoundation.org/",
       "posted": "Tue, 21 Jul 2026 10:37:41 +0000"
-    },
-    {
-      "title": "(Assoc) Program Manager, Human Trafficking Research Initiative",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/JfESjehcKHe",
-      "posted": null,
-      "first_seen": "Sun, 26 Jul 2026 09:50:46 +0000"
     }
   ]
 }
