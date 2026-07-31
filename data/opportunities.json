@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-07-30T17:14:31+00:00",
+  "generated_at": "2026-07-31T10:28:34+00:00",
   "count": 39,
   "opportunities": [
+    {
+      "title": "Cash Coordinator – NEWCAP Consortium",
+      "organization": "Danish Refugee Council (DRC)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://drc.ngo/en/jobs/job/?id=176490",
+      "posted": "Thu, 30 Jul 2026 17:37:18 +0000"
+    },
+    {
+      "title": "Country Director - Nigeria",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8151106-country-director-nigeria",
+      "posted": "Thu, 30 Jul 2026 17:05:21 +0200"
+    },
     {
       "title": "Client Experience Agent - Kano",
       "organization": "EHA Clinics",
@@ -325,24 +343,6 @@
       "remote": true,
       "apply_url": "https://midas.umich.edu/training/postdoctoral-programs/schmidt-ai-in-science-postdoctoral-fellowship/faq/",
       "posted": "Tue, 21 Jul 2026 13:14:09 +0000"
-    },
-    {
-      "title": "Chef.fe du Secteur Accès à la Justice",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8103705-chef-fe-du-secteur-acces-a-la-justice",
-      "posted": "Tue, 21 Jul 2026 15:00:27 +0200"
-    },
-    {
-      "title": "Regional Health and WaSH Coordinator Asia Hub",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8102815-regional-health-and-wash-coordinator-asia-hub",
-      "posted": "Tue, 21 Jul 2026 13:10:28 +0200"
     },
     {
       "title": "The Bosun Tijani Foundation Gen AI Fellowship Cohort 2 for young Nigerians (N50,000 monthly stipend)",
