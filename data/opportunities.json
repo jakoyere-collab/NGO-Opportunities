@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T16:47:12+00:00",
-  "count": 36,
+  "generated_at": "2026-08-02T09:48:32+00:00",
+  "count": 35,
   "opportunities": [
     {
       "title": "Cash Coordinator – NEWCAP Consortium",
@@ -300,24 +300,6 @@
       "posted": "Thu, 23 Jul 2026 12:16:01 +0000"
     },
     {
-      "title": "UNESCO AfriMAB GRÓ-LRT Land Restoration Fellowships 2027 (Fully-funded)",
-      "organization": "UNESCO AfriMAB GRÓ-LRT Land Restoration Fellowships",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.unesco.org/en/articles/applications-open-afrimab-gro-lrt-land-restoration-fellowships-2027",
-      "posted": "Thu, 23 Jul 2026 08:59:48 +0000"
-    },
-    {
-      "title": "Technical Advisor I – Disaster Risk Reduction and Anticipatory Action (DRR/AA)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002597",
-      "posted": "Thu, 23 Jul 2026 00:00:00 +0000"
-    },
-    {
       "title": "Senior Program Manager",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -326,6 +308,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/179",
       "posted": null,
       "first_seen": "Sat, 01 Aug 2026 09:49:19 +0000"
+    },
+    {
+      "title": "Communications Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/180",
+      "posted": null,
+      "first_seen": "Sun, 02 Aug 2026 09:48:32 +0000"
     }
   ]
 }
