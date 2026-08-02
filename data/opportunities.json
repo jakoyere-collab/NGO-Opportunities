@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T09:48:32+00:00",
-  "count": 35,
+  "generated_at": "2026-08-02T16:46:06+00:00",
+  "count": 34,
   "opportunities": [
     {
       "title": "Cash Coordinator – NEWCAP Consortium",
@@ -273,33 +273,6 @@
       "posted": "Thu, 23 Jul 2026 17:30:46 +0000"
     },
     {
-      "title": "The Pulitzer Center Africa Education Teachers’ Fellowship 2026 for African educators (Monthly Stipend)",
-      "organization": "Pulitzer Center Africa Education Teachers",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://pulitzercenter.org/blog/call-applications-africa-education-teachers-fellowship",
-      "posted": "Thu, 23 Jul 2026 16:01:30 +0000"
-    },
-    {
-      "title": "Scholarship and Communications Coordinator",
-      "organization": "Christian Blind Mission",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.cbm.org/Scholarship-and-Communications-Coordinator-eng-f1088.html",
-      "posted": "Thu, 23 Jul 2026 13:21:00 +0000"
-    },
-    {
-      "title": "Logistics Expert",
-      "organization": "Action contre la Faim France",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "http://app.mytalentplug.com/redirection.aspx?ojid=Ubq4f8Dd975NGHiSrpDghQ==",
-      "posted": "Thu, 23 Jul 2026 12:16:01 +0000"
-    },
-    {
       "title": "Senior Program Manager",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -318,6 +291,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/180",
       "posted": null,
       "first_seen": "Sun, 02 Aug 2026 09:48:32 +0000"
+    },
+    {
+      "title": "Senior HR Manager (Senior HR Business Partner)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/181",
+      "posted": null,
+      "first_seen": "Sun, 02 Aug 2026 16:46:06 +0000"
+    },
+    {
+      "title": "(Assoc) Program Manager, Human Trafficking Research Initiative",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/JfESjehcKHe",
+      "posted": null,
+      "first_seen": "Sun, 02 Aug 2026 16:46:06 +0000"
     }
   ]
 }
