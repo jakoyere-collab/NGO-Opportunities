@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-02T16:46:06+00:00",
+  "generated_at": "2026-08-03T11:12:50+00:00",
   "count": 34,
   "opportunities": [
+    {
+      "title": "Technical Advisor III, Development Finance for Water and Environment",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002740",
+      "posted": "Mon, 03 Aug 2026 00:00:00 +0000"
+    },
     {
       "title": "Cash Coordinator – NEWCAP Consortium",
       "organization": "Danish Refugee Council (DRC)",
@@ -237,42 +246,6 @@
       "posted": "Fri, 24 Jul 2026 13:42:17 +0000"
     },
     {
-      "title": "Medical Laboratory Scientist - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
-      "posted": "Fri, 24 Jul 2026 06:45:43 +0000"
-    },
-    {
-      "title": "Specialist I, Logistics Data & Reporting Specialist",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002726",
-      "posted": "Fri, 24 Jul 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Nigeria Chief of Staff",
-      "organization": "One Acre Fund",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://grnh.se/08rh9xu91us",
-      "posted": "Thu, 23 Jul 2026 17:38:19 +0000"
-    },
-    {
-      "title": "Nigeria Recruitment Specialist",
-      "organization": "One Acre Fund",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://grnh.se/5magxjfg1us",
-      "posted": "Thu, 23 Jul 2026 17:30:46 +0000"
-    },
-    {
       "title": "Senior Program Manager",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -311,6 +284,36 @@
       "apply_url": "https://1.adp.com/JfESjehcKHe",
       "posted": null,
       "first_seen": "Sun, 02 Aug 2026 16:46:06 +0000"
+    },
+    {
+      "title": "(Senior) Director of Philanthropic Partnerships",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/5VmqrYMw54S",
+      "posted": null,
+      "first_seen": "Mon, 03 Aug 2026 11:12:50 +0000"
+    },
+    {
+      "title": "Data Scientist II",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/rQXCfPjYqPj",
+      "posted": null,
+      "first_seen": "Mon, 03 Aug 2026 11:12:50 +0000"
+    },
+    {
+      "title": "IT Director",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/Dm42CHrTnP3",
+      "posted": null,
+      "first_seen": "Mon, 03 Aug 2026 11:12:50 +0000"
     }
   ]
 }
