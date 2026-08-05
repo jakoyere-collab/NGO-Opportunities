@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-04T17:29:19+00:00",
-  "count": 35,
+  "generated_at": "2026-08-05T10:24:48+00:00",
+  "count": 36,
   "opportunities": [
+    {
+      "title": "African Academy of Sciences (AAS) Fellowship 2026",
+      "organization": "AAS Fellowship 2026",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://nominations.aasciences.africa/login",
+      "posted": "Tue, 04 Aug 2026 01:00:00 +0000"
+    },
     {
       "title": "AERC-World Bank Visiting Scholars Program 2026/2027",
       "organization": "AERC-World Bank Visiting Scholars Program",
