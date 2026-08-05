@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-05T10:24:48+00:00",
+  "generated_at": "2026-08-05T17:18:36+00:00",
   "count": 36,
   "opportunities": [
+    {
+      "title": "Technical Advisor II - Emergency Response and Recovery - LACRO Regional Focal Point",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002750",
+      "posted": "Wed, 05 Aug 2026 00:00:00 +0000"
+    },
     {
       "title": "African Academy of Sciences (AAS) Fellowship 2026",
       "organization": "AAS Fellowship 2026",
@@ -326,16 +335,6 @@
       "location": "Nigeria",
       "remote": false,
       "apply_url": "https://1.adp.com/5sA7mtIjgfk",
-      "posted": null,
-      "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
-    },
-    {
-      "title": "MEL Associate, Poverty Embedded Evidence Lab",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://1.adp.com/96d5fLDEUgP",
       "posted": null,
       "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
     }
