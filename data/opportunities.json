@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T10:26:57+00:00",
-  "count": 36,
+  "generated_at": "2026-08-06T19:11:08+00:00",
+  "count": 34,
   "opportunities": [
     {
       "title": "Program Manager I, MEAL",
@@ -183,33 +183,6 @@
       "posted": "Tue, 28 Jul 2026 00:00:00 +0000"
     },
     {
-      "title": "Freiburg Institute for Advanced Studies (FRIAS)  Early Career Fellowship Programme 2027/2028 for researchers worldwide.",
-      "organization": "Freiburg Institute for Advanced Studies (FRIAS)  Early Career",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://uni-freiburg.de/research/research-profile/",
-      "posted": "Mon, 27 Jul 2026 18:57:19 +0000"
-    },
-    {
-      "title": "Nigeria – Logistics Manager – Gusau – Zamfara State – NW (Nationals Only)",
-      "organization": "Solidarités International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://forms.gle/eJumUTHoGvzXLJ1P9",
-      "posted": "Mon, 27 Jul 2026 16:29:30 +0000"
-    },
-    {
-      "title": "World Bank Group Africa Fellowship Program 2027",
-      "organization": "World Bank Group",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://wbgfellowship.worldbank.org/",
-      "posted": "Mon, 27 Jul 2026 14:29:35 +0000"
-    },
-    {
       "title": "Senior Program Manager",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -338,6 +311,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
       "posted": null,
       "first_seen": "Thu, 06 Aug 2026 10:26:57 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Thu, 06 Aug 2026 19:11:08 +0000"
     }
   ]
 }
