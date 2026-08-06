@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-05T17:18:36+00:00",
+  "generated_at": "2026-08-06T10:26:57+00:00",
   "count": 36,
   "opportunities": [
+    {
+      "title": "Program Manager I, MEAL",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002566",
+      "posted": "Thu, 06 Aug 2026 00:00:00 +0000"
+    },
     {
       "title": "Technical Advisor II - Emergency Response and Recovery - LACRO Regional Focal Point",
       "organization": "Catholic Relief Services (CRS)",
@@ -201,24 +210,6 @@
       "posted": "Mon, 27 Jul 2026 14:29:35 +0000"
     },
     {
-      "title": "Global Chief of Party I - Heath Systems Strengthening Project",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002730",
-      "posted": "Mon, 27 Jul 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Program Manager I, MEAL - Heath Systems Strengthening Project",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002731",
-      "posted": "Mon, 27 Jul 2026 00:00:00 +0000"
-    },
-    {
       "title": "Senior Program Manager",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -337,6 +328,16 @@
       "apply_url": "https://1.adp.com/5sA7mtIjgfk",
       "posted": null,
       "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Thu, 06 Aug 2026 10:26:57 +0000"
     }
   ]
 }
