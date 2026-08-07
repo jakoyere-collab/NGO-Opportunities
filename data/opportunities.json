@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-07T08:45:47+00:00",
-  "count": 34,
+  "generated_at": "2026-08-07T16:41:16+00:00",
+  "count": 33,
   "opportunities": [
+    {
+      "title": "Program Manager I, Emergency Response and Recovery-LACRO",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002631",
+      "posted": "Fri, 07 Aug 2026 00:00:00 +0000"
+    },
     {
       "title": "Pharmacy Technician - Abuja",
       "organization": "EHA Clinics",
@@ -147,6 +156,15 @@
       "posted": "Thu, 30 Jul 2026 17:05:21 +0200"
     },
     {
+      "title": "Practice & Quality Assurance Coordinator(REACH)",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-reach-753",
+      "posted": "Wed, 29 Jul 2026 06:37:33 +0000"
+    },
+    {
       "title": "Client Experience Agent - Kano",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -172,15 +190,6 @@
       "remote": false,
       "apply_url": "https://jobs.smartrecruiters.com/SNV/744000140302115",
       "posted": "Tue, 28 Jul 2026 17:09:27 +0000"
-    },
-    {
-      "title": "Africa-Europe Innovation Platform (AEIP) Scholars Programme 2026-2027",
-      "organization": "AEIP Scholars Programme",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.research.net/r/AEIPSP26",
-      "posted": "Tue, 28 Jul 2026 10:54:02 +0000"
     },
     {
       "title": "Senior Program Manager",
@@ -301,26 +310,6 @@
       "apply_url": "https://1.adp.com/5sA7mtIjgfk",
       "posted": null,
       "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Thu, 06 Aug 2026 10:26:57 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Thu, 06 Aug 2026 19:11:08 +0000"
     }
   ]
 }
