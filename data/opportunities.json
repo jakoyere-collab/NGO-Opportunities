@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-06T19:11:08+00:00",
+  "generated_at": "2026-08-07T08:45:47+00:00",
   "count": 34,
   "opportunities": [
+    {
+      "title": "Pharmacy Technician - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacy-technician-abuja-635",
+      "posted": "Thu, 06 Aug 2026 15:46:19 +0000"
+    },
     {
       "title": "Program Manager I, MEAL",
       "organization": "Catholic Relief Services (CRS)",
@@ -9,6 +18,15 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002566",
+      "posted": "Thu, 06 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Oficial de Proyecto Senior (MEAL)– Respuesta en Cuba",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002753",
       "posted": "Thu, 06 Aug 2026 00:00:00 +0000"
     },
     {
@@ -163,24 +181,6 @@
       "remote": true,
       "apply_url": "https://www.research.net/r/AEIPSP26",
       "posted": "Tue, 28 Jul 2026 10:54:02 +0000"
-    },
-    {
-      "title": "Practice & Quality Assurance Coordinator(REACH)",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-reach-753",
-      "posted": "Tue, 28 Jul 2026 03:48:55 +0000"
-    },
-    {
-      "title": "Technical Advisor II – Emergency Response and Recovery, East and Southern Africa (ESARO)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002520",
-      "posted": "Tue, 28 Jul 2026 00:00:00 +0000"
     },
     {
       "title": "Senior Program Manager",
