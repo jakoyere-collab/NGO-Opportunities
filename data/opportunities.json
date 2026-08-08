@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:27:42+00:00",
+  "generated_at": "2026-08-08T16:20:10+00:00",
   "count": 33,
   "opportunities": [
     {
@@ -55,6 +55,15 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002753",
       "posted": "Thu, 06 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Client Experience Agent - Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/client-experience-agent-kano-108",
+      "posted": "Wed, 05 Aug 2026 07:47:32 +0000"
     },
     {
       "title": "Technical Advisor II - Emergency Response and Recovery - LACRO Regional Focal Point",
@@ -300,16 +309,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Sat, 08 Aug 2026 08:27:42 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
       "posted": null,
       "first_seen": "Sat, 08 Aug 2026 08:27:42 +0000"
     }
