@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-07T16:41:16+00:00",
+  "generated_at": "2026-08-08T08:27:42+00:00",
   "count": 33,
   "opportunities": [
+    {
+      "title": "Nigeria State Expansion Specialists",
+      "organization": "One Acre Fund",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://grnh.se/89rn0ly41us",
+      "posted": "Fri, 07 Aug 2026 23:21:43 +0000"
+    },
     {
       "title": "Program Manager I, Emergency Response and Recovery-LACRO",
       "organization": "Catholic Relief Services (CRS)",
@@ -9,6 +18,15 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002631",
+      "posted": "Fri, 07 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor I, MEAL",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002710",
       "posted": "Fri, 07 Aug 2026 00:00:00 +0000"
     },
     {
@@ -156,42 +174,6 @@
       "posted": "Thu, 30 Jul 2026 17:05:21 +0200"
     },
     {
-      "title": "Practice & Quality Assurance Coordinator(REACH)",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-reach-753",
-      "posted": "Wed, 29 Jul 2026 06:37:33 +0000"
-    },
-    {
-      "title": "Client Experience Agent - Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/client-experience-agent-kano-108",
-      "posted": "Wed, 29 Jul 2026 06:08:04 +0000"
-    },
-    {
-      "title": "Medical Doctor- Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
-      "posted": "Wed, 29 Jul 2026 01:22:48 +0000"
-    },
-    {
-      "title": "Community Development Advisor (ILM)",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000140302115",
-      "posted": "Tue, 28 Jul 2026 17:09:27 +0000"
-    },
-    {
       "title": "Senior Program Manager",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -310,6 +292,26 @@
       "apply_url": "https://1.adp.com/5sA7mtIjgfk",
       "posted": null,
       "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Sat, 08 Aug 2026 08:27:42 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Sat, 08 Aug 2026 08:27:42 +0000"
     }
   ]
 }
