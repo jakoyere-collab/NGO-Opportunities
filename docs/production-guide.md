@@ -26,7 +26,7 @@ A repeatable checklist for turning a script in `docs/scripts/` into a published 
 ## 3. Upload checklist
 
 - **Title**: the script's `TITLE:` line.
-- **Description**: the script's `WHATSAPP CAPTION` line + hashtags, plus a link to `https://ngoopportunities.com/opportunities.html`.
+- **Description**: the script's `WHATSAPP CAPTION` line + hashtags, plus a link to `https://ngoopportunities.com/opportunities/`.
 - **Thumbnail**: custom, not auto-generated — logo + a short title phrase (Canva is fine for this).
 - **Playlist**: one per content-plan category (CV Writing, Cover Letters, Interview Prep by Stage, Interview Simulation, NGO Career Tips, Career Growth & Development) — create these once, add every new video to its category playlist.
 - **Audience**: "No, not made for kids."
