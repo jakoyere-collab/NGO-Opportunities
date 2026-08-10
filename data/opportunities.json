@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-10T09:06:45+00:00",
-  "count": 33,
+  "generated_at": "2026-08-10T16:42:23+00:00",
+  "count": 34,
   "opportunities": [
+    {
+      "title": "NIGERIA – DEPUTY COUNTRY DIRECTOR PROGRAMS (M/F) – ABUJA",
+      "organization": "Solidarités International",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://www.solidarites.org/fr/depuis-1980/travailler-avec-nous/offres-emploi/deposer-votre-candidature/?jobId=PA3FK026203F3VBQB6G8N8NVU-116370&amp;langCode=fr_FR",
+      "posted": "Mon, 10 Aug 2026 14:52:16 +0000"
+    },
+    {
+      "title": "The Africa Factchecking Fellowship Cameroon 2026 for young Cameroonians.",
+      "organization": "Africa Factchecking",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://defyhatenow.org/call-for-applications-affcameroon-fellowship-season-2-cohort-1-2026/",
+      "posted": "Mon, 10 Aug 2026 14:26:12 +0000"
+    },
+    {
+      "title": "CHEW - Kuje, Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/chew-kuje-abuja-326",
+      "posted": "Mon, 10 Aug 2026 09:42:56 +0000"
+    },
     {
       "title": "Nigeria State Expansion Specialists",
       "organization": "One Acre Fund",
@@ -165,15 +192,6 @@
       "posted": "Sun, 02 Aug 2026 23:27:00 +0000"
     },
     {
-      "title": "Country Director – Nigeria",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8151106-country-director-nigeria?promotion=2124502-trackable-share-link-reliefweb**](https://jobs.tdh.org/en-GB/jobs/8151106-country-director-nigeria?promotion=2124502-trackable-share-link-reliefweb**](https://jobs.tdh.org/en-GB/jobs/8151106-country-director-nigeria?promotion=2124502-trackable-share-link-reliefweb",
-      "posted": "Fri, 31 Jul 2026 12:23:11 +0000"
-    },
-    {
       "title": "Senior Program Manager",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -302,16 +320,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
       "posted": null,
       "first_seen": "Sat, 08 Aug 2026 08:27:42 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Sun, 09 Aug 2026 16:21:52 +0000"
     }
   ]
 }
