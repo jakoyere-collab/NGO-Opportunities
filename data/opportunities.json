@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-11T08:43:18+00:00",
+  "generated_at": "2026-08-11T16:46:33+00:00",
   "count": 36,
   "opportunities": [
+    {
+      "title": "Driver - Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/driver-kano-552",
+      "posted": "Tue, 11 Aug 2026 09:13:46 +0000"
+    },
+    {
+      "title": "Dental Assistant - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
+      "posted": "Tue, 11 Aug 2026 06:34:47 +0000"
+    },
+    {
+      "title": "Medical Doctor- Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
+      "posted": "Tue, 11 Aug 2026 06:09:00 +0000"
+    },
     {
       "title": "Global Institute Fellowship for Transforming Systems 2026",
       "organization": "GIFTS 2026",
@@ -21,12 +48,75 @@
       "posted": "Tue, 11 Aug 2026 05:29:07 +0000"
     },
     {
+      "title": "Registered Nurse - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-lagos-270",
+      "posted": "Tue, 11 Aug 2026 05:22:42 +0000"
+    },
+    {
+      "title": "Practice & Quality Assurance Coordinator(REACH)",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-reach-753",
+      "posted": "Tue, 11 Aug 2026 04:19:55 +0000"
+    },
+    {
+      "title": "Assistant Manager, Laboratory and Diagnotics",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
+      "posted": "Tue, 11 Aug 2026 04:18:57 +0000"
+    },
+    {
+      "title": "Medical Laboratory Scientist - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
+      "posted": "Tue, 11 Aug 2026 04:11:51 +0000"
+    },
+    {
       "title": "Technical Advisor II - Health System Strengthening (Nigerian Nationals Only)",
       "organization": "Catholic Relief Services (CRS)",
       "type": "Job",
       "location": "Nigeria",
       "remote": false,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002594",
+      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor II - Systems Integration (Nigerian Nationals Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002560",
+      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor II - Service Delivery (Nigerian Nationals Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002593",
+      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Specialist II, Procurement  (Consultancies and Services)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002758",
       "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
     },
     {
@@ -219,16 +309,6 @@
       "posted": "Sun, 02 Aug 2026 23:27:00 +0000"
     },
     {
-      "title": "Senior Program Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/179",
-      "posted": null,
-      "first_seen": "Sat, 01 Aug 2026 09:49:19 +0000"
-    },
-    {
       "title": "Communications Manager",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -247,96 +327,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/181",
       "posted": null,
       "first_seen": "Sun, 02 Aug 2026 16:46:06 +0000"
-    },
-    {
-      "title": "(Assoc) Program Manager, Human Trafficking Research Initiative",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/JfESjehcKHe",
-      "posted": null,
-      "first_seen": "Sun, 02 Aug 2026 16:46:06 +0000"
-    },
-    {
-      "title": "(Senior) Director of Philanthropic Partnerships",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/5VmqrYMw54S",
-      "posted": null,
-      "first_seen": "Mon, 03 Aug 2026 11:12:50 +0000"
-    },
-    {
-      "title": "Data Scientist II",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/rQXCfPjYqPj",
-      "posted": null,
-      "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
-    },
-    {
-      "title": "IT Director",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/Dm42CHrTnP3",
-      "posted": null,
-      "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
-    },
-    {
-      "title": "Senior Consumer Protection Fellow",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/gBhH5GLnQvi",
-      "posted": null,
-      "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
-    },
-    {
-      "title": "Program Associate, Strategic Impact Evaluation and Learning",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/Pwm2QyWcSKS",
-      "posted": null,
-      "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
-    },
-    {
-      "title": "Associate Director, Research",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://1.adp.com/UUm2RiILkwD",
-      "posted": null,
-      "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
-    },
-    {
-      "title": "Associate Research and Policy Manager",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://1.adp.com/XcgGV43rxm3",
-      "posted": null,
-      "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
-    },
-    {
-      "title": "Manager, National Poverty Lab",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://1.adp.com/5sA7mtIjgfk",
-      "posted": null,
-      "first_seen": "Tue, 04 Aug 2026 10:27:30 +0000"
     }
   ]
 }
