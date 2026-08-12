@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-08-11T16:46:33+00:00",
+  "generated_at": "2026-08-12T09:00:17+00:00",
   "count": 36,
   "opportunities": [
+    {
+      "title": "Chief of Party II, ChildSAFE",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002760",
+      "posted": "Wed, 12 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Deputy Chief of Party II - Programming, ChildSAFE",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002762",
+      "posted": "Wed, 12 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor II - MEAL (Nigerian Nationals Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002756",
+      "posted": "Wed, 12 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Project Officer - Safeguarding (Nigerian Nationals Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002757",
+      "posted": "Wed, 12 Aug 2026 00:00:00 +0000"
+    },
     {
       "title": "Driver - Kano",
       "organization": "EHA Clinics",
@@ -117,6 +153,24 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002758",
+      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor II – Emergency Program Response Generalist",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002499",
+      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Advisor I, Knowledge Management and Learning (KML) (US Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002761",
       "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
     },
     {
@@ -264,42 +318,6 @@
       "posted": "Tue, 04 Aug 2026 00:00:00 +0000"
     },
     {
-      "title": "Regional Advisor for Humanitarian Access & Risk for Africa (F/M) – Nigeria or Ethiopia",
-      "organization": "Médecins du Monde",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://apply.workable.com/j/AE72BE3805",
-      "posted": "Mon, 03 Aug 2026 17:25:24 +0000"
-    },
-    {
-      "title": "Manager, Partnerships (Blended Finance)",
-      "organization": "Africa Enterprise Challenge Fund",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://recruitment.aecfafrica.org",
-      "posted": "Mon, 03 Aug 2026 16:47:49 +0000"
-    },
-    {
-      "title": "Medical Laboratory Technician - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
-      "posted": "Mon, 03 Aug 2026 05:36:26 +0000"
-    },
-    {
-      "title": "Technical Advisor III, Development Finance for Water and Environment",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002740",
-      "posted": "Mon, 03 Aug 2026 00:00:00 +0000"
-    },
-    {
       "title": "The FRIAS Sustainable Governance Senior Fellowship Programme 2027/2028 for African Researchers.",
       "organization": "FRIAS Sustainable Governance Senior",
       "type": "Fellowship",
@@ -307,26 +325,6 @@
       "remote": true,
       "apply_url": "https://uni-freiburg.de/frias/call-for-applications-frias-sustainable-governance-fellowship-africa-2027-28/",
       "posted": "Sun, 02 Aug 2026 23:27:00 +0000"
-    },
-    {
-      "title": "Communications Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/180",
-      "posted": null,
-      "first_seen": "Sun, 02 Aug 2026 09:48:32 +0000"
-    },
-    {
-      "title": "Senior HR Manager (Senior HR Business Partner)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/181",
-      "posted": null,
-      "first_seen": "Sun, 02 Aug 2026 16:46:06 +0000"
     }
   ]
 }
