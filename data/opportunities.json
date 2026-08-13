@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-13T09:02:53+00:00",
-  "count": 35,
+  "generated_at": "2026-08-13T16:44:48+00:00",
+  "count": 36,
   "opportunities": [
+    {
+      "title": "Central Bank of Nigeria (CBN) Regulatory Sandbox – Cohort 2",
+      "organization": "CBN Regulatory Sandbox - Cohort 2",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://sandbox-auth.cbn.gov.ng/realms/FSP/protocol/openid-connect/auth?client_id=cbn-fsp-react-auth&amp;redirect_uri=https%3A%2F%2Fsandbox-portal.cbn.gov.ng%2F%3FconfigHash%3D4b25eb2d&amp;response_type=code&amp;scope=openid+profile&amp;state=1e0a74086fc54a969ccd4f5b6ec0de10&amp;code_challenge=hPaZlZvcm1JS4yL1Bio7X-Q-nxdZ2Ae6IZuFhxIKG2k&amp;code_challenge_method=S256&amp;response_mode=query",
+      "posted": "Thu, 13 Aug 2026 12:15:39 +0000"
+    },
+    {
+      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
+      "posted": "Thu, 13 Aug 2026 02:35:14 +0000"
+    },
+    {
+      "title": "Sr Technical Advisor, Child Survival Research",
+      "organization": "Nutrition International",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://apply.workable.com/j/3DADD62701/apply",
+      "posted": "Thu, 13 Aug 2026 00:00:00 +0000"
+    },
     {
       "title": "Registered Nurse - Abuja",
       "organization": "EHA Clinics",
@@ -280,24 +307,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002566",
       "posted": "Thu, 06 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Oficial de Proyecto Senior (MEAL)– Respuesta en Cuba",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002753",
-      "posted": "Thu, 06 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Client Experience Agent - Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/client-experience-agent-kano-108",
-      "posted": "Wed, 05 Aug 2026 07:47:32 +0000"
     },
     {
       "title": "African Academy of Sciences (AAS) Fellowship 2026",
