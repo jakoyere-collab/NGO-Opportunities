@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T16:44:48+00:00",
-  "count": 36,
+  "generated_at": "2026-08-14T08:58:20+00:00",
+  "count": 34,
   "opportunities": [
     {
       "title": "Central Bank of Nigeria (CBN) Regulatory Sandbox – Cohort 2",
@@ -27,6 +27,15 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://apply.workable.com/j/3DADD62701/apply",
+      "posted": "Thu, 13 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "HR Generalist",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002770",
       "posted": "Thu, 13 Aug 2026 00:00:00 +0000"
     },
     {
@@ -298,33 +307,6 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/pharmacy-technician-abuja-635",
       "posted": "Thu, 06 Aug 2026 15:46:19 +0000"
-    },
-    {
-      "title": "Program Manager I, MEAL",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002566",
-      "posted": "Thu, 06 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "African Academy of Sciences (AAS) Fellowship 2026",
-      "organization": "AAS Fellowship 2026",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://nominations.aasciences.africa/login",
-      "posted": "Tue, 04 Aug 2026 01:00:00 +0000"
-    },
-    {
-      "title": "AERC-World Bank Visiting Scholars Program 2026/2027",
-      "organization": "AERC-World Bank Visiting Scholars Program",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://aercafrica.org/opportunities/aerc-world-bank-visiting-scholars-program-2026-call-for-applications/",
-      "posted": "Tue, 04 Aug 2026 00:03:00 +0000"
     }
   ]
 }
