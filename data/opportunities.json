@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-14T16:40:26+00:00",
+  "generated_at": "2026-08-15T08:15:05+00:00",
   "count": 38,
   "opportunities": [
+    {
+      "title": "Human Resource Coordinator (Maternity Cover) – Nationals Only",
+      "organization": "Solidarités International",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://forms.gle/JiWVy3fRZDF5XtnS7",
+      "posted": "Fri, 14 Aug 2026 20:41:55 +0000"
+    },
     {
       "title": "WomenLift Health Southern Africa Leadership Journey 2027 (Fully-funded)",
       "organization": "WomenLift Health Southern Africa Leadership Journey",
@@ -334,15 +343,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002710",
       "posted": "Fri, 07 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Pharmacy Technician - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacy-technician-abuja-635",
-      "posted": "Thu, 06 Aug 2026 15:46:19 +0000"
     }
   ]
 }
