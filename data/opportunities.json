@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-16T16:11:58+00:00",
+  "generated_at": "2026-08-17T08:31:08+00:00",
   "count": 38,
   "opportunities": [
+    {
+      "title": "Regional Senior Finance Officer",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8225496-regional-senior-finance-officer",
+      "posted": "Sun, 16 Aug 2026 13:55:46 +0200"
+    },
     {
       "title": "Human Resource Coordinator (Maternity Cover) – Nationals Only",
       "organization": "Solidarités International",
@@ -327,22 +336,14 @@
       "posted": "Fri, 07 Aug 2026 23:21:43 +0000"
     },
     {
-      "title": "Program Manager I, Emergency Response and Recovery-LACRO",
-      "organization": "Catholic Relief Services (CRS)",
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
       "location": "Regional (incl. Nigeria)",
       "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002631",
-      "posted": "Fri, 07 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor I, MEAL",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002710",
-      "posted": "Fri, 07 Aug 2026 00:00:00 +0000"
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Mon, 17 Aug 2026 08:31:08 +0000"
     }
   ]
 }
