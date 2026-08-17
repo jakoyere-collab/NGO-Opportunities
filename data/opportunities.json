@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-08-17T08:31:08+00:00",
-  "count": 38,
+  "generated_at": "2026-08-17T16:14:56+00:00",
+  "count": 40,
   "opportunities": [
+    {
+      "title": "Ideation Hub Africa (IHA) African Masterclass Series 6.0",
+      "organization": "African Masterclass Series 6.0",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://africanmasterclass.org/ams6/apply-now-for-african-masterclass-series-6/",
+      "posted": "Mon, 17 Aug 2026 09:26:57 +0000"
+    },
+    {
+      "title": "Africa Fellowship for Young Energy Leaders (AFYEL) – Cohort 6",
+      "organization": "Africa Fellowship for Young Energy Leaders",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://afyel.org/",
+      "posted": "Mon, 17 Aug 2026 07:21:11 +0000"
+    },
+    {
+      "title": "Medical Laboratory Scientist - Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-kano-564",
+      "posted": "Mon, 17 Aug 2026 07:06:10 +0000"
+    },
+    {
+      "title": "Project Officer MEAL",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002769",
+      "posted": "Mon, 17 Aug 2026 00:00:00 +0000"
+    },
     {
       "title": "Regional Senior Finance Officer",
       "organization": "Terre des hommes",
@@ -325,25 +361,6 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/chew-kuje-abuja-326",
       "posted": "Mon, 10 Aug 2026 09:42:56 +0000"
-    },
-    {
-      "title": "Nigeria State Expansion Specialists",
-      "organization": "One Acre Fund",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://grnh.se/89rn0ly41us",
-      "posted": "Fri, 07 Aug 2026 23:21:43 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Mon, 17 Aug 2026 08:31:08 +0000"
     }
   ]
 }
