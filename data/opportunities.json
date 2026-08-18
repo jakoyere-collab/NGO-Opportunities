@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-17T16:14:56+00:00",
+  "generated_at": "2026-08-18T08:23:26+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The Emerging Leaders Foundation (ELF) Africa iLead Fellowship Program 2026 for young East Africans.",
+      "organization": "Emerging Leaders Foundation (ELF) Africa iLead",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://elfafrica.org/careers/",
+      "posted": "Mon, 17 Aug 2026 17:11:12 +0000"
+    },
     {
       "title": "Ideation Hub Africa (IHA) African Masterclass Series 6.0",
       "organization": "African Masterclass Series 6.0",
@@ -36,6 +45,15 @@
       "location": "Nigeria",
       "remote": false,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002769",
+      "posted": "Mon, 17 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor I-Shelter & Settlements RAPID",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002777",
       "posted": "Mon, 17 Aug 2026 00:00:00 +0000"
     },
     {
@@ -336,15 +354,6 @@
       "posted": "Mon, 10 Aug 2026 14:52:16 +0000"
     },
     {
-      "title": "The Africa Factchecking Fellowship Cameroon 2026 for young Cameroonians.",
-      "organization": "Africa Factchecking",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://defyhatenow.org/call-for-applications-affcameroon-fellowship-season-2-cohort-1-2026/",
-      "posted": "Mon, 10 Aug 2026 14:26:12 +0000"
-    },
-    {
       "title": "Medical Laboratory Technician - Lagos",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -352,15 +361,6 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
       "posted": "Mon, 10 Aug 2026 11:06:47 +0000"
-    },
-    {
-      "title": "CHEW - Kuje, Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/chew-kuje-abuja-326",
-      "posted": "Mon, 10 Aug 2026 09:42:56 +0000"
     }
   ]
 }
