@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-18T08:23:26+00:00",
+  "generated_at": "2026-08-18T16:19:10+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "AWARD Leadership Program for Emerging African Women in Science 2026",
+      "organization": "AWARD Leadership Program",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://awardfellowships.org/news/the-call-for-the-2026-award-leadership-program-for-emerging-african-women-in-agricultural-sciences-open/",
+      "posted": "Tue, 18 Aug 2026 08:18:53 +0000"
+    },
+    {
+      "title": "Senior Coordinator, Talent Management",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/senior-coordinator-talent-management-941",
+      "posted": "Tue, 18 Aug 2026 06:45:04 +0000"
+    },
     {
       "title": "The Emerging Leaders Foundation (ELF) Africa iLead Fellowship Program 2026 for young East Africans.",
       "organization": "Emerging Leaders Foundation (ELF) Africa iLead",
@@ -228,6 +246,15 @@
       "posted": "Tue, 11 Aug 2026 06:34:47 +0000"
     },
     {
+      "title": "CHEW - Kuje, Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/chew-kuje-abuja-326",
+      "posted": "Tue, 11 Aug 2026 06:19:36 +0000"
+    },
+    {
       "title": "Medical Doctor- Lagos",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -244,15 +271,6 @@
       "remote": true,
       "apply_url": "https://www.tfaforms.com/5224944",
       "posted": "Tue, 11 Aug 2026 06:00:34 +0000"
-    },
-    {
-      "title": "WomHub Accelerating African Female Founders to Capital Programme 2026",
-      "organization": "WomHub Accelerating African Female Founders to Capital Programme",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.womhub.com/acceleratetocapitalprogramme.html",
-      "posted": "Tue, 11 Aug 2026 05:29:07 +0000"
     },
     {
       "title": "Registered Nurse - Lagos",
@@ -343,24 +361,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002761",
       "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "NIGERIA – DEPUTY COUNTRY DIRECTOR PROGRAMS (M/F) – ABUJA",
-      "organization": "Solidarités International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://www.solidarites.org/fr/depuis-1980/travailler-avec-nous/offres-emploi/deposer-votre-candidature/?jobId=PA3FK026203F3VBQB6G8N8NVU-116370&amp;langCode=fr_FR",
-      "posted": "Mon, 10 Aug 2026 14:52:16 +0000"
-    },
-    {
-      "title": "Medical Laboratory Technician - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
-      "posted": "Mon, 10 Aug 2026 11:06:47 +0000"
     }
   ]
 }
