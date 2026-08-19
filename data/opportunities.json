@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:19:10+00:00",
+  "generated_at": "2026-08-19T08:23:45+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -55,6 +55,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-kano-564",
       "posted": "Mon, 17 Aug 2026 07:06:10 +0000"
+    },
+    {
+      "title": "Medical Laboratory Technician - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
+      "posted": "Mon, 17 Aug 2026 06:06:10 +0000"
     },
     {
       "title": "Project Officer MEAL",
@@ -351,15 +360,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002499",
-      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Advisor I, Knowledge Management and Learning (KML) (US Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002761",
       "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
     }
   ]
