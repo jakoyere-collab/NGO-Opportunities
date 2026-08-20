@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-19T16:19:07+00:00",
+  "generated_at": "2026-08-20T08:24:56+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The African Union Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 for youth- and women-led small enterprises.",
+      "organization": "African Union Enterprise Africa Network (EAN)",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://au.int/en/announcement/call-applications-enterprise-africa-network-ean-fellowship-programme-cohort-2-202627",
+      "posted": "Wed, 19 Aug 2026 17:55:34 +0000"
+    },
     {
       "title": "Pulitzer Center Lavwa Lenpak – Africa Content Creators Program 2026",
       "organization": "Pulitzer Center",
@@ -154,15 +163,6 @@
       "remote": true,
       "apply_url": "https://www.womenlifthealth.org/2027-eastern-africa-leadership-journey/#apply",
       "posted": "Fri, 14 Aug 2026 09:12:44 +0000"
-    },
-    {
-      "title": "Central Bank of Nigeria (CBN) Regulatory Sandbox – Cohort 2",
-      "organization": "CBN Regulatory Sandbox - Cohort 2",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://sandbox-auth.cbn.gov.ng/realms/FSP/protocol/openid-connect/auth?client_id=cbn-fsp-react-auth&amp;redirect_uri=https%3A%2F%2Fsandbox-portal.cbn.gov.ng%2F%3FconfigHash%3D4b25eb2d&amp;response_type=code&amp;scope=openid+profile&amp;state=1e0a74086fc54a969ccd4f5b6ec0de10&amp;code_challenge=hPaZlZvcm1JS4yL1Bio7X-Q-nxdZ2Ae6IZuFhxIKG2k&amp;code_challenge_method=S256&amp;response_mode=query",
-      "posted": "Thu, 13 Aug 2026 12:15:39 +0000"
     },
     {
       "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
