@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-20T08:24:56+00:00",
+  "generated_at": "2026-08-20T16:21:46+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "AU Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 [Cohort 2]",
+      "organization": "AU Enterprise Africa Network (EAN) Fellowship",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.jotform.com/form/261954212716053",
+      "posted": "Thu, 20 Aug 2026 08:26:03 +0000"
+    },
+    {
+      "title": "Client Experience Agent - Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/client-experience-agent-kano-108",
+      "posted": "Thu, 20 Aug 2026 07:25:51 +0000"
+    },
     {
       "title": "The African Union Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 for youth- and women-led small enterprises.",
       "organization": "African Union Enterprise Africa Network (EAN)",
@@ -154,15 +172,6 @@
       "remote": true,
       "apply_url": "https://www.womenlifthealth.org/2027-nigeria-leadership-journey/#apply",
       "posted": "Fri, 14 Aug 2026 09:29:59 +0000"
-    },
-    {
-      "title": "WomenLift Health Eastern Africa Leadership Journey 2027 (Fully-funded)",
-      "organization": "WomenLift Health Eastern Africa Leadership Journey",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.womenlifthealth.org/2027-eastern-africa-leadership-journey/#apply",
-      "posted": "Fri, 14 Aug 2026 09:12:44 +0000"
     },
     {
       "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
@@ -351,15 +360,6 @@
       "location": "Nigeria",
       "remote": false,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002593",
-      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Specialist II, Procurement  (Consultancies and Services)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002758",
       "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
     }
   ]
