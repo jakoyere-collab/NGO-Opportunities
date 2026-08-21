@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T16:21:46+00:00",
+  "generated_at": "2026-08-21T08:26:51+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -19,6 +19,24 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/client-experience-agent-kano-108",
       "posted": "Thu, 20 Aug 2026 07:25:51 +0000"
+    },
+    {
+      "title": "Logistics Manager – In-Country Log.",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002580",
+      "posted": "Thu, 20 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Humanitarian Operations Technical Advisor I, RAPID EMEA",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002607",
+      "posted": "Thu, 20 Aug 2026 00:00:00 +0000"
     },
     {
       "title": "The African Union Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 for youth- and women-led small enterprises.",
@@ -273,94 +291,84 @@
       "posted": "Tue, 11 Aug 2026 09:13:46 +0000"
     },
     {
-      "title": "Dental Assistant - Lagos",
-      "organization": "EHA Clinics",
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
-      "posted": "Tue, 11 Aug 2026 06:34:47 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
     },
     {
-      "title": "CHEW - Kuje, Abuja",
-      "organization": "EHA Clinics",
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/chew-kuje-abuja-326",
-      "posted": "Tue, 11 Aug 2026 06:19:36 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
     },
     {
-      "title": "Medical Doctor- Lagos",
-      "organization": "EHA Clinics",
+      "title": "Senior Research Manager",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
-      "posted": "Tue, 11 Aug 2026 06:09:00 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/161",
+      "posted": null,
+      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
     },
     {
-      "title": "Registered Nurse - Lagos",
-      "organization": "EHA Clinics",
+      "title": "Communications Manager",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-lagos-270",
-      "posted": "Tue, 11 Aug 2026 05:22:42 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/180",
+      "posted": null,
+      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
     },
     {
-      "title": "Practice & Quality Assurance Coordinator(REACH)",
-      "organization": "EHA Clinics",
+      "title": "Senior HR Manager (Senior HR Business Partner)",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-reach-753",
-      "posted": "Tue, 11 Aug 2026 04:19:55 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/181",
+      "posted": null,
+      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
     },
     {
-      "title": "Assistant Manager, Laboratory and Diagnotics",
-      "organization": "EHA Clinics",
+      "title": "Data Scientist / Senior Data Scientist",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
-      "posted": "Tue, 11 Aug 2026 04:18:57 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/182",
+      "posted": null,
+      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
     },
     {
-      "title": "Medical Laboratory Scientist - Lagos",
-      "organization": "EHA Clinics",
+      "title": "Director / Associate Director, Research-Informed Delivery",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
-      "posted": "Tue, 11 Aug 2026 04:11:51 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/183",
+      "posted": null,
+      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
     },
     {
-      "title": "Technical Advisor II - Health System Strengthening (Nigerian Nationals Only)",
-      "organization": "Catholic Relief Services (CRS)",
+      "title": "Senior Program Manager, Embedded Government Team Lead",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002594",
-      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor II - Systems Integration (Nigerian Nationals Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002560",
-      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor II - Service Delivery (Nigerian Nationals Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002593",
-      "posted": "Tue, 11 Aug 2026 00:00:00 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/184",
+      "posted": null,
+      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
     }
   ]
 }
