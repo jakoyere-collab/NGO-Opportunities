@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:17:32+00:00",
+  "generated_at": "2026-08-22T16:11:30+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -309,15 +309,6 @@
       "posted": "Thu, 13 Aug 2026 00:00:00 +0000"
     },
     {
-      "title": "Registered Nurse - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-abuja-584",
-      "posted": "Wed, 12 Aug 2026 08:36:49 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -366,6 +357,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/181",
       "posted": null,
       "first_seen": "Sat, 22 Aug 2026 08:17:32 +0000"
+    },
+    {
+      "title": "Data Scientist / Senior Data Scientist",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/182",
+      "posted": null,
+      "first_seen": "Sat, 22 Aug 2026 16:11:30 +0000"
     }
   ]
 }
