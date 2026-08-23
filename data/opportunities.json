@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T16:11:30+00:00",
+  "generated_at": "2026-08-23T08:17:52+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -282,33 +282,6 @@
       "posted": "Fri, 14 Aug 2026 09:29:59 +0000"
     },
     {
-      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
-      "posted": "Thu, 13 Aug 2026 02:35:14 +0000"
-    },
-    {
-      "title": "Sr Technical Advisor, Child Survival Research",
-      "organization": "Nutrition International",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://apply.workable.com/j/3DADD62701/apply",
-      "posted": "Thu, 13 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "HR Generalist",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002770",
-      "posted": "Thu, 13 Aug 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -367,6 +340,36 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/182",
       "posted": null,
       "first_seen": "Sat, 22 Aug 2026 16:11:30 +0000"
+    },
+    {
+      "title": "Director / Associate Director, Research-Informed Delivery",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/183",
+      "posted": null,
+      "first_seen": "Sun, 23 Aug 2026 08:17:52 +0000"
+    },
+    {
+      "title": "Senior Program Manager, Embedded Government Team Lead",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/184",
+      "posted": null,
+      "first_seen": "Sun, 23 Aug 2026 08:17:52 +0000"
+    },
+    {
+      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
+      "posted": "",
+      "first_seen": "Sun, 23 Aug 2026 08:17:52 +0000"
     }
   ]
 }
