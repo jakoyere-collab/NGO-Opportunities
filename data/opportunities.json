@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-24T08:35:51+00:00",
-  "count": 40,
+  "generated_at": "2026-08-24T16:23:59+00:00",
+  "count": 37,
   "opportunities": [
+    {
+      "title": "Evaluation finale externe du projet AGROFEM-Tchad",
+      "organization": "Handicap International – Humanity & Inclusion",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://www.hi.org/fr/appels-d-offres#260824https://www.hi.org/fr/appels-d-offres#260824",
+      "posted": "Mon, 24 Aug 2026 15:27:41 +0000"
+    },
+    {
+      "title": "Senior Finance Officer, Nigeria - Readvertisement",
+      "organization": "Nutrition International",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://apply.workable.com/j/C696AF3D16/apply",
+      "posted": "Mon, 24 Aug 2026 00:00:00 +0000"
+    },
     {
       "title": "Program Manager – Nigeria",
       "organization": "INTERSOS",
@@ -255,33 +273,6 @@
       "posted": "Fri, 14 Aug 2026 20:41:55 +0000"
     },
     {
-      "title": "WomenLift Health Southern Africa Leadership Journey 2027 (Fully-funded)",
-      "organization": "WomenLift Health Southern Africa Leadership Journey",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.womenlifthealth.org/2027-southern-africa-leadership-journey/#apply",
-      "posted": "Fri, 14 Aug 2026 10:23:17 +0000"
-    },
-    {
-      "title": "MORE HEALTH for Africa Program 2026 [Cohort 3]",
-      "organization": "MORE HEALTH for Africa Program 2026",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://app.babele.co/application-definition/1012",
-      "posted": "Fri, 14 Aug 2026 09:59:45 +0000"
-    },
-    {
-      "title": "WomenLift Health Nigeria Leadership Journey 2027 (Fully-funded)",
-      "organization": "WomenLift Health Nigeria Leadership Journey",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.womenlifthealth.org/2027-nigeria-leadership-journey/#apply",
-      "posted": "Fri, 14 Aug 2026 09:29:59 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -349,26 +340,6 @@
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/183",
       "posted": null,
-      "first_seen": "Sun, 23 Aug 2026 08:17:52 +0000"
-    },
-    {
-      "title": "Senior Program Manager, Embedded Government Team Lead",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/184",
-      "posted": null,
-      "first_seen": "Sun, 23 Aug 2026 08:17:52 +0000"
-    },
-    {
-      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
-      "posted": "",
       "first_seen": "Sun, 23 Aug 2026 08:17:52 +0000"
     }
   ]
