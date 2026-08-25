@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T16:23:59+00:00",
+  "generated_at": "2026-08-25T08:29:47+00:00",
   "count": 37,
   "opportunities": [
     {
@@ -264,15 +264,6 @@
       "posted": "Sun, 16 Aug 2026 13:55:46 +0200"
     },
     {
-      "title": "Human Resource Coordinator (Maternity Cover) – Nationals Only",
-      "organization": "Solidarités International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://forms.gle/JiWVy3fRZDF5XtnS7",
-      "posted": "Fri, 14 Aug 2026 20:41:55 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -341,6 +332,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/183",
       "posted": null,
       "first_seen": "Sun, 23 Aug 2026 08:17:52 +0000"
+    },
+    {
+      "title": "Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/179",
+      "posted": null,
+      "first_seen": "Tue, 25 Aug 2026 08:29:47 +0000"
     }
   ]
 }
