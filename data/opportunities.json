@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-08-26T08:31:03+00:00",
+  "generated_at": "2026-08-26T16:42:15+00:00",
   "count": 39,
   "opportunities": [
+    {
+      "title": "Medical Laboratory Scientist - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
+      "posted": "Wed, 26 Aug 2026 09:45:49 +0000"
+    },
+    {
+      "title": "CHEW - Kuje, Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/chew-kuje-abuja-326",
+      "posted": "Wed, 26 Aug 2026 06:07:09 +0000"
+    },
+    {
+      "title": "Medical Doctor- Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
+      "posted": "Wed, 26 Aug 2026 06:06:20 +0000"
+    },
+    {
+      "title": "Registered Nurse - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-abuja-584",
+      "posted": "Wed, 26 Aug 2026 06:00:06 +0000"
+    },
+    {
+      "title": "Dental Assistant - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
+      "posted": "Wed, 26 Aug 2026 05:57:44 +0000"
+    },
+    {
+      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
+      "posted": "Wed, 26 Aug 2026 05:55:54 +0000"
+    },
     {
       "title": "Data Enumerator (DTM)",
       "organization": "CTG (Committed To Good)",
@@ -298,64 +352,6 @@
       "remote": false,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002769",
       "posted": "Mon, 17 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor I-Shelter & Settlements RAPID",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002777",
-      "posted": "Mon, 17 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Regional Senior Finance Officer",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8225496-regional-senior-finance-officer",
-      "posted": "Sun, 16 Aug 2026 13:55:46 +0200"
-    },
-    {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
-    },
-    {
-      "title": "Senior Research Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/161",
-      "posted": null,
-      "first_seen": "Fri, 21 Aug 2026 08:26:51 +0000"
-    },
-    {
-      "title": "Communications Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/180",
-      "posted": null,
-      "first_seen": "Sat, 22 Aug 2026 08:17:32 +0000"
     }
   ]
 }
