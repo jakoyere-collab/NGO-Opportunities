@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-25T16:24:34+00:00",
+  "generated_at": "2026-08-26T08:31:03+00:00",
   "count": 39,
   "opportunities": [
+    {
+      "title": "Data Enumerator (DTM)",
+      "organization": "CTG (Committed To Good)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://app.tayohr.io/jobs/detail/vac-69960-data-enumerator-dtm-68646",
+      "posted": "Tue, 25 Aug 2026 17:38:54 +0000"
+    },
+    {
+      "title": "Nigeria Tech Specialist (Fixed-term)",
+      "organization": "One Acre Fund",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://grnh.se/c792jpv91us",
+      "posted": "Tue, 25 Aug 2026 16:47:10 +0000"
+    },
     {
       "title": "SheLeadsAfrica (SLA) BoostHer Program 2026",
       "organization": "SheLeadsAfrica (SLA) BoostHer Program",
@@ -338,26 +356,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/180",
       "posted": null,
       "first_seen": "Sat, 22 Aug 2026 08:17:32 +0000"
-    },
-    {
-      "title": "Senior HR Manager (Senior HR Business Partner)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/181",
-      "posted": null,
-      "first_seen": "Sat, 22 Aug 2026 08:17:32 +0000"
-    },
-    {
-      "title": "Data Scientist / Senior Data Scientist",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/182",
-      "posted": null,
-      "first_seen": "Sat, 22 Aug 2026 16:11:30 +0000"
     }
   ]
 }
