@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-26T16:42:15+00:00",
-  "count": 39,
+  "generated_at": "2026-08-27T18:30:20+00:00",
+  "count": 35,
   "opportunities": [
+    {
+      "title": "Assistant Manager, Laboratory and Diagnotics",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
+      "posted": "Thu, 27 Aug 2026 06:15:00 +0000"
+    },
+    {
+      "title": "Senior Officer, Client Engagement -Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-engagement-lagos-654",
+      "posted": "Thu, 27 Aug 2026 06:08:23 +0000"
+    },
     {
       "title": "Medical Laboratory Scientist - Abuja",
       "organization": "EHA Clinics",
@@ -55,6 +73,42 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
       "posted": "Wed, 26 Aug 2026 05:55:54 +0000"
+    },
+    {
+      "title": "Humanitarian Procurement Manager I, remote support for Cuba",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002579",
+      "posted": "Wed, 26 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor I, MEAL",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002710",
+      "posted": "Wed, 26 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Roving Supply Chain Advisor – Field Support (Global Remote) ENGLISH & ARABIC REQUIRED",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002801",
+      "posted": "Wed, 26 Aug 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor I, Supply Chain Management CVA (Global Remote) - ENGLISH & FRENCH REQUIRED",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002802",
+      "posted": "Wed, 26 Aug 2026 00:00:00 +0000"
     },
     {
       "title": "Data Enumerator (DTM)",
@@ -255,15 +309,6 @@
       "posted": "Wed, 19 Aug 2026 08:51:30 +0000"
     },
     {
-      "title": "Finance Officer - Malawi",
-      "organization": "Nutrition International",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://apply.workable.com/j/4FE52E8C60/apply",
-      "posted": "Wed, 19 Aug 2026 00:00:00 +0000"
-    },
-    {
       "title": "AWARD Leadership Program for Emerging African Women in Science 2026",
       "organization": "AWARD Leadership Program",
       "type": "Fellowship",
@@ -271,87 +316,6 @@
       "remote": true,
       "apply_url": "https://awardfellowships.org/news/the-call-for-the-2026-award-leadership-program-for-emerging-african-women-in-agricultural-sciences-open/",
       "posted": "Tue, 18 Aug 2026 08:18:53 +0000"
-    },
-    {
-      "title": "Senior Coordinator, Talent Management",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/senior-coordinator-talent-management-941",
-      "posted": "Tue, 18 Aug 2026 06:45:04 +0000"
-    },
-    {
-      "title": "The Emerging Leaders Foundation (ELF) Africa iLead Fellowship Program 2026 for young East Africans.",
-      "organization": "Emerging Leaders Foundation (ELF) Africa iLead",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://elfafrica.org/careers/",
-      "posted": "Mon, 17 Aug 2026 17:11:12 +0000"
-    },
-    {
-      "title": "Ideation Hub Africa (IHA) African Masterclass Series 6.0",
-      "organization": "African Masterclass Series 6.0",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://africanmasterclass.org/ams6/apply-now-for-african-masterclass-series-6/",
-      "posted": "Mon, 17 Aug 2026 09:26:57 +0000"
-    },
-    {
-      "title": "Africa Fellowship for Young Energy Leaders (AFYEL) – Cohort 6",
-      "organization": "Africa Fellowship for Young Energy Leaders",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://afyel.org/",
-      "posted": "Mon, 17 Aug 2026 07:21:11 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-kano-564",
-      "posted": "Mon, 17 Aug 2026 07:06:10 +0000"
-    },
-    {
-      "title": "Medical Laboratory Technician - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
-      "posted": "Mon, 17 Aug 2026 06:06:10 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
-      "posted": "Mon, 17 Aug 2026 04:06:10 +0000"
-    },
-    {
-      "title": "AAUW’s International Fellowship Program 2026/2027 for Masters, Doctoral & Post-Doctoral Study in the United States (Funded)",
-      "organization": "AAUW’s International",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.ed.gov/accreditation",
-      "posted": "Mon, 17 Aug 2026 01:56:00 +0000"
-    },
-    {
-      "title": "Project Officer MEAL",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002769",
-      "posted": "Mon, 17 Aug 2026 00:00:00 +0000"
     }
   ]
 }
