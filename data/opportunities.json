@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-08-27T18:30:20+00:00",
-  "count": 35,
+  "generated_at": "2026-08-28T19:45:35+00:00",
+  "count": 39,
   "opportunities": [
+    {
+      "title": "The Cybersafe x SANS AI Security Fellowship 2026 for African women in cybersecurity (Fully Funded)",
+      "organization": "Cybersafe x SANS AI Security",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://cybersafefoundation.org/",
+      "posted": "Fri, 28 Aug 2026 19:21:26 +0000"
+    },
+    {
+      "title": "Logistics Coordinator – M/F",
+      "organization": "ALIMA – The Alliance for International Medical Action",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "http://alliance.alima.ngo/jobs/logistics-coordinator-m-f-517?utm_campaign=Job+Campaign&amp;utm_medium=Website&amp;utm_source=Reliefweb",
+      "posted": "Fri, 28 Aug 2026 17:36:18 +0000"
+    },
+    {
+      "title": "Cybersafe x SANS AI Security Fellowship 2026 (Fully-funded)",
+      "organization": "Cybersafe x SANS AI Security Fellowship",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://cybersafefoundation.org/cybersafe-x-sans-ai-security-application/",
+      "posted": "Fri, 28 Aug 2026 16:57:28 +0000"
+    },
+    {
+      "title": "Berenson Fellowship 2027-2028 at Harvard University (Funded)",
+      "organization": "Berenson Fellowship",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://itatti.slideroom.com/#/login/program/90662",
+      "posted": "Fri, 28 Aug 2026 15:31:08 +0000"
+    },
+    {
+      "title": "World Conference of Science Journalists (WCSJ) 2027 Travel Fellowship for Journalists (Fully Funded to London, United Kingdom)",
+      "organization": "World Conference of Science Journalists (WCSJ) 2027 Travel",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.gov.uk/check-uk-visa",
+      "posted": "Fri, 28 Aug 2026 11:32:59 +0000"
+    },
+    {
+      "title": "The African Investigative Journalism Conference (AIJC) Fellowships 2026 for Francophone Journalists (Fully Funded to Nairobi, Kenya)",
+      "organization": "African Investigative Journalism Conference (AIJC)",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://aijc.africa/",
+      "posted": "Thu, 27 Aug 2026 19:26:41 +0000"
+    },
+    {
+      "title": "Senior Coordinator, Talent Management",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/senior-coordinator-talent-management-941",
+      "posted": "Thu, 27 Aug 2026 08:26:05 +0000"
+    },
     {
       "title": "Assistant Manager, Laboratory and Diagnotics",
       "organization": "EHA Clinics",
@@ -12,6 +75,24 @@
       "posted": "Thu, 27 Aug 2026 06:15:00 +0000"
     },
     {
+      "title": "Medical Laboratory Scientist - Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-kano-564",
+      "posted": "Thu, 27 Aug 2026 06:14:16 +0000"
+    },
+    {
+      "title": "Medical Laboratory Scientist - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
+      "posted": "Thu, 27 Aug 2026 06:13:37 +0000"
+    },
+    {
       "title": "Senior Officer, Client Engagement -Lagos",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -19,6 +100,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-engagement-lagos-654",
       "posted": "Thu, 27 Aug 2026 06:08:23 +0000"
+    },
+    {
+      "title": "Medical Laboratory Technician - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
+      "posted": "Thu, 27 Aug 2026 06:07:19 +0000"
     },
     {
       "title": "Medical Laboratory Scientist - Abuja",
@@ -237,24 +327,6 @@
       "posted": "Fri, 21 Aug 2026 00:00:00 +0000"
     },
     {
-      "title": "Advisor II, Project Management - (US Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002792",
-      "posted": "Fri, 21 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Programs Coordinator - Syria",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8250008-programs-coordinator-syria",
-      "posted": "Thu, 20 Aug 2026 17:48:21 +0200"
-    },
-    {
       "title": "AU Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 [Cohort 2]",
       "organization": "AU Enterprise Africa Network (EAN) Fellowship",
       "type": "Fellowship",
@@ -262,33 +334,6 @@
       "remote": true,
       "apply_url": "https://www.jotform.com/form/261954212716053",
       "posted": "Thu, 20 Aug 2026 08:26:03 +0000"
-    },
-    {
-      "title": "Client Experience Agent - Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/client-experience-agent-kano-108",
-      "posted": "Thu, 20 Aug 2026 07:25:51 +0000"
-    },
-    {
-      "title": "Logistics Manager – In-Country Log.",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002580",
-      "posted": "Thu, 20 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Humanitarian Operations Technical Advisor I, RAPID EMEA",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002607",
-      "posted": "Thu, 20 Aug 2026 00:00:00 +0000"
     },
     {
       "title": "The African Union Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 for youth- and women-led small enterprises.",
@@ -307,15 +352,6 @@
       "remote": true,
       "apply_url": "https://pulitzercenter.org/blog/call-applications-lavwa-lenpak-2026",
       "posted": "Wed, 19 Aug 2026 08:51:30 +0000"
-    },
-    {
-      "title": "AWARD Leadership Program for Emerging African Women in Science 2026",
-      "organization": "AWARD Leadership Program",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://awardfellowships.org/news/the-call-for-the-2026-award-leadership-program-for-emerging-african-women-in-agricultural-sciences-open/",
-      "posted": "Tue, 18 Aug 2026 08:18:53 +0000"
     }
   ]
 }
