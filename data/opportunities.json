@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T19:45:35+00:00",
-  "count": 39,
+  "generated_at": "2026-08-29T13:28:24+00:00",
+  "count": 38,
   "opportunities": [
     {
       "title": "The Cybersafe x SANS AI Security Fellowship 2026 for African women in cybersecurity (Fully Funded)",
@@ -46,6 +46,15 @@
       "remote": true,
       "apply_url": "https://www.gov.uk/check-uk-visa",
       "posted": "Fri, 28 Aug 2026 11:32:59 +0000"
+    },
+    {
+      "title": "Business Development Focal Point, Global Opportunities",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002812",
+      "posted": "Fri, 28 Aug 2026 00:00:00 +0000"
     },
     {
       "title": "The African Investigative Journalism Conference (AIJC) Fellowships 2026 for Francophone Journalists (Fully Funded to Nairobi, Kenya)",
@@ -318,15 +327,6 @@
       "posted": "Fri, 21 Aug 2026 00:00:00 +0000"
     },
     {
-      "title": "Advisor II, Award Management Advisor, World Bank/Multi-lateral Development Banks - (US Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002791",
-      "posted": "Fri, 21 Aug 2026 00:00:00 +0000"
-    },
-    {
       "title": "AU Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 [Cohort 2]",
       "organization": "AU Enterprise Africa Network (EAN) Fellowship",
       "type": "Fellowship",
@@ -343,15 +343,6 @@
       "remote": true,
       "apply_url": "https://au.int/en/announcement/call-applications-enterprise-africa-network-ean-fellowship-programme-cohort-2-202627",
       "posted": "Wed, 19 Aug 2026 17:55:34 +0000"
-    },
-    {
-      "title": "Pulitzer Center Lavwa Lenpak – Africa Content Creators Program 2026",
-      "organization": "Pulitzer Center",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://pulitzercenter.org/blog/call-applications-lavwa-lenpak-2026",
-      "posted": "Wed, 19 Aug 2026 08:51:30 +0000"
     }
   ]
 }
