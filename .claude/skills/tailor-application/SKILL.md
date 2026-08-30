@@ -99,6 +99,15 @@ is a convenience, not a requirement.
    essential gaps. It's fine to draft the parts that don't depend on them
    while waiting.
 
+   When the user's answer reveals real experience that isn't in their
+   master CV (`_master-cv.*` at the toolkit's data root, alongside
+   `Inbox`/`Applications`/`Output`) — not just useful for this one
+   application — say so and offer to add it there too. That's what makes it
+   carry into future applications automatically instead of the same gap
+   question repeating every time a similar role comes up. Only edit the
+   master CV with the user's go-ahead, since it's their canonical CV, not
+   just this draft.
+
 5. **Draft `cv-tailored.md`.** Reorder and re-emphasize real content so the
    most JD-relevant experience and bullets lead — don't invent content to
    fill gaps. Mirror the JD's own terminology only where the underlying
