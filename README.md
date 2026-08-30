@@ -9,6 +9,7 @@ Grew out of a WhatsApp community of 500+ members sharing NGO job opportunities.
 - `index.html` / `styles.css` — static landing page (hero, topic overview, About, link to the YouTube channel).
 - `docs/content-plan.md` — the episode roadmap for the video series.
 - `docs/scripts/` — example fully written video scripts.
+- `job-application-toolkit/` — personal PowerShell + Claude workflow for tailoring a CV, cover letter, and other JD-required materials to one job at a time. See its own [README](job-application-toolkit/README.md).
 
 ## Running locally
 

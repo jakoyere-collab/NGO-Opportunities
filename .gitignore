@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Job Application Toolkit — personal CVs, job descriptions, and drafted
+# application text. Never publish this to the public repo.
+job-application-toolkit/applications/
