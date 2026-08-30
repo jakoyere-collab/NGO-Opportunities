@@ -80,15 +80,21 @@ foreach ($md in $mdFiles) {
         try {
             $word = New-Object -ComObject Word.Application
             $word.Visible = $false
+            $word.DisplayAlerts = 0  # wdAlertsNone -- an invisible Word instance must never be able to block on a dialog it can't show
             $doc = $word.Documents.Add()
             $doc.Content.Text = Get-Content -Raw $md.FullName
-            $doc.SaveAs([ref] $outPath, [ref] 16)  # 16 = wdFormatXMLDocument (.docx)
+            # Deliberately just the filename, no FileFormat argument: Word
+            # infers .docx from the extension, and PowerShell's late-bound
+            # COM dispatch has been unreliable here with an explicit
+            # [ref]-wrapped FileFormat value (throws "Exception setting
+            # SaveAs: Cannot convert ... psobject to Object" in practice).
+            $doc.SaveAs([string]$outPath)
             $doc.Close()
             $word.Quit()
             [System.Runtime.InteropServices.Marshal]::ReleaseComObject($word) | Out-Null
             Write-Host "Exported $($md.Name) -> $outPath (via Word - plain text only, no Markdown formatting; install pandoc for proper formatting: https://pandoc.org/installing.html)" -ForegroundColor Yellow
         } catch {
-            Write-Warning "Word automation unavailable or failed for $($md.Name): $_"
+            Write-Warning "Word automation unavailable or failed for $($md.Name): $_. This path is fragile across Word/PowerShell versions -- installing pandoc (winget install --id JohnMacFarlane.Pandoc) sidesteps it entirely and is the more reliable option."
         }
     } else {
         Write-Host "Couldn't convert $($md.Name) automatically (no pandoc, no Word found). Open it and paste into Word/Google Docs, or install pandoc: https://pandoc.org/installing.html" -ForegroundColor Yellow
