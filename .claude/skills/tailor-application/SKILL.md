@@ -24,12 +24,17 @@ and is never committed — treat everything in it as private. It contains:
 - `gap-questions.md` — where you'll log unanswered requirements
 - `notes.md` — deadline, referees, and other non-written requirements
 
-If the `.extracted.txt` file is missing or empty, text extraction failed
-(likely a scanned PDF) — ask the user to paste the text in rather than
-guessing at content from the filename. If there's no application folder at
-all and the user has just pasted a JD and CV directly into the
-conversation, work from that instead; the file layout is a convenience, not
-a requirement.
+If the `.extracted.txt` file is missing or empty, New-Application.ps1's own
+text extraction failed — commonly a `.pdf` with no `pdftotext` installed on
+the user's machine, sometimes a scanned PDF with no text layer at all.
+Don't ask the user to paste text in as a first resort: try reading the
+original `job-description.*` / `cv-source.*` file directly yourself first —
+a `.pdf` is directly readable, a `.docx` needs the `docx` skill. Only if
+that also fails (genuinely a scanned/image PDF with no text layer) ask the
+user to paste the text in — never guess at content from the filename. If
+there's no application folder at all and the user has just pasted a JD and
+CV directly into the conversation, work from that instead; the file layout
+is a convenience, not a requirement.
 
 ## Non-negotiable rules
 
