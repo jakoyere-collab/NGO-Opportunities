@@ -2,5 +2,13 @@ __pycache__/
 *.pyc
 
 # Job Application Toolkit — personal CVs, job descriptions, and drafted
-# application text. Never publish this to the public repo.
+# application text. This now defaults to a location OUTSIDE the repo
+# (Desktop\JobApplications — see job-application-toolkit/README.md), but
+# these patterns stay as a safety net in case it's ever pointed inside the
+# repo by mistake ($env:JOB_APP_TOOLKIT_HOME).
 job-application-toolkit/applications/
+job-application-toolkit/Inbox/
+job-application-toolkit/Applications/
+job-application-toolkit/Output/
+job-application-toolkit/_master-cv.*
+job-application-toolkit/tracker.csv

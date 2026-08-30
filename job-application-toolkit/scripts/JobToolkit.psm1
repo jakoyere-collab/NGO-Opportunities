@@ -11,16 +11,42 @@ into each script.
 function Get-ToolkitRoot {
     # $PSScriptRoot here is this module's own folder (scripts/), regardless
     # of which script imported it or what the caller's working directory is.
+    # This is the *code* location (templates live here) — never personal data.
     Split-Path -Parent $PSScriptRoot
 }
 
-function Get-ApplicationsRoot {
-    $root = Join-Path (Get-ToolkitRoot) 'applications'
-    if (-not (Test-Path $root)) {
-        New-Item -ItemType Directory -Path $root | Out-Null
+function Get-DataRoot {
+    <#
+    .SYNOPSIS
+    Resolves (and creates, on first call) the local folder that holds your
+    real CVs, job descriptions, and drafted application text.
+
+    .DESCRIPTION
+    Deliberately outside the git repo — this is personal data, and the repo
+    is public. Defaults to <your Desktop>\JobApplications, resolved via
+    .NET's SpecialFolder API (so it lands in the right place even when
+    Desktop is OneDrive-redirected, common on managed Windows machines).
+    Override by setting $env:JOB_APP_TOOLKIT_HOME before running a script,
+    e.g. in your PowerShell profile: $env:JOB_APP_TOOLKIT_HOME = 'D:\JobApps'
+    #>
+    $root = if ($env:JOB_APP_TOOLKIT_HOME) {
+        $env:JOB_APP_TOOLKIT_HOME
+    } else {
+        $desktop = [Environment]::GetFolderPath([Environment+SpecialFolder]::Desktop)
+        Join-Path $desktop 'JobApplications'
+    }
+    foreach ($sub in 'Inbox', 'Applications', 'Output') {
+        $subPath = Join-Path $root $sub
+        if (-not (Test-Path $subPath)) {
+            New-Item -ItemType Directory -Path $subPath -Force | Out-Null
+        }
     }
     $root
 }
+
+function Get-InboxRoot { Join-Path (Get-DataRoot) 'Inbox' }
+function Get-ApplicationsFolderRoot { Join-Path (Get-DataRoot) 'Applications' }
+function Get-OutputRoot { Join-Path (Get-DataRoot) 'Output' }
 
 function New-SlugName {
     param(
@@ -134,5 +160,6 @@ function Get-PlainTextFromFile {
 }
 
 Export-ModuleMember -Function `
-    Get-ToolkitRoot, Get-ApplicationsRoot, New-SlugName, Test-CommandExists, `
+    Get-ToolkitRoot, Get-DataRoot, Get-InboxRoot, Get-ApplicationsFolderRoot, Get-OutputRoot, `
+    New-SlugName, Test-CommandExists, `
     Get-PlainTextFromFile, ConvertFrom-DocxToText, ConvertFrom-PdfToText

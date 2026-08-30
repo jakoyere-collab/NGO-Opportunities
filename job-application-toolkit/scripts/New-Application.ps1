@@ -1,21 +1,30 @@
 <#
 .SYNOPSIS
-Starts a new tailored job application: creates a working folder, copies in
-the job description and CV, and extracts plain text from each where possible.
+Starts a new tailored job application from whatever's in your Inbox folder,
+or from explicit file paths.
 
 .DESCRIPTION
-Run this first for every new application. It only does the mechanical
-part — folder setup, copying files, best-effort text extraction. It never
-writes the tailored CV or cover letter itself; that's done by Claude,
-following the rules in .claude/skills/tailor-application/SKILL.md, using the
-files this script lays down. See ../README.md for the full workflow.
+Default flow: drop the job description (and, first time only, your CV) into
+<data root>\Inbox, then run this with no arguments. It picks the files up,
+creates a new application folder under <data root>\Applications, copies
+them in, extracts plain text where possible, saves/updates your reusable
+master CV, and clears Inbox back out.
+
+<data root> defaults to Desktop\JobApplications and is created
+automatically outside this git repo — see JobToolkit.psm1's Get-DataRoot
+and ../README.md. This script never writes the tailored CV or cover letter
+itself; that's done by Claude, following the rules in
+.claude/skills/tailor-application/SKILL.md.
+
+Your CV file needs "cv" or "resume" somewhere in its filename so it can be
+told apart from the job description automatically — anything else dropped
+in Inbox is treated as the job description.
 
 .PARAMETER JobDescriptionPath
-Path to the job description file (.txt, .md, .docx, or .pdf).
+Optional. Path to the job description file. Overrides scanning the Inbox.
 
 .PARAMETER CvPath
-Path to your CV (.txt, .md, .docx, or .pdf). Optional after the first run —
-if omitted, the toolkit reuses the master CV saved from a previous run.
+Optional. Path to your CV. Overrides scanning the Inbox / the saved master CV.
 
 .PARAMETER Company
 Organization name, used to name the application folder. Prompted for if
@@ -25,15 +34,15 @@ omitted.
 Role title, used to name the application folder. Prompted for if omitted.
 
 .EXAMPLE
-./New-Application.ps1 -JobDescriptionPath ~/Downloads/jd.pdf -CvPath ~/Documents/CV.docx -Company "Save the Children" -Role "MEAL Officer"
+./New-Application.ps1
+# Picks up whatever's sitting in Inbox.
 
 .EXAMPLE
-./New-Application.ps1 -JobDescriptionPath ~/Downloads/jd2.pdf -Company "Mercy Corps" -Role "Program Officer"
-# Reuses the master CV saved by the first run above.
+./New-Application.ps1 -JobDescriptionPath ~/Downloads/jd.pdf -CvPath ~/Documents/CV.docx -Company "Save the Children" -Role "MEAL Officer"
 #>
 [CmdletBinding()]
 param(
-    [Parameter(Mandatory)] [string] $JobDescriptionPath,
+    [string] $JobDescriptionPath,
     [string] $CvPath,
     [string] $Company,
     [string] $Role
@@ -42,15 +51,43 @@ param(
 $ErrorActionPreference = 'Stop'
 Import-Module (Join-Path $PSScriptRoot 'JobToolkit.psm1') -Force
 
+$dataRoot = Get-DataRoot
+$inboxDir = Get-InboxRoot
+$appsDir = Get-ApplicationsFolderRoot
+
+# Files to clear from Inbox once the application folder is safely set up —
+# only populated with files this run actually pulled *from* Inbox, never
+# from explicit -JobDescriptionPath/-CvPath arguments.
+$inboxMoves = @()
+
+if (-not $JobDescriptionPath -or -not $CvPath) {
+    $inboxFiles = Get-ChildItem $inboxDir -File -ErrorAction SilentlyContinue
+    $inboxCv = $inboxFiles | Where-Object { $_.BaseName -match '(?i)cv|resume' } | Select-Object -First 1
+    $inboxJds = $inboxFiles | Where-Object { $_.FullName -ne $inboxCv.FullName }
+
+    if (-not $JobDescriptionPath) {
+        if ($inboxJds.Count -eq 0) {
+            throw "No job description found in Inbox ($inboxDir). Drop the JD file in there (and your CV too, first time) and run this again — or pass -JobDescriptionPath."
+        }
+        if ($inboxJds.Count -gt 1) {
+            throw "More than one file in Inbox that doesn't look like your CV — process one job description at a time. Files seen: $($inboxJds.Name -join ', '). If one of these is actually your CV, rename it to include 'cv' or 'resume', or pass -CvPath explicitly."
+        }
+        $JobDescriptionPath = $inboxJds[0].FullName
+        $inboxMoves += $inboxJds[0].FullName
+    }
+    if (-not $CvPath -and $inboxCv) {
+        $CvPath = $inboxCv.FullName
+        $inboxMoves += $inboxCv.FullName
+    }
+}
+
 if (-not (Test-Path $JobDescriptionPath)) {
     throw "Job description not found: $JobDescriptionPath"
 }
 
-$appsRoot = Get-ApplicationsRoot
-$masterCv = Get-ChildItem $appsRoot -Filter '_master-cv.*' -File -ErrorAction SilentlyContinue | Select-Object -First 1
-
+$masterCv = Get-ChildItem $dataRoot -Filter '_master-cv.*' -File -ErrorAction SilentlyContinue | Select-Object -First 1
 if (-not $CvPath -and -not $masterCv) {
-    throw "No -CvPath given and no saved master CV found yet. Pass -CvPath the first time you run this."
+    throw "No CV found in Inbox and no saved master CV yet. Drop your CV into Inbox ($inboxDir) alongside the job description, or pass -CvPath."
 }
 if (-not $CvPath) {
     $CvPath = $masterCv.FullName
@@ -67,11 +104,11 @@ $date = Get-Date -Format 'yyyy-MM-dd'
 $baseName = "$($date)_$(New-SlugName $Company)_$(New-SlugName $Role)"
 $folderName = $baseName
 $suffix = 1
-while (Test-Path (Join-Path $appsRoot $folderName)) {
+while (Test-Path (Join-Path $appsDir $folderName)) {
     $suffix++
     $folderName = "$baseName-$suffix"
 }
-$appFolder = Join-Path $appsRoot $folderName
+$appFolder = Join-Path $appsDir $folderName
 New-Item -ItemType Directory -Path $appFolder | Out-Null
 
 $jdExt = [System.IO.Path]::GetExtension($JobDescriptionPath)
@@ -79,9 +116,11 @@ $cvExt = [System.IO.Path]::GetExtension($CvPath)
 Copy-Item $JobDescriptionPath (Join-Path $appFolder "job-description$jdExt")
 Copy-Item $CvPath (Join-Path $appFolder "cv-source$cvExt")
 
-if (-not $masterCv) {
-    Copy-Item $CvPath (Join-Path $appsRoot "_master-cv$cvExt")
-    Write-Host "Saved this CV as your reusable master CV (applications/_master-cv$cvExt) — future runs can omit -CvPath."
+# A CV pulled from Inbox is a deliberate "use/update this from now on" signal;
+# an explicit -CvPath one-off isn't — it doesn't silently become the default.
+if (-not $masterCv -or $inboxMoves -contains $CvPath) {
+    Copy-Item $CvPath (Join-Path $dataRoot "_master-cv$cvExt") -Force
+    Write-Host "Saved/updated your master CV (JobApplications\_master-cv$cvExt) — future runs reuse it automatically."
 }
 
 $jdText = Get-PlainTextFromFile (Join-Path $appFolder "job-description$jdExt")
@@ -103,11 +142,15 @@ Copy-Item (Join-Path $templatesDir 'notes-template.md') (Join-Path $appFolder 'n
     Folder  = $folderName
     Company = $Company
     Role    = $Role
-} | Export-Csv -Path (Join-Path $appsRoot 'tracker.csv') -Append -NoTypeInformation -Encoding utf8
+} | Export-Csv -Path (Join-Path $dataRoot 'tracker.csv') -Append -NoTypeInformation -Encoding utf8
+
+foreach ($path in $inboxMoves) {
+    Remove-Item $path -Force -ErrorAction SilentlyContinue
+}
 
 Write-Host ''
 Write-Host "Created $appFolder" -ForegroundColor Green
-Write-Host "Next: open this repo in Claude Code and ask it to tailor the application in applications/$folderName"
+Write-Host "Next: open Claude Code in this project folder and ask it to tailor the application in Applications\$folderName"
 Write-Host '      (it will follow .claude/skills/tailor-application/SKILL.md, and will ask you before assuming any skill your CV doesn''t already show).'
 if (-not $jdText) {
     Write-Host "Note: couldn't auto-extract the job description text — paste it into job-description.extracted.txt yourself before asking Claude to draft anything." -ForegroundColor Yellow

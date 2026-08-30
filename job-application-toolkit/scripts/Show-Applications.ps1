@@ -15,8 +15,14 @@ param()
 $ErrorActionPreference = 'Stop'
 Import-Module (Join-Path $PSScriptRoot 'JobToolkit.psm1') -Force
 
-$appsRoot = Get-ApplicationsRoot
-$folders = Get-ChildItem $appsRoot -Directory -ErrorAction SilentlyContinue
+$dataRoot = Get-DataRoot
+Write-Host "Data root: $dataRoot" -ForegroundColor DarkGray
+Write-Host "  Inbox -> drop a new job description (+ CV, first time) here"  -ForegroundColor DarkGray
+Write-Host "  Output -> finished .docx files land here"                    -ForegroundColor DarkGray
+Write-Host ''
+
+$appsDir = Get-ApplicationsFolderRoot
+$folders = Get-ChildItem $appsDir -Directory -ErrorAction SilentlyContinue
 
 if (-not $folders) {
     Write-Host 'No applications yet. Run New-Application.ps1 to start one.'

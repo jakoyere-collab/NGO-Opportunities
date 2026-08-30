@@ -12,8 +12,12 @@ be able to defend everything in an interview.
 
 ## Inputs
 
-Usually a folder under `job-application-toolkit/applications/<name>/`
-created by `New-Application.ps1`, containing:
+Usually a folder created by `New-Application.ps1`, named
+`<name>/` under the toolkit's data root — by default
+`Desktop\JobApplications\Applications\<name>\` on the user's own machine
+(configurable via `$env:JOB_APP_TOOLKIT_HOME`; see
+`job-application-toolkit/README.md`). This folder is outside the git repo
+and is never committed — treat everything in it as private. It contains:
 
 - `job-description.*` / `job-description.extracted.txt` — the JD
 - `cv-source.*` / `cv-source.extracted.txt` — the candidate's real CV
