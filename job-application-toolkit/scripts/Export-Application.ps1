@@ -67,7 +67,7 @@ function Get-DocLabel([string] $Stem) {
 }
 
 $usePandoc = Test-CommandExists 'pandoc'
-$isWindowsHost = ($PSVersionTable.PSEdition -eq 'Desktop') -or ($IsWindows -eq $true)
+$isWindowsHost = Test-WindowsHost
 
 foreach ($md in $mdFiles) {
     $stem = [System.IO.Path]::GetFileNameWithoutExtension($md.Name)

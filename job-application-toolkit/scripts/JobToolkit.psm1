@@ -70,6 +70,13 @@ function Test-CommandExists {
     [bool](Get-Command $Name -ErrorAction SilentlyContinue)
 }
 
+function Test-WindowsHost {
+    # $IsWindows is a PowerShell 7+ automatic variable and doesn't exist in
+    # Windows PowerShell 5.1 -- but 5.1's PSEdition is always 'Desktop',
+    # which only ever runs on Windows, so that alone covers it there.
+    ($PSVersionTable.PSEdition -eq 'Desktop') -or ($IsWindows -eq $true)
+}
+
 function ConvertFrom-DocxToText {
     <#
     .SYNOPSIS
@@ -164,5 +171,5 @@ function Get-PlainTextFromFile {
 
 Export-ModuleMember -Function `
     Get-ToolkitRoot, Get-DataRoot, Get-InboxRoot, Get-ApplicationsFolderRoot, Get-OutputRoot, `
-    New-SlugName, Test-CommandExists, `
+    New-SlugName, Test-CommandExists, Test-WindowsHost, `
     Get-PlainTextFromFile, ConvertFrom-DocxToText, ConvertFrom-PdfToText

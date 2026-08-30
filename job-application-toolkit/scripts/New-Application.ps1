@@ -142,10 +142,19 @@ foreach ($path in $inboxMoves) {
     Remove-Item $path -Force -ErrorAction SilentlyContinue
 }
 
+$tailorMessage = "Tailor the application in Applications\$folderName"
+
 Write-Host ''
 Write-Host "Created $appFolder" -ForegroundColor Green
-Write-Host "Next: open Claude Code in this project folder and ask it to tailor the application in Applications\$folderName"
-Write-Host '      (it will follow .claude/skills/tailor-application/SKILL.md, and will ask you before assuming any skill your CV doesn''t already show).'
+Write-Host ''
+Write-Host 'Next: paste this into the Claude Code chat panel (it will follow .claude/skills/tailor-application/SKILL.md, and will ask you before assuming any skill your CV doesn''t already show):'
+Write-Host "  $tailorMessage" -ForegroundColor Cyan
+
+if ((Test-WindowsHost) -and (Test-CommandExists 'Set-Clipboard')) {
+    Set-Clipboard -Value $tailorMessage
+    Write-Host '(already copied to your clipboard -- switch to the chat and paste with Ctrl+V)' -ForegroundColor DarkGray
+}
+
 if (-not $jdText) {
     Write-Host "Note: couldn't auto-extract the job description text - paste it into job-description.extracted.txt yourself before asking Claude to draft anything." -ForegroundColor Yellow
 }
