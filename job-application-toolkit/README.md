@@ -77,9 +77,10 @@ that's unavoidable for AI-quality writing, no matter which tool does it.
 ## Workflow
 
 1. **Drop files into Inbox.** Find `Desktop\JobApplications\Inbox\` (created
-   automatically the first time you run any script) and drop the job
-   description file in. The first time only, also drop your CV in —
-   **its filename needs "cv" or "resume" in it** (e.g. `CV.docx`,
+   automatically the first time you run any script) and drop in **both**
+   the job description and your CV, every time — nothing is remembered
+   between applications, so this is required on every run, not just the
+   first. Your CV's filename needs "cv" or "resume" in it (e.g. `CV.docx`,
    `JaneDoe_Resume.pdf`) so the script can tell it apart from the job
    description automatically. Any other file in Inbox is treated as the JD,
    so keep only one job description in there at a time.
@@ -92,11 +93,9 @@ that's unavoidable for AI-quality writing, no matter which tool does it.
    It'll ask for the organization name and role title, then create
    `Applications\2026-08-30_save-the-children_meal-officer\` with the JD,
    your CV, best-effort extracted plain text for both, and empty
-   `gap-questions.md` / `notes.md` files — and clears Inbox back out. Your
-   CV is also saved as a reusable master CV, so future runs only need the
-   JD dropped in.
+   `gap-questions.md` / `notes.md` files — and clears Inbox back out.
    (You can skip Inbox entirely and pass explicit paths instead:
-   `./New-Application.ps1 -JobDescriptionPath ~/Downloads/jd.pdf -Company "Save the Children" -Role "MEAL Officer"`.)
+   `./New-Application.ps1 -JobDescriptionPath ~/Downloads/jd.pdf -CvPath ~/Documents/CV.docx -Company "Save the Children" -Role "MEAL Officer"`.)
 
 3. **Ask Claude to tailor it.** In Claude Code, from this project folder,
    say something like *"tailor the application in
@@ -146,10 +145,9 @@ job-application-toolkit/              (in the git repo — code only)
     └── notes-template.md
 
 Desktop\JobApplications\              (on your machine only — never in git)
-├── Inbox\                             — drop a new JD (+ CV, first time) here
+├── Inbox\                             — drop the JD + your CV here, every time
 ├── Applications\
 │   └── <date>_<org>_<role>\           — one folder per application
 ├── Output\                            — finished .docx files, ready to review/submit
-├── _master-cv.*                       — your saved CV, reused across applications
 └── tracker.csv                        — simple log of every application started
 ```

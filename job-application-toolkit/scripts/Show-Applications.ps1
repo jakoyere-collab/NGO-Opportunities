@@ -17,7 +17,7 @@ Import-Module (Join-Path $PSScriptRoot 'JobToolkit.psm1') -Force
 
 $dataRoot = Get-DataRoot
 Write-Host "Data root: $dataRoot" -ForegroundColor DarkGray
-Write-Host "  Inbox -> drop a new job description (+ CV, first time) here"  -ForegroundColor DarkGray
+Write-Host "  Inbox -> drop the job description + your CV here, every time"  -ForegroundColor DarkGray
 Write-Host "  Output -> finished .docx files land here"                    -ForegroundColor DarkGray
 Write-Host ''
 

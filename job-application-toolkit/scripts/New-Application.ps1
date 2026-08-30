@@ -4,11 +4,14 @@ Starts a new tailored job application from whatever's in your Inbox folder,
 or from explicit file paths.
 
 .DESCRIPTION
-Default flow: drop the job description (and, first time only, your CV) into
-<data root>\Inbox, then run this with no arguments. It picks the files up,
+Default flow: drop the job description AND your CV into <data root>\Inbox
+every time, then run this with no arguments. It picks the files up,
 creates a new application folder under <data root>\Applications, copies
-them in, extracts plain text where possible, saves/updates your reusable
-master CV, and clears Inbox back out.
+them in, extracts plain text where possible, and clears Inbox back out.
+
+Nothing is remembered between runs -- every application needs its own CV
+dropped in, even if it's the same file as last time. There's no saved
+"master CV" this reuses on your behalf.
 
 <data root> defaults to Desktop\JobApplications and is created
 automatically outside this git repo - see JobToolkit.psm1's Get-DataRoot
@@ -24,7 +27,7 @@ in Inbox is treated as the job description.
 Optional. Path to the job description file. Overrides scanning the Inbox.
 
 .PARAMETER CvPath
-Optional. Path to your CV. Overrides scanning the Inbox / the saved master CV.
+Optional. Path to your CV. Overrides scanning the Inbox.
 
 .PARAMETER Company
 Organization name, used to name the application folder. Prompted for if
@@ -35,7 +38,7 @@ Role title, used to name the application folder. Prompted for if omitted.
 
 .EXAMPLE
 ./New-Application.ps1
-# Picks up whatever's sitting in Inbox.
+# Picks up the JD and CV sitting in Inbox.
 
 .EXAMPLE
 ./New-Application.ps1 -JobDescriptionPath ~/Downloads/jd.pdf -CvPath ~/Documents/CV.docx -Company "Save the Children" -Role "MEAL Officer"
@@ -67,7 +70,7 @@ if (-not $JobDescriptionPath -or -not $CvPath) {
 
     if (-not $JobDescriptionPath) {
         if ($inboxJds.Count -eq 0) {
-            throw "No job description found in Inbox ($inboxDir). Drop the JD file in there (and your CV too, first time) and run this again - or pass -JobDescriptionPath."
+            throw "No job description found in Inbox ($inboxDir). Drop the JD file (and your CV) in there and run this again - or pass -JobDescriptionPath."
         }
         if ($inboxJds.Count -gt 1) {
             throw "More than one file in Inbox that doesn't look like your CV - process one job description at a time. Files seen: $($inboxJds.Name -join ', '). If one of these is actually your CV, rename it to include 'cv' or 'resume', or pass -CvPath explicitly."
@@ -85,13 +88,8 @@ if (-not (Test-Path $JobDescriptionPath)) {
     throw "Job description not found: $JobDescriptionPath"
 }
 
-$masterCv = Get-ChildItem $dataRoot -Filter '_master-cv.*' -File -ErrorAction SilentlyContinue | Select-Object -First 1
-if (-not $CvPath -and -not $masterCv) {
-    throw "No CV found in Inbox and no saved master CV yet. Drop your CV into Inbox ($inboxDir) alongside the job description, or pass -CvPath."
-}
 if (-not $CvPath) {
-    $CvPath = $masterCv.FullName
-    Write-Host "Using saved master CV: $CvPath"
+    throw "No CV found in Inbox ($inboxDir). Drop your CV in there too (filename must contain 'cv' or 'resume'), or pass -CvPath."
 }
 if (-not (Test-Path $CvPath)) {
     throw "CV not found: $CvPath"
@@ -118,13 +116,6 @@ $jdExt = [System.IO.Path]::GetExtension($JobDescriptionPath)
 $cvExt = [System.IO.Path]::GetExtension($CvPath)
 Copy-Item $JobDescriptionPath (Join-Path $appFolder "job-description$jdExt")
 Copy-Item $CvPath (Join-Path $appFolder "cv-source$cvExt")
-
-# A CV pulled from Inbox is a deliberate "use/update this from now on" signal;
-# an explicit -CvPath one-off isn't - it doesn't silently become the default.
-if (-not $masterCv -or $inboxMoves -contains $CvPath) {
-    Copy-Item $CvPath (Join-Path $dataRoot "_master-cv$cvExt") -Force
-    Write-Host "Saved/updated your master CV (JobApplications\_master-cv$cvExt) - future runs reuse it automatically."
-}
 
 $jdText = Get-PlainTextFromFile (Join-Path $appFolder "job-description$jdExt")
 if ($jdText) {
