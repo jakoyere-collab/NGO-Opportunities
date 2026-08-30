@@ -8,12 +8,12 @@ download from.
 Looks for cv-tailored.md, cover-letter.md, and any other drafted *.md file
 in the application folder (e.g. selection-criteria.md). For each, writes a
 matching .docx into that application's own export/ subfolder, then copies
-it into <data root>\Output with a descriptive name — that's the one folder
+it into <data root>\Output with a descriptive name - that's the one folder
 to check after running this.
 
 Prefers pandoc, if installed, for full Markdown formatting fidelity (bold,
 headings, bullets). Falls back to Microsoft Word automation on Windows when
-pandoc isn't found — plain text only, no Markdown formatting carries over.
+pandoc isn't found - plain text only, no Markdown formatting carries over.
 With neither available, leaves the Markdown as-is and explains how to
 convert it by hand.
 
@@ -86,7 +86,7 @@ foreach ($md in $mdFiles) {
             $doc.Close()
             $word.Quit()
             [System.Runtime.InteropServices.Marshal]::ReleaseComObject($word) | Out-Null
-            Write-Host "Exported $($md.Name) -> $outPath (via Word — plain text only, no Markdown formatting; install pandoc for proper formatting: https://pandoc.org/installing.html)" -ForegroundColor Yellow
+            Write-Host "Exported $($md.Name) -> $outPath (via Word - plain text only, no Markdown formatting; install pandoc for proper formatting: https://pandoc.org/installing.html)" -ForegroundColor Yellow
         } catch {
             Write-Warning "Word automation unavailable or failed for $($md.Name): $_"
         }

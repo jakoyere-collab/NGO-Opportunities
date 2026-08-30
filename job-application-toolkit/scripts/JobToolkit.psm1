@@ -3,7 +3,7 @@
 Shared helper functions used by the Job Application Toolkit scripts.
 
 .DESCRIPTION
-Not run directly — imported by New-Application.ps1, Export-Application.ps1,
+Not run directly - imported by New-Application.ps1, Export-Application.ps1,
 and Show-Applications.ps1. Keeping these here once instead of copy-pasted
 into each script.
 #>
@@ -11,7 +11,7 @@ into each script.
 function Get-ToolkitRoot {
     # $PSScriptRoot here is this module's own folder (scripts/), regardless
     # of which script imported it or what the caller's working directory is.
-    # This is the *code* location (templates live here) — never personal data.
+    # This is the *code* location (templates live here) - never personal data.
     Split-Path -Parent $PSScriptRoot
 }
 
@@ -22,7 +22,7 @@ function Get-DataRoot {
     real CVs, job descriptions, and drafted application text.
 
     .DESCRIPTION
-    Deliberately outside the git repo — this is personal data, and the repo
+    Deliberately outside the git repo - this is personal data, and the repo
     is public. Defaults to <your Desktop>\JobApplications, resolved via
     .NET's SpecialFolder API (so it lands in the right place even when
     Desktop is OneDrive-redirected, common on managed Windows machines).
@@ -74,7 +74,7 @@ function ConvertFrom-DocxToText {
     <#
     .SYNOPSIS
     Best-effort plain-text extraction from a .docx by reading its
-    word/document.xml directly — a .docx is just a zip archive, so this
+    word/document.xml directly - a .docx is just a zip archive, so this
     needs no external dependency (pandoc, Word, etc.), only .NET's
     built-in ZipFile class.
     #>
@@ -112,14 +112,14 @@ function ConvertFrom-PdfToText {
     .SYNOPSIS
     Extracts text from a PDF via pdftotext (poppler-utils) if it's on PATH.
     There's no dependency-free way to parse PDF text in plain PowerShell, so
-    this degrades honestly — it warns and returns nothing rather than
-    guessing — when pdftotext isn't installed, or when the PDF is a scanned
+    this degrades honestly - it warns and returns nothing rather than
+    guessing - when pdftotext isn't installed, or when the PDF is a scanned
     image with no text layer at all.
     #>
     param([Parameter(Mandatory)] [string] $Path)
 
     if (-not (Test-CommandExists 'pdftotext')) {
-        Write-Warning "pdftotext not found (install poppler-utils to auto-extract PDF text: e.g. 'winget install poppler' / 'brew install poppler' / 'apt install poppler-utils'). Skipping extraction for $Path — paste the text in manually, or convert it to .docx/.txt first."
+        Write-Warning "pdftotext not found (install poppler-utils to auto-extract PDF text: e.g. 'winget install poppler' / 'brew install poppler' / 'apt install poppler-utils'). Skipping extraction for $Path - paste the text in manually, or convert it to .docx/.txt first."
         return $null
     }
     $tmp = [System.IO.Path]::GetTempFileName()
@@ -127,7 +127,7 @@ function ConvertFrom-PdfToText {
         & pdftotext -layout $Path $tmp 2>$null
         $text = Get-Content -Raw -ErrorAction SilentlyContinue $tmp
         if ([string]::IsNullOrWhiteSpace($text)) {
-            Write-Warning "pdftotext returned no text for $Path — it may be a scanned image with no text layer. Paste the text in manually."
+            Write-Warning "pdftotext returned no text for $Path - it may be a scanned image with no text layer. Paste the text in manually."
             return $null
         }
         $text
@@ -141,7 +141,7 @@ function Get-PlainTextFromFile {
     .SYNOPSIS
     Best-effort plain-text extraction dispatched by file extension.
     Returns $null (with a warning already printed) when extraction isn't
-    possible — callers should treat that as "ask the user to paste it in",
+    possible - callers should treat that as "ask the user to paste it in",
     never as empty-but-fine.
     #>
     param([Parameter(Mandatory)] [string] $Path)

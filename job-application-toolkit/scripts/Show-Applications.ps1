@@ -3,7 +3,7 @@
 Lists every application folder with a live status.
 
 .DESCRIPTION
-Status is computed from what files actually exist in each folder — not from
+Status is computed from what files actually exist in each folder - not from
 a hand-maintained field that can drift out of date as you go.
 
 .EXAMPLE
@@ -36,7 +36,7 @@ $rows = foreach ($folder in $folders) {
     $openGaps = 0
     $gapFile = Join-Path $folder.FullName 'gap-questions.md'
     if (Test-Path $gapFile) {
-        # Named $gapMatches, not $matches — the latter is PowerShell's automatic
+        # Named $gapMatches, not $matches - the latter is PowerShell's automatic
         # variable for -match results and shadowing it here would be a footgun.
         $gapMatches = Select-String -Path $gapFile -Pattern '^\s*-\s*\[\s\]' -ErrorAction SilentlyContinue
         $openGaps = @($gapMatches).Count
@@ -52,7 +52,7 @@ $rows = foreach ($folder in $folders) {
         if (-not $hasJd -or -not $hasCv) { 'Incomplete intake' }
         elseif ($openGaps -gt 0) { "Awaiting your input ($openGaps open question$(if ($openGaps -ne 1) { 's' }))" }
         elseif (-not $hasCvDraft -or -not $hasCoverLetter) { 'Ready to draft' }
-        elseif (-not $hasExport) { 'Drafted — not yet exported' }
+        elseif (-not $hasExport) { 'Drafted - not yet exported' }
         else { 'Exported' }
 
     [pscustomobject]@{
@@ -63,6 +63,6 @@ $rows = foreach ($folder in $folders) {
 
 # Piped through Out-String with an explicit width rather than left to
 # Format-Table's own console-width autodetection, which renders blank in a
-# non-interactive host (no real console/PTY) — e.g. redirected output or
+# non-interactive host (no real console/PTY) - e.g. redirected output or
 # scheduled automation, not just a normal interactive terminal.
 $rows | Sort-Object Application -Descending | Format-Table -AutoSize | Out-String -Width 200 | Write-Host

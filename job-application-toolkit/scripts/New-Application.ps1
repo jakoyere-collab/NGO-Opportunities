@@ -11,13 +11,13 @@ them in, extracts plain text where possible, saves/updates your reusable
 master CV, and clears Inbox back out.
 
 <data root> defaults to Desktop\JobApplications and is created
-automatically outside this git repo — see JobToolkit.psm1's Get-DataRoot
+automatically outside this git repo - see JobToolkit.psm1's Get-DataRoot
 and ../README.md. This script never writes the tailored CV or cover letter
 itself; that's done by Claude, following the rules in
 .claude/skills/tailor-application/SKILL.md.
 
 Your CV file needs "cv" or "resume" somewhere in its filename so it can be
-told apart from the job description automatically — anything else dropped
+told apart from the job description automatically - anything else dropped
 in Inbox is treated as the job description.
 
 .PARAMETER JobDescriptionPath
@@ -55,7 +55,7 @@ $dataRoot = Get-DataRoot
 $inboxDir = Get-InboxRoot
 $appsDir = Get-ApplicationsFolderRoot
 
-# Files to clear from Inbox once the application folder is safely set up —
+# Files to clear from Inbox once the application folder is safely set up -
 # only populated with files this run actually pulled *from* Inbox, never
 # from explicit -JobDescriptionPath/-CvPath arguments.
 $inboxMoves = @()
@@ -67,10 +67,10 @@ if (-not $JobDescriptionPath -or -not $CvPath) {
 
     if (-not $JobDescriptionPath) {
         if ($inboxJds.Count -eq 0) {
-            throw "No job description found in Inbox ($inboxDir). Drop the JD file in there (and your CV too, first time) and run this again — or pass -JobDescriptionPath."
+            throw "No job description found in Inbox ($inboxDir). Drop the JD file in there (and your CV too, first time) and run this again - or pass -JobDescriptionPath."
         }
         if ($inboxJds.Count -gt 1) {
-            throw "More than one file in Inbox that doesn't look like your CV — process one job description at a time. Files seen: $($inboxJds.Name -join ', '). If one of these is actually your CV, rename it to include 'cv' or 'resume', or pass -CvPath explicitly."
+            throw "More than one file in Inbox that doesn't look like your CV - process one job description at a time. Files seen: $($inboxJds.Name -join ', '). If one of these is actually your CV, rename it to include 'cv' or 'resume', or pass -CvPath explicitly."
         }
         $JobDescriptionPath = $inboxJds[0].FullName
         $inboxMoves += $inboxJds[0].FullName
@@ -100,7 +100,7 @@ if (-not (Test-Path $CvPath)) {
 if (-not $Company) { $Company = Read-Host 'Organization name' }
 if (-not $Role) { $Role = Read-Host 'Role title' }
 if ([string]::IsNullOrWhiteSpace($Company) -or [string]::IsNullOrWhiteSpace($Role)) {
-    throw "Organization name and role title can't be blank — rerun and provide both (or pass -Company/-Role)."
+    throw "Organization name and role title can't be blank - rerun and provide both (or pass -Company/-Role)."
 }
 
 $date = Get-Date -Format 'yyyy-MM-dd'
@@ -120,10 +120,10 @@ Copy-Item $JobDescriptionPath (Join-Path $appFolder "job-description$jdExt")
 Copy-Item $CvPath (Join-Path $appFolder "cv-source$cvExt")
 
 # A CV pulled from Inbox is a deliberate "use/update this from now on" signal;
-# an explicit -CvPath one-off isn't — it doesn't silently become the default.
+# an explicit -CvPath one-off isn't - it doesn't silently become the default.
 if (-not $masterCv -or $inboxMoves -contains $CvPath) {
     Copy-Item $CvPath (Join-Path $dataRoot "_master-cv$cvExt") -Force
-    Write-Host "Saved/updated your master CV (JobApplications\_master-cv$cvExt) — future runs reuse it automatically."
+    Write-Host "Saved/updated your master CV (JobApplications\_master-cv$cvExt) - future runs reuse it automatically."
 }
 
 $jdText = Get-PlainTextFromFile (Join-Path $appFolder "job-description$jdExt")
@@ -156,8 +156,8 @@ Write-Host "Created $appFolder" -ForegroundColor Green
 Write-Host "Next: open Claude Code in this project folder and ask it to tailor the application in Applications\$folderName"
 Write-Host '      (it will follow .claude/skills/tailor-application/SKILL.md, and will ask you before assuming any skill your CV doesn''t already show).'
 if (-not $jdText) {
-    Write-Host "Note: couldn't auto-extract the job description text — paste it into job-description.extracted.txt yourself before asking Claude to draft anything." -ForegroundColor Yellow
+    Write-Host "Note: couldn't auto-extract the job description text - paste it into job-description.extracted.txt yourself before asking Claude to draft anything." -ForegroundColor Yellow
 }
 if (-not $cvText) {
-    Write-Host "Note: couldn't auto-extract the CV text — paste it into cv-source.extracted.txt yourself before asking Claude to draft anything." -ForegroundColor Yellow
+    Write-Host "Note: couldn't auto-extract the CV text - paste it into cv-source.extracted.txt yourself before asking Claude to draft anything." -ForegroundColor Yellow
 }
