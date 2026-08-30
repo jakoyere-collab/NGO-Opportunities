@@ -61,4 +61,8 @@ $rows = foreach ($folder in $folders) {
     }
 }
 
-$rows | Sort-Object Application -Descending | Format-Table -AutoSize
+# Piped through Out-String with an explicit width rather than left to
+# Format-Table's own console-width autodetection, which renders blank in a
+# non-interactive host (no real console/PTY) — e.g. redirected output or
+# scheduled automation, not just a normal interactive terminal.
+$rows | Sort-Object Application -Descending | Format-Table -AutoSize | Out-String -Width 200 | Write-Host

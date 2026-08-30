@@ -99,6 +99,9 @@ if (-not (Test-Path $CvPath)) {
 
 if (-not $Company) { $Company = Read-Host 'Organization name' }
 if (-not $Role) { $Role = Read-Host 'Role title' }
+if ([string]::IsNullOrWhiteSpace($Company) -or [string]::IsNullOrWhiteSpace($Role)) {
+    throw "Organization name and role title can't be blank — rerun and provide both (or pass -Company/-Role)."
+}
 
 $date = Get-Date -Format 'yyyy-MM-dd'
 $baseName = "$($date)_$(New-SlugName $Company)_$(New-SlugName $Role)"

@@ -50,7 +50,10 @@ function Get-OutputRoot { Join-Path (Get-DataRoot) 'Output' }
 
 function New-SlugName {
     param(
-        [Parameter(Mandatory)] [string] $Text,
+        # AllowEmptyString matters here: a bare [Parameter(Mandatory)] string
+        # parameter rejects "" at the binding layer, before the function body
+        # (and its own empty -> 'untitled' fallback below) ever runs.
+        [Parameter(Mandatory)] [AllowEmptyString()] [string] $Text,
         [int] $MaxLength = 40
     )
     $slug = $Text.ToLowerInvariant()
