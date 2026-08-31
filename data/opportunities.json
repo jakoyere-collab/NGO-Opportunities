@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T15:38:45+00:00",
+  "generated_at": "2026-08-31T21:12:46+00:00",
   "count": 38,
   "opportunities": [
     {
@@ -291,24 +291,6 @@
       "posted": "Mon, 24 Aug 2026 00:00:00 +0000"
     },
     {
-      "title": "Program Manager – Nigeria",
-      "organization": "INTERSOS",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://www.intersos.org/field/#intersosorg-vacancies/vacancy-details/6a85e6b591b072643daf1b4a/",
-      "posted": "Fri, 21 Aug 2026 18:11:26 +0000"
-    },
-    {
-      "title": "Nigeria Client Database Management Coordinator",
-      "organization": "One Acre Fund",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://grnh.se/ptp47ttz1us",
-      "posted": "Fri, 21 Aug 2026 17:30:54 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -347,6 +329,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/179",
       "posted": null,
       "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
+    },
+    {
+      "title": "Data Scientist / Senior Data Scientist",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/182",
+      "posted": null,
+      "first_seen": "Mon, 31 Aug 2026 21:12:46 +0000"
+    },
+    {
+      "title": "Director / Associate Director, Research-Informed Delivery",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/183",
+      "posted": null,
+      "first_seen": "Mon, 31 Aug 2026 21:12:46 +0000"
     }
   ]
 }
