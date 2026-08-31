@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-30T18:55:36+00:00",
-  "count": 36,
+  "generated_at": "2026-08-31T15:38:45+00:00",
+  "count": 38,
   "opportunities": [
+    {
+      "title": "The Ellen Johnson Sirleaf Presidential Center Next Gen Initiative 2026 for emerging African women leaders.",
+      "organization": null,
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://akismet.com/privacy/",
+      "posted": "Mon, 31 Aug 2026 02:54:00 +0000"
+    },
+    {
+      "title": "The Princeton in Africa Fellowships 2027/2028 for young African graduates.",
+      "organization": "Princeton in Africa",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://ope.ed.gov/dapip/#/home",
+      "posted": "Sun, 30 Aug 2026 23:37:00 +0000"
+    },
     {
       "title": "The Cybersafe x SANS AI Security Fellowship 2026 for African women in cybersecurity (Fully Funded)",
       "organization": "Cybersafe x SANS AI Security",
@@ -291,40 +309,44 @@
       "posted": "Fri, 21 Aug 2026 17:30:54 +0000"
     },
     {
-      "title": "Crisis Response, Recovery and Support Services Manager - Egypt",
-      "organization": "Terre des hommes",
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
       "location": "Regional (incl. Nigeria)",
       "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8253620-crisis-response-recovery-and-support-services-manager-egypt",
-      "posted": "Fri, 21 Aug 2026 13:22:01 +0200"
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
     },
     {
-      "title": "Driver - Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/driver-kano-552",
-      "posted": "Fri, 21 Aug 2026 05:30:05 +0000"
-    },
-    {
-      "title": "Senior Program Officer - Child Survival",
-      "organization": "Nutrition International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://apply.workable.com/j/7786C93463/apply",
-      "posted": "Fri, 21 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Deputy Regional Advisor, Supply Chain – Central and West Africa",
-      "organization": "Catholic Relief Services (CRS)",
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
       "location": "Regional (incl. Nigeria)",
       "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002789",
-      "posted": "Fri, 21 Aug 2026 00:00:00 +0000"
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
+    },
+    {
+      "title": "Senior Research Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/161",
+      "posted": null,
+      "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
+    },
+    {
+      "title": "Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/179",
+      "posted": null,
+      "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
     }
   ]
 }
