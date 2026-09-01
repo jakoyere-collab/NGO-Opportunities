@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-31T21:12:46+00:00",
-  "count": 38,
+  "generated_at": "2026-09-01T12:52:34+00:00",
+  "count": 40,
   "opportunities": [
+    {
+      "title": "The KAUST Global Fellowship Program 2027 for Early-Career Researchers (Fully Funded)",
+      "organization": "KAUST Global",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://kgfp.kaust.edu.sa/",
+      "posted": "Tue, 01 Sep 2026 11:39:03 +0000"
+    },
+    {
+      "title": "University of Michigan African Presidential Scholars (UMAPS) 2027-2028",
+      "organization": "University of Michigan",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://ii.infoready4.com/#freeformCompetitionDetail/2025926",
+      "posted": "Tue, 01 Sep 2026 08:29:57 +0000"
+    },
+    {
+      "title": "Princeton in Africa Fellowship 2027-2028",
+      "organization": "PiAF 2027-2028",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://gps.princeton.edu/_portal/tds-program-brochure?programid=13573",
+      "posted": "Tue, 01 Sep 2026 08:09:12 +0000"
+    },
+    {
+      "title": "Water Resources Management Internship",
+      "organization": "SNV",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000146641268",
+      "posted": "Tue, 01 Sep 2026 07:38:37 +0000"
+    },
+    {
+      "title": "UNU-WIDER Visiting PhD Fellowship Programme 2027 for Doctoral Students (Fully Funded to Helsinki, Finland).",
+      "organization": "UNU-WIDER Visiting PhD",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.wider.unu.edu/publications?f[0]=biblio_type:working_paper&amp;sort=date_published&amp;order=desc",
+      "posted": "Tue, 01 Sep 2026 00:25:00 +0000"
+    },
     {
       "title": "The Ellen Johnson Sirleaf Presidential Center Next Gen Initiative 2026 for emerging African women leaders.",
       "organization": null,
@@ -73,15 +118,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002812",
       "posted": "Fri, 28 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "The African Investigative Journalism Conference (AIJC) Fellowships 2026 for Francophone Journalists (Fully Funded to Nairobi, Kenya)",
-      "organization": "African Investigative Journalism Conference (AIJC)",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://aijc.africa/",
-      "posted": "Thu, 27 Aug 2026 19:26:41 +0000"
     },
     {
       "title": "Senior Coordinator, Talent Management",
@@ -246,15 +282,6 @@
       "posted": "Tue, 25 Aug 2026 16:47:10 +0000"
     },
     {
-      "title": "SheLeadsAfrica (SLA) BoostHer Program 2026",
-      "organization": "SheLeadsAfrica (SLA) BoostHer Program",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://sheleadsafrica.org/boostherform/",
-      "posted": "Tue, 25 Aug 2026 07:22:31 +0000"
-    },
-    {
       "title": "Safeguarding Officer",
       "organization": "Nutrition International",
       "type": "Job",
@@ -337,16 +364,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/182",
-      "posted": null,
-      "first_seen": "Mon, 31 Aug 2026 21:12:46 +0000"
-    },
-    {
-      "title": "Director / Associate Director, Research-Informed Delivery",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/183",
       "posted": null,
       "first_seen": "Mon, 31 Aug 2026 21:12:46 +0000"
     }
