@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-01T18:58:37+00:00",
+  "generated_at": "2026-09-02T12:22:54+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Democratic Alliance (DA) Young Leaders Programme 2027 (Fully-funded)",
+      "organization": "DA Young Leaders Programme",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://airtable.com/appQD4DDemFIIfKFh/pagQw1tk9eItP6bua/form",
+      "posted": "Wed, 02 Sep 2026 07:48:57 +0000"
+    },
     {
       "title": "The KAUST Global Fellowship Program 2027 for Early-Career Researchers (Fully Funded)",
       "organization": "KAUST Global",
@@ -100,15 +109,6 @@
       "remote": true,
       "apply_url": "https://cybersafefoundation.org/cybersafe-x-sans-ai-security-application/",
       "posted": "Fri, 28 Aug 2026 16:57:28 +0000"
-    },
-    {
-      "title": "Berenson Fellowship 2027-2028 at Harvard University (Funded)",
-      "organization": "Berenson Fellowship",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://itatti.slideroom.com/#/login/program/90662",
-      "posted": "Fri, 28 Aug 2026 15:31:08 +0000"
     },
     {
       "title": "Business Development Focal Point, Global Opportunities",
