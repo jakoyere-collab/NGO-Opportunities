@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:20:47+00:00",
+  "generated_at": "2026-09-03T18:58:53+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -10,6 +10,33 @@
       "remote": true,
       "apply_url": "https://programmes.aref-africa.org.uk/",
       "posted": "Thu, 03 Sep 2026 11:02:08 +0000"
+    },
+    {
+      "title": "Pharmacist",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
+      "posted": "Thu, 03 Sep 2026 08:20:07 +0000"
+    },
+    {
+      "title": "Technical Advisor II – Emergency Health",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002829",
+      "posted": "Thu, 03 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor II – Emergency Nutrition",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002830",
+      "posted": "Thu, 03 Sep 2026 00:00:00 +0000"
     },
     {
       "title": "The IAEA Marie Sklodowska-Curie Fellowship Programme (MSCFP) 2027/2029 for young women (€40,000 in tuition and living cost)",
@@ -327,41 +354,12 @@
       "posted": "Tue, 25 Aug 2026 00:00:00 +0000"
     },
     {
-      "title": "Evaluation finale externe du projet AGROFEM-Tchad",
-      "organization": "Handicap International – Humanity & Inclusion",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://www.hi.org/fr/appels-d-offres#260824https://www.hi.org/fr/appels-d-offres#260824",
-      "posted": "Mon, 24 Aug 2026 15:27:41 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
-    },
-    {
-      "title": "Senior Research Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/161",
       "posted": null,
       "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
     }
