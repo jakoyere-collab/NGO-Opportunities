@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T18:58:53+00:00",
+  "generated_at": "2026-09-04T12:21:15+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -336,24 +336,6 @@
       "posted": "Tue, 25 Aug 2026 16:47:10 +0000"
     },
     {
-      "title": "Safeguarding Officer",
-      "organization": "Nutrition International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://apply.workable.com/j/F8A7F3EE38/apply",
-      "posted": "Tue, 25 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Safety and Security Officer",
-      "organization": "Nutrition International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://apply.workable.com/j/E09E95154F/apply",
-      "posted": "Tue, 25 Aug 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -362,6 +344,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
       "posted": null,
       "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
+    },
+    {
+      "title": "Senior Research Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/161",
+      "posted": null,
+      "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
     }
   ]
 }
