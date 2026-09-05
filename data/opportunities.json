@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T18:41:18+00:00",
+  "generated_at": "2026-09-05T11:29:02+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -37,6 +37,51 @@
       "remote": true,
       "apply_url": "https://akismet.com/privacy/",
       "posted": "Fri, 04 Sep 2026 16:15:06 +0000"
+    },
+    {
+      "title": "Technical Advisor II, MEAL in Emergencies",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002831",
+      "posted": "Fri, 04 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor II, MEAL Surge Support",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002832",
+      "posted": "Fri, 04 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor Sr, Commercial Lending Partnerships",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002833",
+      "posted": "Fri, 04 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor Sr, Development Bank Partnerships",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002834",
+      "posted": "Fri, 04 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Pipeline Development and Research Analyst II- (US Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002835",
+      "posted": "Fri, 04 Sep 2026 00:00:00 +0000"
     },
     {
       "title": "AREF Towards Leadership Programme 2026/2027",
@@ -246,96 +291,6 @@
       "posted": "Thu, 27 Aug 2026 06:07:19 +0000"
     },
     {
-      "title": "Medical Laboratory Scientist - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
-      "posted": "Wed, 26 Aug 2026 09:45:49 +0000"
-    },
-    {
-      "title": "CHEW - Kuje, Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/chew-kuje-abuja-326",
-      "posted": "Wed, 26 Aug 2026 06:07:09 +0000"
-    },
-    {
-      "title": "Medical Doctor- Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
-      "posted": "Wed, 26 Aug 2026 06:06:20 +0000"
-    },
-    {
-      "title": "Registered Nurse - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-abuja-584",
-      "posted": "Wed, 26 Aug 2026 06:00:06 +0000"
-    },
-    {
-      "title": "Dental Assistant - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
-      "posted": "Wed, 26 Aug 2026 05:57:44 +0000"
-    },
-    {
-      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
-      "posted": "Wed, 26 Aug 2026 05:55:54 +0000"
-    },
-    {
-      "title": "Humanitarian Procurement Manager I, remote support for Cuba",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002579",
-      "posted": "Wed, 26 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor I, MEAL",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002710",
-      "posted": "Wed, 26 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Roving Supply Chain Advisor – Field Support (Global Remote) ENGLISH & ARABIC REQUIRED",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002801",
-      "posted": "Wed, 26 Aug 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor I, Supply Chain Management CVA (Global Remote) - ENGLISH & FRENCH REQUIRED",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002802",
-      "posted": "Wed, 26 Aug 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -364,6 +319,56 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/161",
       "posted": null,
       "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
+    },
+    {
+      "title": "Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/179",
+      "posted": null,
+      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
+    },
+    {
+      "title": "Senior Program Manager, Embedded Government Team Lead",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/184",
+      "posted": null,
+      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
+    },
+    {
+      "title": "Program Manager - Weather Initiatives",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/185",
+      "posted": null,
+      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
+    },
+    {
+      "title": "Technical Program Manager, AI Benchmarking",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/186",
+      "posted": null,
+      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
+    },
+    {
+      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
+      "posted": "",
+      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
     }
   ]
 }
