@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-05T11:29:02+00:00",
+  "generated_at": "2026-09-05T17:47:55+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Registered Nurse - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-abuja-584",
+      "posted": "Sat, 05 Sep 2026 09:25:29 +0000"
+    },
     {
       "title": "ICGEB South African Women in Biotechnology Programme SAWBP – Postdoctoral Fellowship 2027 for South African women Researchers.",
       "organization": "ICGEB South African Women in Biotechnology",
@@ -156,6 +165,15 @@
       "posted": "Wed, 02 Sep 2026 06:00:00 +0000"
     },
     {
+      "title": "Medical Laboratory Scientist - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
+      "posted": "Wed, 02 Sep 2026 02:22:03 +0000"
+    },
+    {
       "title": "Technical Advisor III, Global Health Security",
       "organization": "Catholic Relief Services (CRS)",
       "type": "Job",
@@ -255,6 +273,15 @@
       "posted": "Thu, 27 Aug 2026 06:15:00 +0000"
     },
     {
+      "title": "Medical Doctor- Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
+      "posted": "Thu, 27 Aug 2026 06:14:45 +0000"
+    },
+    {
       "title": "Medical Laboratory Scientist - Kano",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -271,6 +298,24 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
       "posted": "Thu, 27 Aug 2026 06:13:37 +0000"
+    },
+    {
+      "title": "Dental Assistant - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
+      "posted": "Thu, 27 Aug 2026 06:13:04 +0000"
+    },
+    {
+      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
+      "posted": "Thu, 27 Aug 2026 06:12:44 +0000"
     },
     {
       "title": "Senior Officer, Client Engagement -Lagos",
@@ -319,56 +364,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/161",
       "posted": null,
       "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
-    },
-    {
-      "title": "Senior Program Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/179",
-      "posted": null,
-      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
-    },
-    {
-      "title": "Senior Program Manager, Embedded Government Team Lead",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/184",
-      "posted": null,
-      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
-    },
-    {
-      "title": "Program Manager - Weather Initiatives",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/185",
-      "posted": null,
-      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
-    },
-    {
-      "title": "Technical Program Manager, AI Benchmarking",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/186",
-      "posted": null,
-      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
-    },
-    {
-      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
-      "posted": "",
-      "first_seen": "Sat, 05 Sep 2026 11:29:02 +0000"
     }
   ]
 }
