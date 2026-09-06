@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-05T17:47:55+00:00",
+  "generated_at": "2026-09-06T11:49:25+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "East African Community (EAC) Youth Fellowship 2027 (Fully-funded)",
+      "organization": "EAC Youth Fellowship",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://portal.youlead.africa/public/events",
+      "posted": "Sat, 05 Sep 2026 16:32:06 +0000"
+    },
     {
       "title": "Registered Nurse - Abuja",
       "organization": "EHA Clinics",
@@ -210,15 +219,6 @@
       "posted": "Tue, 01 Sep 2026 08:29:57 +0000"
     },
     {
-      "title": "Princeton in Africa Fellowship 2027-2028",
-      "organization": "PiAF 2027-2028",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://gps.princeton.edu/_portal/tds-program-brochure?programid=13573",
-      "posted": "Tue, 01 Sep 2026 08:09:12 +0000"
-    },
-    {
       "title": "Water Resources Management Internship",
       "organization": "SNV",
       "type": "Job",
@@ -255,87 +255,6 @@
       "posted": "Fri, 28 Aug 2026 00:00:00 +0000"
     },
     {
-      "title": "Senior Coordinator, Talent Management",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/senior-coordinator-talent-management-941",
-      "posted": "Thu, 27 Aug 2026 08:26:05 +0000"
-    },
-    {
-      "title": "Assistant Manager, Laboratory and Diagnotics",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
-      "posted": "Thu, 27 Aug 2026 06:15:00 +0000"
-    },
-    {
-      "title": "Medical Doctor- Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
-      "posted": "Thu, 27 Aug 2026 06:14:45 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-kano-564",
-      "posted": "Thu, 27 Aug 2026 06:14:16 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
-      "posted": "Thu, 27 Aug 2026 06:13:37 +0000"
-    },
-    {
-      "title": "Dental Assistant - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
-      "posted": "Thu, 27 Aug 2026 06:13:04 +0000"
-    },
-    {
-      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
-      "posted": "Thu, 27 Aug 2026 06:12:44 +0000"
-    },
-    {
-      "title": "Senior Officer, Client Engagement -Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-engagement-lagos-654",
-      "posted": "Thu, 27 Aug 2026 06:08:23 +0000"
-    },
-    {
-      "title": "Medical Laboratory Technician - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
-      "posted": "Thu, 27 Aug 2026 06:07:19 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -364,6 +283,96 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/161",
       "posted": null,
       "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
+    },
+    {
+      "title": "Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/179",
+      "posted": null,
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "title": "Senior Program Manager, Embedded Government Team Lead",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/184",
+      "posted": null,
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "title": "Program Manager - Weather Initiatives",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/185",
+      "posted": null,
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "title": "Technical Program Manager, AI Benchmarking",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/186",
+      "posted": null,
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
+      "posted": "",
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "title": "Talent Roster - Subject Matter Expert – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1597",
+      "posted": "",
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "title": "Talent Roster - Program Director – Office of Programs",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1598",
+      "posted": "",
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "title": "Talent Roster - Proposal Compliance Reviewer Consultant – European Union",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1599",
+      "posted": "",
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "title": "Talent Roster - Proposal Development – Budget/Pricing Specialist Consultant",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
+      "posted": "",
+      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
     }
   ]
 }
