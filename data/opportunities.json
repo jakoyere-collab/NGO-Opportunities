@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-09-08T12:23:08+00:00",
+  "generated_at": "2026-09-08T19:07:26+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Communications Intern",
+      "organization": "SNV",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000148309869",
+      "posted": "Tue, 08 Sep 2026 17:37:36 +0000"
+    },
+    {
+      "title": "Administrative Assistant Intern",
+      "organization": "SNV",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000148308936",
+      "posted": "Tue, 08 Sep 2026 17:35:57 +0000"
+    },
+    {
+      "title": "Chief of Party II",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002760",
+      "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor III, Outbreak Response",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002846",
+      "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor II, Supply Chain EMPOWER RAPID",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002848",
+      "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Program Manager II, El Nino Preparedness South America – EMPOWER/RAPID",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002849",
+      "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
+    },
     {
       "title": "The Centre for the Study of the Economies of Africa (CSEA) 2026 Africa’s Data Future Fellowship (US$1,500 stipend)",
       "organization": "Centre for the Study of the Economies of Africa (CSEA) 2026 Africa’s Data Future",
@@ -210,6 +264,15 @@
       "posted": "Wed, 02 Sep 2026 15:33:05 +0000"
     },
     {
+      "title": "Grants & Fundraising Officer – MENA",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8308758-grants-fundraising-officer-mena",
+      "posted": "Wed, 02 Sep 2026 11:36:32 +0200"
+    },
+    {
       "title": "Democratic Alliance (DA) Young Leaders Programme 2027 (Fully-funded)",
       "organization": "DA Young Leaders Programme",
       "type": "Fellowship",
@@ -301,76 +364,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/161",
       "posted": null,
       "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
-    },
-    {
-      "title": "Senior Program Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/179",
-      "posted": null,
-      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
-    },
-    {
-      "title": "Senior Program Manager, Embedded Government Team Lead",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/184",
-      "posted": null,
-      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
-    },
-    {
-      "title": "Program Manager - Weather Initiatives",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/185",
-      "posted": null,
-      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
-    },
-    {
-      "title": "Technical Program Manager, AI Benchmarking",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/186",
-      "posted": null,
-      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
-    },
-    {
-      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
-      "posted": "",
-      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
-    },
-    {
-      "title": "Talent Roster - Subject Matter Expert – Proposal Design",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1597",
-      "posted": "",
-      "first_seen": "Sun, 06 Sep 2026 11:49:25 +0000"
-    },
-    {
-      "title": "Talent Roster - Program Director – Office of Programs",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1598",
-      "posted": "",
-      "first_seen": "Mon, 07 Sep 2026 13:47:29 +0000"
     }
   ]
 }
