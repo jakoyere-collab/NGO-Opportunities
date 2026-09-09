@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-08T19:07:26+00:00",
+  "generated_at": "2026-09-09T12:34:15+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Medecins Sans Frontieres (MSF) Eastern Africa Media Fellowship 2026",
+      "organization": "Medecins Sans Frontieres",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.surveymonkey.com/r/BYLK5SN",
+      "posted": "Wed, 09 Sep 2026 09:46:28 +0000"
+    },
+    {
+      "title": "Senior Officer, Client Acquisition & Retention -Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-lagos-654",
+      "posted": "Wed, 09 Sep 2026 03:33:14 +0000"
+    },
     {
       "title": "Communications Intern",
       "organization": "SNV",
@@ -282,15 +300,6 @@
       "posted": "Wed, 02 Sep 2026 07:48:57 +0000"
     },
     {
-      "title": "The CivicHive Creative Changemakers Fellowship (CCMF) 2026 for young Nigerian creatives.",
-      "organization": "CivicHive Creative Changemakers",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://civichive.org/ccmf2026/",
-      "posted": "Wed, 02 Sep 2026 06:00:00 +0000"
-    },
-    {
       "title": "Medical Laboratory Scientist - Abuja",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -352,16 +361,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
-    },
-    {
-      "title": "Senior Research Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/161",
       "posted": null,
       "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
     }
