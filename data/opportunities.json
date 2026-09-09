@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:34:15+00:00",
+  "generated_at": "2026-09-09T18:56:07+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -19,6 +19,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-lagos-654",
       "posted": "Wed, 09 Sep 2026 03:33:14 +0000"
+    },
+    {
+      "title": "Technical Advisor II, REACH Malaria",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002852",
+      "posted": "Wed, 09 Sep 2026 00:00:00 +0000"
     },
     {
       "title": "Communications Intern",
@@ -353,16 +362,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
       "posted": null,
       "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Fri, 04 Sep 2026 12:21:15 +0000"
     }
   ]
 }
