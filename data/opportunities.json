@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-09T18:56:07+00:00",
+  "generated_at": "2026-09-10T12:28:15+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Pitch Perfect Africa 2026 Innovation Fellowship for African Health Startups (CAD $5,000 prize)",
+      "organization": "Pitch Perfect Africa 2026 Innovation",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://h2i.utoronto.ca/2026/09/08/apply-now-pitch-perfect-africa-2026/",
+      "posted": "Thu, 10 Sep 2026 12:02:01 +0000"
+    },
     {
       "title": "Medecins Sans Frontieres (MSF) Eastern Africa Media Fellowship 2026",
       "organization": "Medecins Sans Frontieres",
@@ -300,15 +309,6 @@
       "posted": "Wed, 02 Sep 2026 11:36:32 +0200"
     },
     {
-      "title": "Democratic Alliance (DA) Young Leaders Programme 2027 (Fully-funded)",
-      "organization": "DA Young Leaders Programme",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://airtable.com/appQD4DDemFIIfKFh/pagQw1tk9eItP6bua/form",
-      "posted": "Wed, 02 Sep 2026 07:48:57 +0000"
-    },
-    {
       "title": "Medical Laboratory Scientist - Abuja",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -345,15 +345,6 @@
       "posted": "Tue, 01 Sep 2026 07:38:37 +0000"
     },
     {
-      "title": "Support Services Coordinator Ukraine",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8290084-support-services-coordinator-ukraine",
-      "posted": "Mon, 31 Aug 2026 10:11:30 +0200"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -362,6 +353,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
       "posted": null,
       "first_seen": "Mon, 31 Aug 2026 15:38:45 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Thu, 10 Sep 2026 12:28:15 +0000"
     }
   ]
 }
