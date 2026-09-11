@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-11T12:26:45+00:00",
+  "generated_at": "2026-09-11T18:52:39+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Leaders of Africa Institute Research Communication Program 2026",
+      "organization": null,
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://zfrmz.com/ryrbr0G6FmHvaNWnQAES",
+      "posted": "Fri, 11 Sep 2026 15:36:33 +0000"
+    },
     {
       "title": "African Leadership Institute (AFLI) Archbishop Tutu Fellowship Programme 2027 for Emerging young African Leaders (Fully Funded)",
       "organization": "African Leadership Institute (AFLI) Archbishop Tutu",
@@ -21,12 +30,30 @@
       "posted": "Fri, 11 Sep 2026 12:13:49 +0000"
     },
     {
+      "title": "Registered Nurse - Yaba Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
+      "posted": "Fri, 11 Sep 2026 10:09:07 +0000"
+    },
+    {
       "title": "Finance Officer - Nigeria",
       "organization": "Nutrition International",
       "type": "Job",
       "location": "Nigeria",
       "remote": false,
       "apply_url": "https://apply.workable.com/j/1190680534/apply",
+      "posted": "Fri, 11 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Advisor II, Procurement Contracts - (US Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002862",
       "posted": "Fri, 11 Sep 2026 00:00:00 +0000"
     },
     {
@@ -318,15 +345,6 @@
       "posted": "Thu, 03 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "The IAEA Marie Sklodowska-Curie Fellowship Programme (MSCFP) 2027/2029 for young women (€40,000 in tuition and living cost)",
-      "organization": "IAEA Marie Sklodowska-Curie",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.iaea.org/services/key-programmes/iaea-marie-sklodowska-curie-fellowship-programme/information-for-applicants",
-      "posted": "Wed, 02 Sep 2026 15:46:50 +0000"
-    },
-    {
       "title": "Grants & Fundraising Officer – MENA",
       "organization": "Terre des hommes",
       "type": "Job",
@@ -343,24 +361,6 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
       "posted": "Wed, 02 Sep 2026 02:22:03 +0000"
-    },
-    {
-      "title": "Technical Advisor III, Global Health Security",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002824",
-      "posted": "Wed, 02 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Innovative Financing Global Advisor  (position based in Nairobi, Kenya)",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8302620-innovative-financing-global-advisor-position-based-in-nairobi-kenya",
-      "posted": "Tue, 01 Sep 2026 14:36:46 +0200"
     }
   ]
 }
