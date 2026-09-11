@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-09-10T18:49:16+00:00",
+  "generated_at": "2026-09-11T12:26:45+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "African Leadership Institute (AFLI) Archbishop Tutu Fellowship Programme 2027 for Emerging young African Leaders (Fully Funded)",
+      "organization": "African Leadership Institute (AFLI) Archbishop Tutu",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://alinstitute.org/",
+      "posted": "Fri, 11 Sep 2026 12:25:26 +0000"
+    },
+    {
+      "title": "Research Assistant",
+      "organization": "SNV",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000149003504",
+      "posted": "Fri, 11 Sep 2026 12:13:49 +0000"
+    },
+    {
+      "title": "Finance Officer - Nigeria",
+      "organization": "Nutrition International",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://apply.workable.com/j/1190680534/apply",
+      "posted": "Fri, 11 Sep 2026 00:00:00 +0000"
+    },
     {
       "title": "Pitch Perfect Africa 2026 Innovation Fellowship for African Health Startups (CAD $5,000 prize)",
       "organization": "Pitch Perfect Africa 2026 Innovation",
@@ -300,15 +327,6 @@
       "posted": "Wed, 02 Sep 2026 15:46:50 +0000"
     },
     {
-      "title": "ECOWAS Bank for Investment and Development (EBID) Young Professionals Programme 2026",
-      "organization": "2026 EBID Young Professionals Programme",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.bidc-ebid.org/en/working-with-ebid/young-professional-program/",
-      "posted": "Wed, 02 Sep 2026 15:33:05 +0000"
-    },
-    {
       "title": "Grants & Fundraising Officer – MENA",
       "organization": "Terre des hommes",
       "type": "Job",
@@ -343,25 +361,6 @@
       "remote": true,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8302620-innovative-financing-global-advisor-position-based-in-nairobi-kenya",
       "posted": "Tue, 01 Sep 2026 14:36:46 +0200"
-    },
-    {
-      "title": "Water Resources Management Internship",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000146641268",
-      "posted": "Tue, 01 Sep 2026 07:38:37 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Thu, 10 Sep 2026 12:28:15 +0000"
     }
   ]
 }
