@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:48:09+00:00",
+  "generated_at": "2026-09-12T17:58:50+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -91,6 +91,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
       "posted": "Thu, 10 Sep 2026 09:29:57 +0000"
+    },
+    {
+      "title": "Medical Laboratory Scientist - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
+      "posted": "Wed, 09 Sep 2026 19:24:42 +0000"
     },
     {
       "title": "Medecins Sans Frontieres (MSF) Eastern Africa Media Fellowship 2026",
@@ -351,16 +360,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Sat, 12 Sep 2026 11:48:09 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
       "posted": null,
       "first_seen": "Sat, 12 Sep 2026 11:48:09 +0000"
     }
