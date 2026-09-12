@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-11T18:52:39+00:00",
+  "generated_at": "2026-09-12T11:48:09+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "LeadGreen Fellowship Cohort 4",
+      "organization": "LeadGreen Fellowship",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.leadgreenfellowship.com/Apply.html",
+      "posted": "Fri, 11 Sep 2026 19:07:09 +0000"
+    },
+    {
+      "title": "IIH SHIFT (Scaling Homegrown Innovations & Frontier Technologies) Programme 2026",
+      "organization": "IIH SHIFT (Scaling Homegrown Innovations & Frontier Technologies) Programme",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://form.typeform.com/to/Q7DcK24E",
+      "posted": "Fri, 11 Sep 2026 18:45:22 +0000"
+    },
     {
       "title": "Leaders of Africa Institute Research Communication Program 2026",
       "organization": null,
@@ -237,15 +255,6 @@
       "posted": "Fri, 04 Sep 2026 17:44:36 +0000"
     },
     {
-      "title": "WWF-Amano Fellows Program 2026 for young Zimbabwean leaders",
-      "organization": "WWF-Amano",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://akismet.com/privacy/",
-      "posted": "Fri, 04 Sep 2026 16:15:06 +0000"
-    },
-    {
       "title": "Senior Coordinator, Talent Management",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -300,15 +309,6 @@
       "posted": "Fri, 04 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "AREF Towards Leadership Programme 2026/2027",
-      "organization": "Africa Research Excellence Fund",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://programmes.aref-africa.org.uk/",
-      "posted": "Thu, 03 Sep 2026 11:02:08 +0000"
-    },
-    {
       "title": "Pharmacist",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -345,22 +345,24 @@
       "posted": "Thu, 03 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "Grants & Fundraising Officer – MENA",
-      "organization": "Terre des hommes",
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
       "location": "Regional (incl. Nigeria)",
       "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8308758-grants-fundraising-officer-mena",
-      "posted": "Wed, 02 Sep 2026 11:36:32 +0200"
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Sat, 12 Sep 2026 11:48:09 +0000"
     },
     {
-      "title": "Medical Laboratory Scientist - Abuja",
-      "organization": "EHA Clinics",
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
-      "posted": "Wed, 02 Sep 2026 02:22:03 +0000"
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Sat, 12 Sep 2026 11:48:09 +0000"
     }
   ]
 }
