@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-12T17:58:50+00:00",
+  "generated_at": "2026-09-13T12:56:07+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Country Director - Egypt",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8369397-country-director-egypt",
+      "posted": "Sun, 13 Sep 2026 09:01:38 +0200"
+    },
     {
       "title": "LeadGreen Fellowship Cohort 4",
       "organization": "LeadGreen Fellowship",
@@ -318,42 +327,6 @@
       "posted": "Fri, 04 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "Pharmacist",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
-      "posted": "Thu, 03 Sep 2026 08:20:07 +0000"
-    },
-    {
-      "title": "Medical Laboratory Technician - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
-      "posted": "Thu, 03 Sep 2026 07:26:49 +0000"
-    },
-    {
-      "title": "Technical Advisor II – Emergency Health",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002829",
-      "posted": "Thu, 03 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor II – Emergency Nutrition",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002830",
-      "posted": "Thu, 03 Sep 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -362,6 +335,36 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
       "posted": null,
       "first_seen": "Sat, 12 Sep 2026 11:48:09 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Sun, 13 Sep 2026 12:56:07 +0000"
+    },
+    {
+      "title": "Senior Research Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/161",
+      "posted": null,
+      "first_seen": "Sun, 13 Sep 2026 12:56:07 +0000"
+    },
+    {
+      "title": "Senior Program Manager, Embedded Government Team Lead",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/184",
+      "posted": null,
+      "first_seen": "Sun, 13 Sep 2026 12:56:07 +0000"
     }
   ]
 }
