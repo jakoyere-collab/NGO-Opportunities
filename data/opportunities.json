@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-15T19:22:11+00:00",
+  "generated_at": "2026-09-16T12:56:55+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Kectil Program 2027 for Young Leaders",
+      "organization": "Kectil Program",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://kectil.com/apply#apply-form",
+      "posted": "Wed, 16 Sep 2026 08:40:55 +0000"
+    },
+    {
+      "title": "AfricaLics PhD Visiting Fellowship Programme (VFP) 2027",
+      "organization": "AfricaLics PhD Visiting Fellowship Programme",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://africalics.org/vfp-application-form/",
+      "posted": "Wed, 16 Sep 2026 08:30:19 +0000"
+    },
+    {
+      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
+      "posted": "Wed, 16 Sep 2026 01:31:38 +0000"
+    },
+    {
+      "title": "Logistics Coordinator – Nigeria",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8371167-logistic-coordinator-nigeria?promotion=2193803-trackable-share-link-reliefweb",
+      "posted": "Wed, 16 Sep 2026 01:14:46 +0000"
+    },
     {
       "title": "AfricaLics Visiting PhD Fellowship Programme 2027 for young African PhD Students (Funded)",
       "organization": "AfricaLics Visiting PhD",
@@ -136,24 +172,6 @@
       "remote": true,
       "apply_url": "https://form.typeform.com/to/Q7DcK24E",
       "posted": "Fri, 11 Sep 2026 18:45:22 +0000"
-    },
-    {
-      "title": "Leaders of Africa Institute Research Communication Program 2026",
-      "organization": null,
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://zfrmz.com/ryrbr0G6FmHvaNWnQAES",
-      "posted": "Fri, 11 Sep 2026 15:36:33 +0000"
-    },
-    {
-      "title": "African Leadership Institute (AFLI) Archbishop Tutu Fellowship Programme 2027 for Emerging young African Leaders (Fully Funded)",
-      "organization": "African Leadership Institute (AFLI) Archbishop Tutu",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://alinstitute.org/",
-      "posted": "Fri, 11 Sep 2026 12:25:26 +0000"
     },
     {
       "title": "Research Assistant",
@@ -309,15 +327,6 @@
       "posted": "Mon, 07 Sep 2026 11:35:56 +0000"
     },
     {
-      "title": "Medical Laboratory Scientist - Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-kano-564",
-      "posted": "Sun, 06 Sep 2026 05:13:17 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -354,16 +363,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/185",
-      "posted": null,
-      "first_seen": "Mon, 14 Sep 2026 14:33:33 +0000"
-    },
-    {
-      "title": "Technical Program Manager, AI Benchmarking",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/186",
       "posted": null,
       "first_seen": "Mon, 14 Sep 2026 14:33:33 +0000"
     }
