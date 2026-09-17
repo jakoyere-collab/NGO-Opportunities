@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-16T19:12:35+00:00",
+  "generated_at": "2026-09-17T12:53:01+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Project/Grant Accountant",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002871",
+      "posted": "Thu, 17 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "The Open Notebook (TON) Early-Career Fellowship Program 2027 for early-career science journalists ($6,000 Stipend)",
+      "organization": "Open Notebook (TON) Early-Career",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.theopennotebook.com/early-career-fellowship-program/",
+      "posted": "Wed, 16 Sep 2026 19:58:35 +0000"
+    },
     {
       "title": "The European University Institute Jean Monnet Fellowships 2027 for PhD Scholars (€ 2,850 per month grant and Fully Funded to Florence, Italy)",
       "organization": "European University Institute Jean Monnet",
@@ -165,15 +183,6 @@
       "posted": "Sun, 13 Sep 2026 09:01:38 +0200"
     },
     {
-      "title": "LeadGreen Fellowship Cohort 4",
-      "organization": "LeadGreen Fellowship",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.leadgreenfellowship.com/Apply.html",
-      "posted": "Fri, 11 Sep 2026 19:07:09 +0000"
-    },
-    {
       "title": "Research Assistant",
       "organization": "SNV",
       "type": "Job",
@@ -316,15 +325,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002849",
       "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
-      "posted": "Mon, 07 Sep 2026 11:35:56 +0000"
     },
     {
       "title": "Expression of Interest for Research Associate Positions",
