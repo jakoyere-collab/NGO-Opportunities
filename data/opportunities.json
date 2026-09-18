@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:23:43+00:00",
+  "generated_at": "2026-09-18T12:28:28+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -9,6 +9,15 @@
       "location": "Nigeria",
       "remote": false,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002871",
+      "posted": "Thu, 17 Sep 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Humanitarian Operations Technical Advisor I, RAPID CWARO",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002622",
       "posted": "Thu, 17 Sep 2026 00:00:00 +0000"
     },
     {
@@ -300,42 +309,6 @@
       "posted": "Tue, 08 Sep 2026 17:35:57 +0000"
     },
     {
-      "title": "Chief of Party II",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002760",
-      "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor III, Outbreak Response",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002846",
-      "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor II, Supply Chain EMPOWER RAPID",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002848",
-      "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Program Manager II, El Nino Preparedness South America – EMPOWER/RAPID",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002849",
-      "posted": "Tue, 08 Sep 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -364,6 +337,36 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/161",
       "posted": null,
       "first_seen": "Mon, 14 Sep 2026 14:33:33 +0000"
+    },
+    {
+      "title": "Country Launch Manager, Indonesia",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/187",
+      "posted": null,
+      "first_seen": "Fri, 18 Sep 2026 12:28:28 +0000"
+    },
+    {
+      "title": "Senior Operations Associate, Indonesia",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/188",
+      "posted": null,
+      "first_seen": "Fri, 18 Sep 2026 12:28:28 +0000"
+    },
+    {
+      "title": "Research Manager / Senior Research Manager, Indonesia",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/189",
+      "posted": null,
+      "first_seen": "Fri, 18 Sep 2026 12:28:28 +0000"
     }
   ]
 }
