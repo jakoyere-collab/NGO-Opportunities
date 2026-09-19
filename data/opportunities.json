@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-19T12:09:44+00:00",
+  "generated_at": "2026-09-19T18:17:28+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Senior Officer, Client Acquisition & Retention -Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-lagos-654",
+      "posted": "Fri, 18 Sep 2026 08:59:18 +0000"
+    },
     {
       "title": "Technical Advisor II - Child Protection and Care System Strengthening",
       "organization": "Catholic Relief Services (CRS)",
@@ -356,16 +365,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/189",
-      "posted": null,
-      "first_seen": "Sat, 19 Sep 2026 12:09:44 +0000"
-    },
-    {
-      "title": "Program Associate/Senior Program Associate",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/192",
       "posted": null,
       "first_seen": "Sat, 19 Sep 2026 12:09:44 +0000"
     }
