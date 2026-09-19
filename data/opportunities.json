@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:44:48+00:00",
+  "generated_at": "2026-09-19T12:09:44+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -300,24 +300,6 @@
       "posted": "Wed, 09 Sep 2026 19:24:42 +0000"
     },
     {
-      "title": "Senior Officer, Client Acquisition & Retention -Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-lagos-654",
-      "posted": "Wed, 09 Sep 2026 03:33:14 +0000"
-    },
-    {
-      "title": "Technical Advisor II, REACH Malaria",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002852",
-      "posted": "Wed, 09 Sep 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -366,6 +348,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/188",
       "posted": null,
       "first_seen": "Fri, 18 Sep 2026 12:28:28 +0000"
+    },
+    {
+      "title": "Research Manager / Senior Research Manager, Indonesia",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/189",
+      "posted": null,
+      "first_seen": "Sat, 19 Sep 2026 12:09:44 +0000"
+    },
+    {
+      "title": "Program Associate/Senior Program Associate",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/192",
+      "posted": null,
+      "first_seen": "Sat, 19 Sep 2026 12:09:44 +0000"
     }
   ]
 }
