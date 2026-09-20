@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-20T12:44:34+00:00",
+  "generated_at": "2026-09-20T18:22:58+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Medical Laboratory Scientist - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
+      "posted": "Fri, 18 Sep 2026 09:05:54 +0000"
+    },
     {
       "title": "Senior Officer, Client Acquisition & Retention -Lagos",
       "organization": "EHA Clinics",
@@ -10,6 +19,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-lagos-654",
       "posted": "Fri, 18 Sep 2026 08:59:18 +0000"
+    },
+    {
+      "title": "Assistant Manager, Laboratory and Diagnotics",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
+      "posted": "Fri, 18 Sep 2026 06:14:33 +0000"
     },
     {
       "title": "Technical Advisor II - Child Protection and Care System Strengthening",
@@ -127,6 +145,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
       "posted": "Tue, 15 Sep 2026 12:23:46 +0000"
+    },
+    {
+      "title": "Medical Laboratory Technician - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
+      "posted": "Tue, 15 Sep 2026 07:38:22 +0000"
     },
     {
       "title": "Program Assistant",
@@ -340,36 +367,6 @@
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/192",
       "posted": null,
-      "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
-    },
-    {
-      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
-      "posted": "",
-      "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
-    },
-    {
-      "title": "Talent Roster - Subject Matter Expert – Proposal Design",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1597",
-      "posted": "",
-      "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
-    },
-    {
-      "title": "Talent Roster - Program Director – Office of Programs",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1598",
-      "posted": "",
       "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
     }
   ]
