@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:17:28+00:00",
+  "generated_at": "2026-09-20T12:44:34+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -273,42 +273,6 @@
       "posted": "Fri, 11 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "Assistant Manager, Laboratory and Diagnotics",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
-      "posted": "Thu, 10 Sep 2026 09:29:57 +0000"
-    },
-    {
-      "title": "Medical Laboratory Technician - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
-      "posted": "Thu, 10 Sep 2026 06:02:14 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
-      "posted": "Wed, 09 Sep 2026 22:24:56 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
-      "posted": "Wed, 09 Sep 2026 19:24:42 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -367,6 +331,46 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/189",
       "posted": null,
       "first_seen": "Sat, 19 Sep 2026 12:09:44 +0000"
+    },
+    {
+      "title": "Program Associate/Senior Program Associate",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/192",
+      "posted": null,
+      "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
+    },
+    {
+      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
+      "posted": "",
+      "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
+    },
+    {
+      "title": "Talent Roster - Subject Matter Expert – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1597",
+      "posted": "",
+      "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
+    },
+    {
+      "title": "Talent Roster - Program Director – Office of Programs",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1598",
+      "posted": "",
+      "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
     }
   ]
 }
