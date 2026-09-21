@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-21T14:40:47+00:00",
+  "generated_at": "2026-09-21T20:12:21+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Registered Nurse - Yaba Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
+      "posted": "Mon, 21 Sep 2026 04:45:48 +0000"
+    },
     {
       "title": "African Female Artist Mentorship Program 2026-2027",
       "organization": "African Female Artist Mentorship Program",
@@ -10,6 +19,15 @@
       "remote": true,
       "apply_url": "https://www.girlchildart.org/art-mentorship-mentees/",
       "posted": "Mon, 21 Sep 2026 04:26:16 +0000"
+    },
+    {
+      "title": "Pharmacist",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
+      "posted": "Mon, 21 Sep 2026 04:21:59 +0000"
     },
     {
       "title": "The African Climate Collaborative Doctoral Training Fellowship Programme 2027 in Climate and Development (Fully Funded)",
@@ -351,26 +369,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1598",
-      "posted": "",
-      "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
-    },
-    {
-      "title": "Talent Roster - Proposal Compliance Reviewer Consultant – European Union",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1599",
-      "posted": "",
-      "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
-    },
-    {
-      "title": "Talent Roster - Proposal Development – Budget/Pricing Specialist Consultant",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
       "posted": "",
       "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
     }
