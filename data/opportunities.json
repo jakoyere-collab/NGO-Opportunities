@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-20T18:22:58+00:00",
+  "generated_at": "2026-09-21T14:40:47+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "African Female Artist Mentorship Program 2026-2027",
+      "organization": "African Female Artist Mentorship Program",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.girlchildart.org/art-mentorship-mentees/",
+      "posted": "Mon, 21 Sep 2026 04:26:16 +0000"
+    },
+    {
+      "title": "The African Climate Collaborative Doctoral Training Fellowship Programme 2027 in Climate and Development (Fully Funded)",
+      "organization": "African Climate Collaborative Doctoral Training",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://acdi.uct.ac.za/africaclimatecollaborative/phd-fellowships-climate-and-development",
+      "posted": "Sun, 20 Sep 2026 23:59:00 +0000"
+    },
     {
       "title": "Medical Laboratory Scientist - Abuja",
       "organization": "EHA Clinics",
@@ -228,24 +246,6 @@
       "posted": "Mon, 14 Sep 2026 04:52:35 +0000"
     },
     {
-      "title": "I AM NALA Fellowship – Call for 2027",
-      "organization": "I AM Nala Fellowship",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://nalafem.org/",
-      "posted": "Mon, 14 Sep 2026 04:38:56 +0000"
-    },
-    {
-      "title": "The AWARD Leadership Program 2027 for Emerging African Women in Science (Cohort 2)",
-      "organization": "AWARD Leadership",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://awardfellowships.org/news/award-opens-call-for-second-cohort-of-women-in-agriculture-leadership-program-fellowship/",
-      "posted": "Sun, 13 Sep 2026 23:39:00 +0000"
-    },
-    {
       "title": "Country Director - Egypt",
       "organization": "Terre des hommes",
       "type": "Job",
@@ -253,51 +253,6 @@
       "remote": true,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8369397-country-director-egypt",
       "posted": "Sun, 13 Sep 2026 09:01:38 +0200"
-    },
-    {
-      "title": "Research Assistant",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000149003504",
-      "posted": "Fri, 11 Sep 2026 12:13:49 +0000"
-    },
-    {
-      "title": "Registered Nurse - Yaba Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
-      "posted": "Fri, 11 Sep 2026 10:09:07 +0000"
-    },
-    {
-      "title": "Pharmacist",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
-      "posted": "Fri, 11 Sep 2026 07:49:09 +0000"
-    },
-    {
-      "title": "Finance Officer - Nigeria",
-      "organization": "Nutrition International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://apply.workable.com/j/1190680534/apply",
-      "posted": "Fri, 11 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Advisor II, Procurement Contracts - (US Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002862",
-      "posted": "Fri, 11 Sep 2026 00:00:00 +0000"
     },
     {
       "title": "Expression of Interest for Research Associate Positions",
@@ -368,6 +323,56 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/192",
       "posted": null,
       "first_seen": "Sun, 20 Sep 2026 12:44:34 +0000"
+    },
+    {
+      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
+      "posted": "",
+      "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
+    },
+    {
+      "title": "Talent Roster - Subject Matter Expert – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1597",
+      "posted": "",
+      "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
+    },
+    {
+      "title": "Talent Roster - Program Director – Office of Programs",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1598",
+      "posted": "",
+      "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
+    },
+    {
+      "title": "Talent Roster - Proposal Compliance Reviewer Consultant – European Union",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1599",
+      "posted": "",
+      "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
+    },
+    {
+      "title": "Talent Roster - Proposal Development – Budget/Pricing Specialist Consultant",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
+      "posted": "",
+      "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
     }
   ]
 }
