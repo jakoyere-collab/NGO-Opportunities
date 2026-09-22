@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-21T20:12:21+00:00",
+  "generated_at": "2026-09-22T12:56:01+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "African Climate Collaborative PhD Fellowships in Climate and Development 2026 (Fully-funded)",
+      "organization": "African Climate Collaborative",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://acdi.uct.ac.za/africaclimatecollaborative/apply-phd-fellowship",
+      "posted": "Tue, 22 Sep 2026 05:17:04 +0000"
+    },
     {
       "title": "Registered Nurse - Yaba Lagos",
       "organization": "EHA Clinics",
@@ -255,15 +264,6 @@
       "posted": "Mon, 14 Sep 2026 07:09:16 +0000"
     },
     {
-      "title": "Clooney Foundation for Justice (CFJ) Fellowship 2027",
-      "organization": "CFJ Fellowship 2027",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://cfj.org/waging-justice-for-women/fellowships/application/",
-      "posted": "Mon, 14 Sep 2026 04:52:35 +0000"
-    },
-    {
       "title": "Country Director - Egypt",
       "organization": "Terre des hommes",
       "type": "Job",
@@ -271,16 +271,6 @@
       "remote": true,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8369397-country-director-egypt",
       "posted": "Sun, 13 Sep 2026 09:01:38 +0200"
-    },
-    {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Sat, 12 Sep 2026 11:48:09 +0000"
     },
     {
       "title": "Expression of Interest for Research Manager Positions",
@@ -371,6 +361,16 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1598",
       "posted": "",
       "first_seen": "Mon, 21 Sep 2026 14:40:47 +0000"
+    },
+    {
+      "title": "Talent Roster - Proposal Compliance Reviewer Consultant – European Union",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1599",
+      "posted": "",
+      "first_seen": "Tue, 22 Sep 2026 12:56:01 +0000"
     }
   ]
 }
