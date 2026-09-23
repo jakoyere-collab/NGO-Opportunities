@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-22T19:22:31+00:00",
+  "generated_at": "2026-09-23T13:07:40+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The Mo Ibrahim Foundation Leadership Fellowship Programme 2027 for emerging African Leaders (Fully Funded to work at AfDB, UNECA & ITC with an Annual Stipend of $100,000)",
+      "organization": "Mo Ibrahim Foundation Leadership",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://mo.ibrahim.foundation/now-generation-network",
+      "posted": "Wed, 23 Sep 2026 11:40:46 +0000"
+    },
+    {
+      "title": "The Equality Fund Journalism Fellowship 2026 for Journalists worldwide  ($4000 CAD stipend)",
+      "organization": "Equality Fund Journalism",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html",
+      "posted": "Tue, 22 Sep 2026 23:56:00 +0000"
+    },
     {
       "title": "The YALI 2027 Mandela Washington Fellowship for young African Leaders (Fully Funded to the United States of America)",
       "organization": "YALI 2027 Mandela Washington",
@@ -183,15 +201,6 @@
       "posted": "Wed, 16 Sep 2026 01:14:46 +0000"
     },
     {
-      "title": "AfricaLics Visiting PhD Fellowship Programme 2027 for young African PhD Students (Funded)",
-      "organization": "AfricaLics Visiting PhD",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://africalics.org/open-call-phd-visiting-fellowships-2025/#_ftn1",
-      "posted": "Tue, 15 Sep 2026 16:23:33 +0000"
-    },
-    {
       "title": "Medical Doctor- Lagos",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -228,15 +237,6 @@
       "posted": "Mon, 14 Sep 2026 16:29:17 +0000"
     },
     {
-      "title": "AWARD Women in Agriculture Leadership Program Fellowship 2026 [Cohort 2]",
-      "organization": "AWARD Women in Agriculture Leadership Program Fellowship",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://form.jotform.com/262501543338958",
-      "posted": "Mon, 14 Sep 2026 13:20:03 +0000"
-    },
-    {
       "title": "Logistic Coordinator Nigeria",
       "organization": "Terre des hommes",
       "type": "Job",
@@ -262,25 +262,6 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
       "posted": "Mon, 14 Sep 2026 07:09:16 +0000"
-    },
-    {
-      "title": "Country Director - Egypt",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8369397-country-director-egypt",
-      "posted": "Sun, 13 Sep 2026 09:01:38 +0200"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Sun, 13 Sep 2026 12:56:07 +0000"
     },
     {
       "title": "Senior Research Manager",
@@ -371,6 +352,26 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1599",
       "posted": "",
       "first_seen": "Tue, 22 Sep 2026 12:56:01 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Wed, 23 Sep 2026 13:07:40 +0000"
+    },
+    {
+      "title": "Talent Roster - Proposal Development – Budget/Pricing Specialist Consultant",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
+      "posted": "",
+      "first_seen": "Wed, 23 Sep 2026 13:07:40 +0000"
     }
   ]
 }
