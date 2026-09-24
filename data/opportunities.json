@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-09-24T13:00:30+00:00",
+  "generated_at": "2026-09-24T19:37:00+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "AGORA Fellowship 2027 for Mid-career Leaders [Cohort 2]",
+      "organization": "Agora Fellowship",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://forms.gle/5bvLksDEGboMWEiB9",
+      "posted": "Thu, 24 Sep 2026 16:08:08 +0000"
+    },
+    {
+      "title": "The 2027 Jim Leech Mastercard Foundation Fellowship on Entrepreneurship for young African students & recent graduates.",
+      "organization": "2027 Jim Leech Mastercard Foundation",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.queensu.ca/innovationcentre/programs/jim-leech-mastercard-foundation-fellowship-entrepreneurship",
+      "posted": "Thu, 24 Sep 2026 13:11:58 +0000"
+    },
+    {
+      "title": "People and Culture Intern",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/people-and-culture-intern-583",
+      "posted": "Thu, 24 Sep 2026 12:20:48 +0000"
+    },
     {
       "title": "The Internet Society Fellowship Program 2026/2027 for experienced Internet changemakers and emerging leaders.",
       "organization": "Internet Society",
@@ -21,6 +48,24 @@
       "posted": "Thu, 24 Sep 2026 10:31:50 +0000"
     },
     {
+      "title": "Senior Coordinator, Talent Management",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/senior-coordinator-talent-management-941",
+      "posted": "Thu, 24 Sep 2026 09:41:59 +0000"
+    },
+    {
+      "title": "Dental Assistant - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
+      "posted": "Thu, 24 Sep 2026 09:41:35 +0000"
+    },
+    {
       "title": "Mo Ibrahim Foundation Leadership Fellowship Program 2027 ($100,000 stipend)",
       "organization": "Mo Ibrahim Foundation",
       "type": "Fellowship",
@@ -37,6 +82,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-abuja-549",
       "posted": "Thu, 24 Sep 2026 01:33:43 +0000"
+    },
+    {
+      "title": "Humanitarian Operations Technical Advisor I, RAPID EMEA",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002607",
+      "posted": "Thu, 24 Sep 2026 00:00:00 +0000"
     },
     {
       "title": "The Mo Ibrahim Foundation Leadership Fellowship Programme 2027 for emerging African Leaders (Fully Funded to work at AfDB, UNECA & ITC with an Annual Stipend of $100,000)",
@@ -100,15 +154,6 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
       "posted": "Mon, 21 Sep 2026 04:21:59 +0000"
-    },
-    {
-      "title": "The African Climate Collaborative Doctoral Training Fellowship Programme 2027 in Climate and Development (Fully Funded)",
-      "organization": "African Climate Collaborative Doctoral Training",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://acdi.uct.ac.za/africaclimatecollaborative/phd-fellowships-climate-and-development",
-      "posted": "Sun, 20 Sep 2026 23:59:00 +0000"
     },
     {
       "title": "Medical Laboratory Scientist - Abuja",
@@ -183,15 +228,6 @@
       "posted": "Thu, 17 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "The Open Notebook (TON) Early-Career Fellowship Program 2027 for early-career science journalists ($6,000 Stipend)",
-      "organization": "Open Notebook (TON) Early-Career",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "posted": "Wed, 16 Sep 2026 19:58:35 +0000"
-    },
-    {
       "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -235,25 +271,6 @@
       "remote": false,
       "apply_url": "https://apply.workable.com/j/DCDC798BD7/apply",
       "posted": "Tue, 15 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Nigeria Trees Execution Specialist",
-      "organization": "One Acre Fund",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://grnh.se/8vvdn33d1us",
-      "posted": "Mon, 14 Sep 2026 16:29:17 +0000"
-    },
-    {
-      "title": "Senior Research Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/161",
-      "posted": null,
-      "first_seen": "Mon, 14 Sep 2026 14:33:33 +0000"
     },
     {
       "title": "Country Launch Manager, Indonesia",
@@ -354,26 +371,6 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
       "posted": "",
       "first_seen": "Wed, 23 Sep 2026 13:07:40 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Thu, 24 Sep 2026 13:00:30 +0000"
-    },
-    {
-      "title": "Research Manager (Ethiopia)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
-      "posted": null,
-      "first_seen": "Thu, 24 Sep 2026 13:00:30 +0000"
     }
   ]
 }
