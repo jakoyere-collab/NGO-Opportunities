@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-23T19:19:25+00:00",
+  "generated_at": "2026-09-24T13:00:30+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The Internet Society Fellowship Program 2026/2027 for experienced Internet changemakers and emerging leaders.",
+      "organization": "Internet Society",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.internetsociety.org/fellowship/",
+      "posted": "Thu, 24 Sep 2026 12:06:18 +0000"
+    },
+    {
+      "title": "The Airtel Africa Foundation Tech Scholarship 2026/2027 for young Zambian students.",
+      "organization": null,
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://apply.theafarainitiative.org/opportunities/airtel-africa-foundation-tech-scholarship-2026-2027-zambia",
+      "posted": "Thu, 24 Sep 2026 10:31:50 +0000"
+    },
+    {
+      "title": "Mo Ibrahim Foundation Leadership Fellowship Program 2027 ($100,000 stipend)",
+      "organization": "Mo Ibrahim Foundation",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.afdb.org/en/vacancy/2027-mo-ibrahim-foundation-leadership-fellowship-program-96407",
+      "posted": "Thu, 24 Sep 2026 04:20:49 +0000"
+    },
+    {
+      "title": "Medical Doctor - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-abuja-549",
+      "posted": "Thu, 24 Sep 2026 01:33:43 +0000"
+    },
     {
       "title": "The Mo Ibrahim Foundation Leadership Fellowship Programme 2027 for emerging African Leaders (Fully Funded to work at AfDB, UNECA & ITC with an Annual Stipend of $100,000)",
       "organization": "Mo Ibrahim Foundation Leadership",
@@ -156,33 +192,6 @@
       "posted": "Wed, 16 Sep 2026 19:58:35 +0000"
     },
     {
-      "title": "The European University Institute Jean Monnet Fellowships 2027 for PhD Scholars (€ 2,850 per month grant and Fully Funded to Florence, Italy)",
-      "organization": "European University Institute Jean Monnet",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.eui.eu/apply?id=jean-monnet-fellowships",
-      "posted": "Wed, 16 Sep 2026 13:26:33 +0000"
-    },
-    {
-      "title": "Kectil Program 2027 for Young Leaders",
-      "organization": "Kectil Program",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://kectil.com/apply#apply-form",
-      "posted": "Wed, 16 Sep 2026 08:40:55 +0000"
-    },
-    {
-      "title": "AfricaLics PhD Visiting Fellowship Programme (VFP) 2027",
-      "organization": "AfricaLics PhD Visiting Fellowship Programme",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://africalics.org/vfp-application-form/",
-      "posted": "Wed, 16 Sep 2026 08:30:19 +0000"
-    },
-    {
       "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -235,33 +244,6 @@
       "remote": false,
       "apply_url": "https://grnh.se/8vvdn33d1us",
       "posted": "Mon, 14 Sep 2026 16:29:17 +0000"
-    },
-    {
-      "title": "Logistic Coordinator Nigeria",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8371167-logistic-coordinator-nigeria",
-      "posted": "Mon, 14 Sep 2026 09:37:37 +0200"
-    },
-    {
-      "title": "Senior Coordinator, Talent Management",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/senior-coordinator-talent-management-941",
-      "posted": "Mon, 14 Sep 2026 07:32:34 +0000"
-    },
-    {
-      "title": "Dental Assistant - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
-      "posted": "Mon, 14 Sep 2026 07:09:16 +0000"
     },
     {
       "title": "Senior Research Manager",
@@ -372,6 +354,26 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
       "posted": "",
       "first_seen": "Wed, 23 Sep 2026 13:07:40 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Thu, 24 Sep 2026 13:00:30 +0000"
+    },
+    {
+      "title": "Research Manager (Ethiopia)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
+      "posted": null,
+      "first_seen": "Thu, 24 Sep 2026 13:00:30 +0000"
     }
   ]
 }
