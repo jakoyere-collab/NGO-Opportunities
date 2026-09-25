@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-24T19:37:00+00:00",
+  "generated_at": "2026-09-25T13:06:00+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Jim Leech Mastercard Foundation Fellowship on Entrepreneurship 2027",
+      "organization": "Dunin-Deshpande Innovation Centre at Queen's University",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://queensu.qualtrics.com/jfe/form/SV_2skpzGTY6MedJJk",
+      "posted": "Fri, 25 Sep 2026 11:37:33 +0000"
+    },
     {
       "title": "AGORA Fellowship 2027 for Mid-career Leaders [Cohort 2]",
       "organization": "Agora Fellowship",
@@ -138,15 +147,6 @@
       "posted": "Mon, 21 Sep 2026 04:45:48 +0000"
     },
     {
-      "title": "African Female Artist Mentorship Program 2026-2027",
-      "organization": "African Female Artist Mentorship Program",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.girlchildart.org/art-mentorship-mentees/",
-      "posted": "Mon, 21 Sep 2026 04:26:16 +0000"
-    },
-    {
       "title": "Pharmacist",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -244,33 +244,6 @@
       "remote": false,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8371167-logistic-coordinator-nigeria?promotion=2193803-trackable-share-link-reliefweb",
       "posted": "Wed, 16 Sep 2026 01:14:46 +0000"
-    },
-    {
-      "title": "Medical Doctor- Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
-      "posted": "Tue, 15 Sep 2026 12:23:46 +0000"
-    },
-    {
-      "title": "Medical Laboratory Technician - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-technician-lagos-940",
-      "posted": "Tue, 15 Sep 2026 07:38:22 +0000"
-    },
-    {
-      "title": "Program Assistant",
-      "organization": "Nutrition International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://apply.workable.com/j/DCDC798BD7/apply",
-      "posted": "Tue, 15 Sep 2026 00:00:00 +0000"
     },
     {
       "title": "Country Launch Manager, Indonesia",
@@ -371,6 +344,36 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
       "posted": "",
       "first_seen": "Wed, 23 Sep 2026 13:07:40 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Fri, 25 Sep 2026 13:06:00 +0000"
+    },
+    {
+      "title": "Research Manager (Ethiopia)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
+      "posted": null,
+      "first_seen": "Fri, 25 Sep 2026 13:06:00 +0000"
+    },
+    {
+      "title": "Talent Roster – Proposal Writer",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1635",
+      "posted": "",
+      "first_seen": "Fri, 25 Sep 2026 13:06:00 +0000"
     }
   ]
 }
