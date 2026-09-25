@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-09-25T13:06:00+00:00",
+  "generated_at": "2026-09-25T19:41:06+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Head of Finance Department (NIGERIAN NATIONALS ONLY)",
+      "organization": "Solidarités International",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://forms.gle/WxUPbCUtRYpxB2Rz9",
+      "posted": "Fri, 25 Sep 2026 16:53:13 +0000"
+    },
+    {
+      "title": "Mercedes-Benz beVisioneers Fellowship Program 2027 for young innovators (Fully Funded)",
+      "organization": "Mercedes-Benz beVisioneers",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://applications.bevisioneers.world/courses/course/11-bevisioneers-mercedes-benz-fellowship",
+      "posted": "Fri, 25 Sep 2026 16:09:49 +0000"
+    },
+    {
+      "title": "Halcyon’s Africa Innovation in Agriculture and Food Security Program 2027 for early-stage, impact-driven ventures .",
+      "organization": "Halcyon’s Africa Innovation in Agriculture and Food Security",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://halcyonaccelerator.org/africa-innovation-in-ag-2027/",
+      "posted": "Fri, 25 Sep 2026 15:56:10 +0000"
+    },
     {
       "title": "Jim Leech Mastercard Foundation Fellowship on Entrepreneurship 2027",
       "organization": "Dunin-Deshpande Innovation Centre at Queen's University",
@@ -10,6 +37,15 @@
       "remote": true,
       "apply_url": "https://queensu.qualtrics.com/jfe/form/SV_2skpzGTY6MedJJk",
       "posted": "Fri, 25 Sep 2026 11:37:33 +0000"
+    },
+    {
+      "title": "Specialist I, Church Engagement",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002897",
+      "posted": "Fri, 25 Sep 2026 00:00:00 +0000"
     },
     {
       "title": "AGORA Fellowship 2027 for Mid-career Leaders [Cohort 2]",
@@ -120,24 +156,6 @@
       "posted": "Tue, 22 Sep 2026 23:56:00 +0000"
     },
     {
-      "title": "The YALI 2027 Mandela Washington Fellowship for young African Leaders (Fully Funded to the United States of America)",
-      "organization": "YALI 2027 Mandela Washington",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.mandelawashingtonfellowship.org/2027-application-instructions/",
-      "posted": "Tue, 22 Sep 2026 16:31:58 +0000"
-    },
-    {
-      "title": "African Climate Collaborative PhD Fellowships in Climate and Development 2026 (Fully-funded)",
-      "organization": "African Climate Collaborative",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://acdi.uct.ac.za/africaclimatecollaborative/apply-phd-fellowship",
-      "posted": "Tue, 22 Sep 2026 05:17:04 +0000"
-    },
-    {
       "title": "Registered Nurse - Yaba Lagos",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -181,6 +199,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
       "posted": "Fri, 18 Sep 2026 06:14:33 +0000"
+    },
+    {
+      "title": "Medical Doctor- Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
+      "posted": "Fri, 18 Sep 2026 06:13:54 +0000"
     },
     {
       "title": "Technical Advisor II - Child Protection and Care System Strengthening",
@@ -344,36 +371,6 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
       "posted": "",
       "first_seen": "Wed, 23 Sep 2026 13:07:40 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Fri, 25 Sep 2026 13:06:00 +0000"
-    },
-    {
-      "title": "Research Manager (Ethiopia)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
-      "posted": null,
-      "first_seen": "Fri, 25 Sep 2026 13:06:00 +0000"
-    },
-    {
-      "title": "Talent Roster – Proposal Writer",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1635",
-      "posted": "",
-      "first_seen": "Fri, 25 Sep 2026 13:06:00 +0000"
     }
   ]
 }
