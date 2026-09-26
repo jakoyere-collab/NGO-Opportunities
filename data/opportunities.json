@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:33:46+00:00",
+  "generated_at": "2026-09-26T18:50:08+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -37,6 +37,15 @@
       "remote": true,
       "apply_url": "https://queensu.qualtrics.com/jfe/form/SV_2skpzGTY6MedJJk",
       "posted": "Fri, 25 Sep 2026 11:37:33 +0000"
+    },
+    {
+      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
+      "posted": "Fri, 25 Sep 2026 04:10:04 +0000"
     },
     {
       "title": "Specialist I, Church Engagement",
@@ -361,16 +370,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Sat, 26 Sep 2026 12:33:46 +0000"
-    },
-    {
-      "title": "Research Manager (Ethiopia)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
       "first_seen": "Sat, 26 Sep 2026 12:33:46 +0000"
     }
