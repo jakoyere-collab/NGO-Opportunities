@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-26T18:50:08+00:00",
+  "generated_at": "2026-09-27T13:23:51+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Rare Disease Reporting Fellowship and Grants 2026 (up to $2,000)",
+      "organization": "National Press Foundation",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://airtable.com/app1hoO0l2ZhVjEg1/pagpVsxKOoTSbdk2G/form",
+      "posted": "Sat, 26 Sep 2026 19:19:57 +0000"
+    },
+    {
+      "title": "Halcyon Africa Innovation in Agriculture and Food Security Accelerator 2027",
+      "organization": "Halcyon Africa Innovation in Agriculture and Food Security Accelerator",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://halcyonaccelerator.org/applicants/",
+      "posted": "Sat, 26 Sep 2026 18:25:56 +0000"
+    },
     {
       "title": "Head of Finance Department (NIGERIAN NATIONALS ONLY)",
       "organization": "Solidarités International",
@@ -147,24 +165,6 @@
       "posted": "Thu, 24 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "The Mo Ibrahim Foundation Leadership Fellowship Programme 2027 for emerging African Leaders (Fully Funded to work at AfDB, UNECA & ITC with an Annual Stipend of $100,000)",
-      "organization": "Mo Ibrahim Foundation Leadership",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://mo.ibrahim.foundation/now-generation-network",
-      "posted": "Wed, 23 Sep 2026 11:40:46 +0000"
-    },
-    {
-      "title": "The Equality Fund Journalism Fellowship 2026 for Journalists worldwide  ($4000 CAD stipend)",
-      "organization": "Equality Fund Journalism",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html",
-      "posted": "Tue, 22 Sep 2026 23:56:00 +0000"
-    },
-    {
       "title": "Registered Nurse - Yaba Lagos",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -244,24 +244,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002886",
       "posted": "Fri, 18 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Project/Grant Accountant",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002871",
-      "posted": "Thu, 17 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Humanitarian Operations Technical Advisor I, RAPID CWARO",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002622",
-      "posted": "Thu, 17 Sep 2026 00:00:00 +0000"
     },
     {
       "title": "Country Launch Manager, Indonesia",
@@ -372,6 +354,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/85",
       "posted": null,
       "first_seen": "Sat, 26 Sep 2026 12:33:46 +0000"
+    },
+    {
+      "title": "Research Manager (Ethiopia)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
+      "posted": null,
+      "first_seen": "Sun, 27 Sep 2026 13:23:51 +0000"
+    },
+    {
+      "title": "Talent Roster – Proposal Writer",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1635",
+      "posted": "",
+      "first_seen": "Sun, 27 Sep 2026 13:23:51 +0000"
     }
   ]
 }
