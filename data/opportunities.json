@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-27T13:23:51+00:00",
+  "generated_at": "2026-09-27T19:24:53+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Senior Officer, Client Acquisition & Retention - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-abuja-623",
+      "posted": "Sun, 27 Sep 2026 08:22:24 +0000"
+    },
     {
       "title": "Rare Disease Reporting Fellowship and Grants 2026 (up to $2,000)",
       "organization": "National Press Foundation",
@@ -363,16 +372,6 @@
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
-      "first_seen": "Sun, 27 Sep 2026 13:23:51 +0000"
-    },
-    {
-      "title": "Talent Roster – Proposal Writer",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1635",
-      "posted": "",
       "first_seen": "Sun, 27 Sep 2026 13:23:51 +0000"
     }
   ]
