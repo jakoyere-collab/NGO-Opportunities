@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-27T19:24:53+00:00",
+  "generated_at": "2026-09-28T16:12:54+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Head of Programme Nigeria Abuja",
+      "organization": "Norwegian Refugee Council",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/21746",
+      "posted": "Mon, 28 Sep 2026 14:58:03 +0000"
+    },
+    {
+      "title": "01 Agent de projet santé nutrition pour équipe mobile polyvalente",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8464506-01-agent-de-projet-sante-nutrition-pour-equipe-mobile-polyvalente",
+      "posted": "Mon, 28 Sep 2026 12:36:53 +0200"
+    },
     {
       "title": "Senior Officer, Client Acquisition & Retention - Abuja",
       "organization": "EHA Clinics",
@@ -192,89 +210,6 @@
       "posted": "Mon, 21 Sep 2026 04:21:59 +0000"
     },
     {
-      "title": "Medical Laboratory Scientist - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
-      "posted": "Fri, 18 Sep 2026 09:05:54 +0000"
-    },
-    {
-      "title": "Senior Officer, Client Acquisition & Retention -Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-lagos-654",
-      "posted": "Fri, 18 Sep 2026 08:59:18 +0000"
-    },
-    {
-      "title": "Assistant Manager, Laboratory and Diagnotics",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
-      "posted": "Fri, 18 Sep 2026 06:14:33 +0000"
-    },
-    {
-      "title": "Medical Doctor- Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-lagos-541",
-      "posted": "Fri, 18 Sep 2026 06:13:54 +0000"
-    },
-    {
-      "title": "Technical Advisor II - Child Protection and Care System Strengthening",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002884",
-      "posted": "Fri, 18 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor II - Family Strengthening",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002885",
-      "posted": "Fri, 18 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Program Manager II, MEAL",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002886",
-      "posted": "Fri, 18 Sep 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Country Launch Manager, Indonesia",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/187",
-      "posted": null,
-      "first_seen": "Fri, 18 Sep 2026 12:28:28 +0000"
-    },
-    {
-      "title": "Senior Operations Associate, Indonesia",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/188",
-      "posted": null,
-      "first_seen": "Fri, 18 Sep 2026 12:28:28 +0000"
-    },
-    {
       "title": "Research Manager / Senior Research Manager, Indonesia",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -373,6 +308,76 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
       "first_seen": "Sun, 27 Sep 2026 13:23:51 +0000"
+    },
+    {
+      "title": "Talent Roster – Proposal Writer",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1635",
+      "posted": "",
+      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
+    },
+    {
+      "title": "Costing/ Budgeting consultant – Office of Business Development",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1654",
+      "posted": "",
+      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
+    },
+    {
+      "title": "Chief Financial Officer - Africa/Netherlands",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1675",
+      "posted": "",
+      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
+    },
+    {
+      "title": "Accountant – Global Finance",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1676",
+      "posted": "",
+      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
+    },
+    {
+      "title": "(Senior) Director of Philanthropic Partnerships",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/5VmqrYMw54S",
+      "posted": null,
+      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
+    },
+    {
+      "title": "Associate Director, Right-Fit Evidence Unit",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/g2qYiJQwf7M",
+      "posted": null,
+      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
+    },
+    {
+      "title": "Data Scientist II",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/rQXCfPjYqPj",
+      "posted": null,
+      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
     }
   ]
 }
