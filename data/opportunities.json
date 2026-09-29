@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:26:48+00:00",
+  "generated_at": "2026-09-29T20:20:16+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -10,6 +10,15 @@
       "remote": true,
       "apply_url": "https://anzisha.org/fellowship/",
       "posted": "Tue, 29 Sep 2026 11:41:01 +0000"
+    },
+    {
+      "title": "People Operations Coordinator",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/people-operations-coordinator-1020",
+      "posted": "Tue, 29 Sep 2026 10:15:49 +0000"
     },
     {
       "title": "Assistant Manager, Laboratory and Diagnotics",
@@ -364,16 +373,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://1.adp.com/5VmqrYMw54S",
-      "posted": null,
-      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
-    },
-    {
-      "title": "Associate Director, Right-Fit Evidence Unit",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/g2qYiJQwf7M",
       "posted": null,
       "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
     }
