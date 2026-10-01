@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:55:30+00:00",
+  "generated_at": "2026-10-01T20:39:17+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -19,6 +19,15 @@
       "remote": true,
       "apply_url": "https://dalailamafellows.com/apply/",
       "posted": "Thu, 01 Oct 2026 10:41:43 +0000"
+    },
+    {
+      "title": "Technical Advisor II, REACH Malaria",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002852",
+      "posted": "Thu, 01 Oct 2026 00:00:00 +0000"
     },
     {
       "title": "The Yale Maurice R. Greenberg World Fellows Program 2027 for mid-career emerging Global Leaders (Fully Funded to Yale University, USA)",
@@ -93,6 +102,15 @@
       "posted": "Tue, 29 Sep 2026 09:10:25 +0000"
     },
     {
+      "title": "Pharmacist",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
+      "posted": "Tue, 29 Sep 2026 04:25:59 +0000"
+    },
+    {
       "title": "Hong Kong PhD Fellowship Scheme 2027/2028 for study in Hong Kong (Funded)",
       "organization": "Hong Kong PhD",
       "type": "Fellowship",
@@ -145,6 +163,15 @@
       "remote": true,
       "apply_url": "https://bit.ly/4z3c5Zn?utm_source=chatgpt.com",
       "posted": "Mon, 28 Sep 2026 05:16:00 +0000"
+    },
+    {
+      "title": "Registered Nurse - Yaba Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
+      "posted": "Sun, 27 Sep 2026 11:16:21 +0000"
     },
     {
       "title": "Senior Officer, Client Acquisition & Retention - Abuja",
@@ -341,36 +368,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/188",
-      "posted": null,
-      "first_seen": "Thu, 01 Oct 2026 14:55:30 +0000"
-    },
-    {
-      "title": "Research Manager / Senior Research Manager, Indonesia",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/189",
-      "posted": null,
-      "first_seen": "Thu, 01 Oct 2026 14:55:30 +0000"
-    },
-    {
-      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
-      "posted": null,
-      "first_seen": "Thu, 01 Oct 2026 14:55:30 +0000"
-    },
-    {
-      "title": "(Senior) Director of Philanthropic Partnerships",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/5VmqrYMw54S",
       "posted": null,
       "first_seen": "Thu, 01 Oct 2026 14:55:30 +0000"
     }
