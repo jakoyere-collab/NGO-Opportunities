@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-01T20:39:17+00:00",
+  "generated_at": "2026-10-02T14:17:55+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Technical Advisor II – Food Security, Livelihoods and Markets – Sudan FNS Plan Lead",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002909",
+      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
+    },
     {
       "title": "NVIDIA International Graduate Fellowship Program 2027/2028 for PhD students worldwide ($60,000 in research funding)",
       "organization": "NVIDIA International Graduate",
@@ -27,6 +36,24 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002852",
+      "posted": "Thu, 01 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor I, Cash & Markets",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002906",
+      "posted": "Thu, 01 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Data Operations Analyst I - (US Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002907",
       "posted": "Thu, 01 Oct 2026 00:00:00 +0000"
     },
     {
@@ -282,16 +309,6 @@
       "posted": "Thu, 24 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "Talent Roster - Proposal Compliance Reviewer Consultant – European Union",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1599",
-      "posted": "",
-      "first_seen": "Tue, 22 Sep 2026 12:56:01 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -350,26 +367,6 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1654",
       "posted": "",
       "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
-    },
-    {
-      "title": "Country Launch Manager, Indonesia",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/187",
-      "posted": null,
-      "first_seen": "Thu, 01 Oct 2026 14:55:30 +0000"
-    },
-    {
-      "title": "Senior Operations Associate, Indonesia",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/188",
-      "posted": null,
-      "first_seen": "Thu, 01 Oct 2026 14:55:30 +0000"
     }
   ]
 }
