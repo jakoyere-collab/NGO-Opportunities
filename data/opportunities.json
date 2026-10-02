@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:17:55+00:00",
+  "generated_at": "2026-10-02T20:14:59+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -9,6 +9,51 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002909",
+      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Program Manager II – MEAL Continuity of Integrated Health Services (CIHS) Project",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002910",
+      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Program Manager I, – MEAL Continuity of Integrated Health Services (CIHS) Project",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002911",
+      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor III, Digital Health Solutions, Continuity of Integrated Health Services (CIHS) Project",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002913",
+      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Deputy Chief of Party II, Technical, Continuity of Integrated Health Services",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002914",
+      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Program Manager I, El Niño Preparedness EMPOWER/RAPID",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002912",
       "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
     },
     {
@@ -317,56 +362,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
       "posted": null,
       "first_seen": "Wed, 23 Sep 2026 13:07:40 +0000"
-    },
-    {
-      "title": "Talent Roster - Proposal Development – Budget/Pricing Specialist Consultant",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
-      "posted": "",
-      "first_seen": "Wed, 23 Sep 2026 13:07:40 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Sat, 26 Sep 2026 12:33:46 +0000"
-    },
-    {
-      "title": "Research Manager (Ethiopia)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
-      "posted": null,
-      "first_seen": "Sun, 27 Sep 2026 13:23:51 +0000"
-    },
-    {
-      "title": "Talent Roster – Proposal Writer",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1635",
-      "posted": "",
-      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
-    },
-    {
-      "title": "Costing/ Budgeting consultant – Office of Business Development",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1654",
-      "posted": "",
-      "first_seen": "Mon, 28 Sep 2026 16:12:54 +0000"
     }
   ]
 }
