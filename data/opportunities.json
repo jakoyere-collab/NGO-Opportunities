@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-04T13:33:32+00:00",
+  "generated_at": "2026-10-04T18:53:47+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Medical Laboratory Scientist - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
+      "posted": "Sun, 04 Oct 2026 08:54:55 +0000"
+    },
     {
       "title": "Technical Advisor II – Food Security, Livelihoods and Markets – Sudan FNS Plan Lead",
       "organization": "Catholic Relief Services (CRS)",
@@ -73,6 +82,15 @@
       "remote": true,
       "apply_url": "https://dalailamafellows.com/apply/",
       "posted": "Thu, 01 Oct 2026 10:41:43 +0000"
+    },
+    {
+      "title": "Medical Doctor - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-abuja-549",
+      "posted": "Thu, 01 Oct 2026 08:25:44 +0000"
     },
     {
       "title": "Technical Advisor II, REACH Malaria",
@@ -172,6 +190,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
       "posted": "Tue, 29 Sep 2026 09:10:25 +0000"
+    },
+    {
+      "title": "Dental Assistant - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
+      "posted": "Tue, 29 Sep 2026 07:15:57 +0000"
     },
     {
       "title": "Pharmacist",
@@ -336,36 +363,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
-      "posted": null,
-      "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
-    },
-    {
-      "title": "Research Manager (PMU) (India)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
-      "posted": null,
-      "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
-    },
-    {
-      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
-      "posted": null,
-      "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
-    },
-    {
-      "title": "Country Launch Manager, Philippines",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/199",
       "posted": null,
       "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
     }
