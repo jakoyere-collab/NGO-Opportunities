@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:53:47+00:00",
+  "generated_at": "2026-10-05T16:34:05+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -309,24 +309,6 @@
       "posted": "Fri, 25 Sep 2026 16:53:13 +0000"
     },
     {
-      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
-      "posted": "Fri, 25 Sep 2026 04:10:04 +0000"
-    },
-    {
-      "title": "Specialist I, Church Engagement",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002897",
-      "posted": "Fri, 25 Sep 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -365,6 +347,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
       "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
+    },
+    {
+      "title": "Research Manager (PMU) (India)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
+      "posted": null,
+      "first_seen": "Mon, 05 Oct 2026 16:34:05 +0000"
+    },
+    {
+      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
+      "posted": null,
+      "first_seen": "Mon, 05 Oct 2026 16:34:05 +0000"
     }
   ]
 }
