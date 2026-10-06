@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T14:35:02+00:00",
-  "count": 40,
+  "generated_at": "2026-10-06T20:38:58+00:00",
+  "count": 38,
   "opportunities": [
     {
       "title": "Technical Advisor II, Supply Chain EMPOWER RAPID",
@@ -9,6 +9,15 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002848",
+      "posted": "Tue, 06 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Business Development Specialist II - Short Term",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002899",
       "posted": "Tue, 06 Oct 2026 00:00:00 +0000"
     },
     {
@@ -300,24 +309,6 @@
       "posted": "Sun, 27 Sep 2026 08:22:24 +0000"
     },
     {
-      "title": "Rare Disease Reporting Fellowship and Grants 2026 (up to $2,000)",
-      "organization": "National Press Foundation",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://airtable.com/app1hoO0l2ZhVjEg1/pagpVsxKOoTSbdk2G/form",
-      "posted": "Sat, 26 Sep 2026 19:19:57 +0000"
-    },
-    {
-      "title": "Halcyon Africa Innovation in Agriculture and Food Security Accelerator 2027",
-      "organization": "Halcyon Africa Innovation in Agriculture and Food Security Accelerator",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://halcyonaccelerator.org/applicants/",
-      "posted": "Sat, 26 Sep 2026 18:25:56 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -356,16 +347,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
       "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
-    },
-    {
-      "title": "Research Manager (PMU) (India)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
-      "posted": null,
-      "first_seen": "Mon, 05 Oct 2026 16:34:05 +0000"
     }
   ]
 }
