@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-07T20:53:57+00:00",
-  "count": 40,
+  "generated_at": "2026-10-08T15:03:26+00:00",
+  "count": 38,
   "opportunities": [
+    {
+      "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/practice-quality-assurance-coordinator-tofa-kano-856",
+      "posted": "Thu, 08 Oct 2026 07:24:59 +0000"
+    },
     {
       "title": "Energy Project Manager",
       "organization": "SNV",
@@ -300,42 +309,6 @@
       "posted": "Mon, 28 Sep 2026 17:10:08 +0000"
     },
     {
-      "title": "Head of Programme Nigeria Abuja",
-      "organization": "Norwegian Refugee Council",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/21746",
-      "posted": "Mon, 28 Sep 2026 14:58:03 +0000"
-    },
-    {
-      "title": "01 Agent de projet santé nutrition pour équipe mobile polyvalente",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8464506-01-agent-de-projet-sante-nutrition-pour-equipe-mobile-polyvalente",
-      "posted": "Mon, 28 Sep 2026 12:36:53 +0200"
-    },
-    {
-      "title": "TWAS Visiting Expert Programme 2026/2027",
-      "organization": "TWAS Visiting Expert Programme",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://opd.to/4AcwSLg",
-      "posted": "Mon, 28 Sep 2026 10:05:00 +0000"
-    },
-    {
-      "title": "The ACEP Youth Champions for Fiscal Accountability (YCFA) Fellowship 2026 for Young Ghanaians",
-      "organization": "ACEP Youth Champions for Fiscal Accountability (YCFA)",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://acep.africa/",
-      "posted": "Mon, 28 Sep 2026 05:28:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -364,6 +337,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/189",
       "posted": null,
       "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
+    },
+    {
+      "title": "Research Manager (Ethiopia)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
+      "posted": null,
+      "first_seen": "Thu, 08 Oct 2026 15:03:26 +0000"
     }
   ]
 }
