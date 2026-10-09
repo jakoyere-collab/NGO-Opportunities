@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-08T20:55:21+00:00",
-  "count": 37,
+  "generated_at": "2026-10-09T14:47:01+00:00",
+  "count": 36,
   "opportunities": [
+    {
+      "title": "Registered Nurse - Yaba Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
+      "posted": "Fri, 09 Oct 2026 08:15:41 +0000"
+    },
     {
       "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
       "organization": "EHA Clinics",
@@ -255,51 +264,6 @@
       "posted": "Wed, 30 Sep 2026 00:00:00 +0000"
     },
     {
-      "title": "The Anzisha Venture Building Fellowship 2027 for young African Entrepreneurs (USD $140,000 Prize to grow your Business)",
-      "organization": "Anzisha Venture Building",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://anzisha.org/fellowship/",
-      "posted": "Tue, 29 Sep 2026 11:41:01 +0000"
-    },
-    {
-      "title": "People Operations Coordinator",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/people-operations-coordinator-1020",
-      "posted": "Tue, 29 Sep 2026 10:15:49 +0000"
-    },
-    {
-      "title": "Assistant Manager, Laboratory and Diagnotics",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
-      "posted": "Tue, 29 Sep 2026 09:10:25 +0000"
-    },
-    {
-      "title": "Dental Assistant - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
-      "posted": "Tue, 29 Sep 2026 07:15:57 +0000"
-    },
-    {
-      "title": "Pharmacist",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
-      "posted": "Tue, 29 Sep 2026 04:25:59 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -338,6 +302,36 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
       "first_seen": "Thu, 08 Oct 2026 15:03:26 +0000"
+    },
+    {
+      "title": "Research Manager (PMU) (India)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
+      "posted": null,
+      "first_seen": "Fri, 09 Oct 2026 14:47:01 +0000"
+    },
+    {
+      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
+      "posted": null,
+      "first_seen": "Fri, 09 Oct 2026 14:47:01 +0000"
+    },
+    {
+      "title": "Country Launch Manager, Philippines",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/199",
+      "posted": null,
+      "first_seen": "Fri, 09 Oct 2026 14:47:01 +0000"
     }
   ]
 }
