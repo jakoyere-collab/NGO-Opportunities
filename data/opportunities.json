@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-09T14:47:01+00:00",
-  "count": 36,
+  "generated_at": "2026-10-09T20:24:13+00:00",
+  "count": 39,
   "opportunities": [
+    {
+      "title": "The World Bank Government Analytics Fellowship Program 2027 for government officials (Fully Funded to Washington DC, United States)",
+      "organization": "World Bank Government Analytics",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.worldbank.org/en/publication/government-analytics/brief/government-analytics-fellowship",
+      "posted": "Fri, 09 Oct 2026 15:59:10 +0000"
+    },
+    {
+      "title": "Harvard Global Health Institute LEAD Fellowship Program 2027/2028 for Promoting Women in Global Health. (Fully Funded)",
+      "organization": "Harvard Global Health Institute LEAD",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://globalhealth.harvard.edu/2027-2028-harvard-lead-fellowship-application-is-now-open/",
+      "posted": "Fri, 09 Oct 2026 14:58:30 +0000"
+    },
+    {
+      "title": "Assistant Manager, Laboratory and Diagnotics",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
+      "posted": "Fri, 09 Oct 2026 10:14:46 +0000"
+    },
     {
       "title": "Registered Nurse - Yaba Lagos",
       "organization": "EHA Clinics",
@@ -10,6 +37,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
       "posted": "Fri, 09 Oct 2026 08:15:41 +0000"
+    },
+    {
+      "title": "The Atlantic Fellows for Social and Economic Equity Programme 2027/2028 for social-change leaders (Fully Funded study at London School of Economics and Political Science)",
+      "organization": "Atlantic",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.lse.ac.uk/study-at-lse/Graduate/degree-programmes-2024/MSc-inequalities-and-social-science",
+      "posted": "Fri, 09 Oct 2026 04:23:00 +0000"
     },
     {
       "title": "Practice & Quality Assurance Coordinator - Tofa, Kano",
@@ -48,6 +84,15 @@
       "posted": "Wed, 07 Oct 2026 12:25:39 +0000"
     },
     {
+      "title": "Dental Assistant - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
+      "posted": "Wed, 07 Oct 2026 08:42:41 +0000"
+    },
+    {
       "title": "The Afya na Haki (Ahaki) Litigating Reproductive Justice in Africa (LIRA) Fellowship Programme 2026 for young African Professionals.",
       "organization": "Afya na Haki (Ahaki) Litigating Reproductive Justice in Africa (LIRA)",
       "type": "Fellowship",
@@ -73,6 +118,15 @@
       "remote": true,
       "apply_url": "https://www.iwa-network.org/iwa-grundfos-youth-fellowship",
       "posted": "Tue, 06 Oct 2026 09:27:00 +0000"
+    },
+    {
+      "title": "Pharmacist",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
+      "posted": "Tue, 06 Oct 2026 03:33:56 +0000"
     },
     {
       "title": "Technical Advisor II, Supply Chain EMPOWER RAPID",
@@ -302,36 +356,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
       "first_seen": "Thu, 08 Oct 2026 15:03:26 +0000"
-    },
-    {
-      "title": "Research Manager (PMU) (India)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
-      "posted": null,
-      "first_seen": "Fri, 09 Oct 2026 14:47:01 +0000"
-    },
-    {
-      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
-      "posted": null,
-      "first_seen": "Fri, 09 Oct 2026 14:47:01 +0000"
-    },
-    {
-      "title": "Country Launch Manager, Philippines",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/199",
-      "posted": null,
-      "first_seen": "Fri, 09 Oct 2026 14:47:01 +0000"
     }
   ]
 }
