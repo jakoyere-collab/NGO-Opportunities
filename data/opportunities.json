@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:24:13+00:00",
+  "generated_at": "2026-10-10T14:05:26+00:00",
   "count": 39,
   "opportunities": [
     {
@@ -19,6 +19,24 @@
       "remote": true,
       "apply_url": "https://globalhealth.harvard.edu/2027-2028-harvard-lead-fellowship-application-is-now-open/",
       "posted": "Fri, 09 Oct 2026 14:58:30 +0000"
+    },
+    {
+      "title": "Gestionnaire logistique Bamako",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8525741-gestionnaire-logistique-bamako",
+      "posted": "Fri, 09 Oct 2026 14:41:04 +0200"
+    },
+    {
+      "title": "Chargé Logistique Ségou",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8525592-charge-logistique-segou",
+      "posted": "Fri, 09 Oct 2026 14:26:06 +0200"
     },
     {
       "title": "Assistant Manager, Laboratory and Diagnotics",
@@ -291,33 +309,6 @@
       "posted": "Wed, 30 Sep 2026 14:22:16 +0000"
     },
     {
-      "title": "Energy Advisor",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000152591820",
-      "posted": "Wed, 30 Sep 2026 05:26:24 +0000"
-    },
-    {
-      "title": "Project Manager",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000152590475",
-      "posted": "Wed, 30 Sep 2026 05:11:53 +0000"
-    },
-    {
-      "title": "Regional Risk & Compliance Technical Advisor CWARO",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002901",
-      "posted": "Wed, 30 Sep 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -356,6 +347,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
       "first_seen": "Thu, 08 Oct 2026 15:03:26 +0000"
+    },
+    {
+      "title": "Research Manager (PMU) (India)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
+      "posted": null,
+      "first_seen": "Sat, 10 Oct 2026 14:05:26 +0000"
     }
   ]
 }
