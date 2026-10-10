@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:05:26+00:00",
+  "generated_at": "2026-10-10T19:37:53+00:00",
   "count": 39,
   "opportunities": [
     {
@@ -300,15 +300,6 @@
       "posted": "Wed, 30 Sep 2026 23:18:00 +0000"
     },
     {
-      "title": "Finance Manager Nigeria Abuja",
-      "organization": "Norwegian Refugee Council",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/21761",
-      "posted": "Wed, 30 Sep 2026 14:22:16 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -357,6 +348,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/196",
       "posted": null,
       "first_seen": "Sat, 10 Oct 2026 14:05:26 +0000"
+    },
+    {
+      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
+      "posted": null,
+      "first_seen": "Sat, 10 Oct 2026 19:37:53 +0000"
     }
   ]
 }
