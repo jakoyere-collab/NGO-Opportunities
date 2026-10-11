@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:28:59+00:00",
+  "generated_at": "2026-10-11T19:48:20+00:00",
   "count": 36,
   "opportunities": [
     {
@@ -109,6 +109,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
       "posted": "Wed, 07 Oct 2026 08:42:41 +0000"
+    },
+    {
+      "title": "Medical Doctor - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-abuja-549",
+      "posted": "Wed, 07 Oct 2026 03:07:32 +0000"
     },
     {
       "title": "The Afya na Haki (Ahaki) Litigating Reproductive Justice in Africa (LIRA) Fellowship Programme 2026 for young African Professionals.",
@@ -323,16 +332,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/201",
-      "posted": null,
-      "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
-    },
-    {
-      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
       "posted": null,
       "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
     }
