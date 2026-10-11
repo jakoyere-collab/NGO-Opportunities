@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T19:37:53+00:00",
-  "count": 39,
+  "generated_at": "2026-10-11T14:28:59+00:00",
+  "count": 36,
   "opportunities": [
     {
       "title": "The World Bank Government Analytics Fellowship Program 2027 for government officials (Fully Funded to Washington DC, United States)",
@@ -237,69 +237,6 @@
       "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
     },
     {
-      "title": "NVIDIA International Graduate Fellowship Program 2027/2028 for PhD students worldwide ($60,000 in research funding)",
-      "organization": "NVIDIA International Graduate",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://research.nvidia.com/graduate-fellowships",
-      "posted": "Thu, 01 Oct 2026 10:48:38 +0000"
-    },
-    {
-      "title": "Dalai Lama Fellowship Programme 2027 for emerging changemakers (Fully Funded to Contemplative Leadership Assembly)",
-      "organization": "Dalai Lama",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://dalailamafellows.com/apply/",
-      "posted": "Thu, 01 Oct 2026 10:41:43 +0000"
-    },
-    {
-      "title": "Medical Doctor - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-abuja-549",
-      "posted": "Thu, 01 Oct 2026 08:25:44 +0000"
-    },
-    {
-      "title": "Technical Advisor II, REACH Malaria",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002852",
-      "posted": "Thu, 01 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor I, Cash & Markets",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002906",
-      "posted": "Thu, 01 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Data Operations Analyst I - (US Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002907",
-      "posted": "Thu, 01 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "The Yale Maurice R. Greenberg World Fellows Program 2027 for mid-career emerging Global Leaders (Fully Funded to Yale University, USA)",
-      "organization": "Yale Maurice R. Greenberg World",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://jackson.yale.edu/international-leadership-center/yale-world-fellows",
-      "posted": "Wed, 30 Sep 2026 23:18:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -358,6 +295,46 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/198",
       "posted": null,
       "first_seen": "Sat, 10 Oct 2026 19:37:53 +0000"
+    },
+    {
+      "title": "Country Launch Manager, Philippines",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/199",
+      "posted": null,
+      "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
+    },
+    {
+      "title": "Research Manager / Senior Research Manager, Philippines",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/200",
+      "posted": null,
+      "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
+    },
+    {
+      "title": "Program Manager (Weather Initiative)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/201",
+      "posted": null,
+      "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
+    },
+    {
+      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
+      "posted": null,
+      "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
     }
   ]
 }
