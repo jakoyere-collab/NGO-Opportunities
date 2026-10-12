@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-11T19:48:20+00:00",
-  "count": 36,
+  "generated_at": "2026-10-12T17:07:08+00:00",
+  "count": 39,
   "opportunities": [
+    {
+      "title": "The 2027 United Nations Regional Course in International Law for Africa – Addis Ababa, Ethiopia (Fully Funded)",
+      "organization": null,
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "http://www.un.org/Depts/DGACM/RegionalGroups.shtml",
+      "posted": "Mon, 12 Oct 2026 16:30:49 +0000"
+    },
+    {
+      "title": "The Global Investigative Journalism Conference Fellowship 2027 for Journalists from the Global South (Fully Funded to Rotterdam, The Netherlands)",
+      "organization": "Global Investigative Journalism Conference",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.vvoj.org/",
+      "posted": "Mon, 12 Oct 2026 16:16:31 +0000"
+    },
+    {
+      "title": "Echidna Global Scholars Visiting Fellowship 2027 ($26,500 stipend)",
+      "organization": "Center for Universal Education",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://opd.to/4AcwSLg",
+      "posted": "Mon, 12 Oct 2026 13:18:48 +0000"
+    },
     {
       "title": "The World Bank Government Analytics Fellowship Program 2027 for government officials (Fully Funded to Washington DC, United States)",
       "organization": "World Bank Government Analytics",
@@ -192,60 +219,6 @@
       "posted": "Sun, 04 Oct 2026 08:54:55 +0000"
     },
     {
-      "title": "Technical Advisor II – Food Security, Livelihoods and Markets – Sudan FNS Plan Lead",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002909",
-      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Program Manager II – MEAL Continuity of Integrated Health Services (CIHS) Project",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002910",
-      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Program Manager I, – MEAL Continuity of Integrated Health Services (CIHS) Project",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002911",
-      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor III, Digital Health Solutions, Continuity of Integrated Health Services (CIHS) Project",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002913",
-      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Deputy Chief of Party II, Technical, Continuity of Integrated Health Services",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002914",
-      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Program Manager I, El Niño Preparedness EMPOWER/RAPID",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002912",
-      "posted": "Fri, 02 Oct 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -334,6 +307,66 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/201",
       "posted": null,
       "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
+    },
+    {
+      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
+      "posted": null,
+      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
+    },
+    {
+      "title": "Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/203",
+      "posted": null,
+      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
+    },
+    {
+      "title": "Program Manager / Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/204",
+      "posted": null,
+      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
+    },
+    {
+      "title": "Associate Director, Right-Fit Evidence Unit",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/g2qYiJQwf7M",
+      "posted": null,
+      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
+    },
+    {
+      "title": "Program Associate, Strategic Impact Evaluation and Learning",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/Pwm2QyWcSKS",
+      "posted": null,
+      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
+    },
+    {
+      "title": "Sr. Policy Manager, Embedded Labs Program",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/jcYJaWyvnpA",
+      "posted": null,
+      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
     }
   ]
 }
