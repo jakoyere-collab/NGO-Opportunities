@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-12T17:07:08+00:00",
+  "generated_at": "2026-10-13T15:24:14+00:00",
   "count": 39,
   "opportunities": [
+    {
+      "title": "Human Resource Generalist",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/human-resource-generalist-1020",
+      "posted": "Tue, 13 Oct 2026 03:57:13 +0000"
+    },
     {
       "title": "The 2027 United Nations Regional Course in International Law for Africa – Addis Ababa, Ethiopia (Fully Funded)",
       "organization": null,
@@ -355,16 +364,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://1.adp.com/Pwm2QyWcSKS",
-      "posted": null,
-      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
-    },
-    {
-      "title": "Sr. Policy Manager, Embedded Labs Program",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/jcYJaWyvnpA",
       "posted": null,
       "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
     }
