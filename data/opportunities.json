@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:10:55+00:00",
+  "generated_at": "2026-10-14T19:49:49+00:00",
   "count": 39,
   "opportunities": [
     {
@@ -291,26 +291,6 @@
       "posted": "Mon, 05 Oct 2026 00:00:00 +0000"
     },
     {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
-    },
-    {
-      "title": "Research Manager / Senior Research Manager, Indonesia",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/189",
-      "posted": null,
-      "first_seen": "Sun, 04 Oct 2026 13:33:32 +0000"
-    },
-    {
       "title": "Research Manager (Ethiopia)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -359,6 +339,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/200",
       "posted": null,
       "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Wed, 14 Oct 2026 19:49:49 +0000"
+    },
+    {
+      "title": "Program Manager (Weather Initiative)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/201",
+      "posted": null,
+      "first_seen": "Wed, 14 Oct 2026 19:49:49 +0000"
     }
   ]
 }
