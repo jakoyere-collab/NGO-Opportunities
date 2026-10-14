@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-13T20:53:42+00:00",
+  "generated_at": "2026-10-14T13:10:55+00:00",
   "count": 39,
   "opportunities": [
+    {
+      "title": "Global Social and Behaviour Change (SBC) Manager",
+      "organization": "MSI Reproductive Choices",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.dayforcehcm.com/en-GB/msichoices/CANDIDATEPORTALINT/jobs/9975",
+      "posted": "Wed, 14 Oct 2026 11:46:19 +0000"
+    },
     {
       "title": "Senior Manager Impact and Intelligence",
       "organization": "SNV",
@@ -45,6 +54,33 @@
       "location": "Nigeria",
       "remote": false,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002624",
+      "posted": "Tue, 13 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor Sr, Commercial Lending Partnerships",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002833",
+      "posted": "Tue, 13 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor Sr, Development Bank Partnerships",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002834",
+      "posted": "Tue, 13 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Advisor Sr, GCF Pipeline and Capture Lead (US Only)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002946",
       "posted": "Tue, 13 Oct 2026 00:00:00 +0000"
     },
     {
@@ -255,15 +291,6 @@
       "posted": "Mon, 05 Oct 2026 00:00:00 +0000"
     },
     {
-      "title": "Medical Laboratory Scientist - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-abuja-649",
-      "posted": "Sun, 04 Oct 2026 08:54:55 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -332,36 +359,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/200",
       "posted": null,
       "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
-    },
-    {
-      "title": "Program Manager (Weather Initiative)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/201",
-      "posted": null,
-      "first_seen": "Sun, 11 Oct 2026 14:28:59 +0000"
-    },
-    {
-      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
-      "posted": null,
-      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
-    },
-    {
-      "title": "Senior Program Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/203",
-      "posted": null,
-      "first_seen": "Mon, 12 Oct 2026 17:07:08 +0000"
     }
   ]
 }
