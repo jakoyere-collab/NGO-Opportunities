@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-15T12:56:52+00:00",
-  "count": 39,
+  "generated_at": "2026-10-15T19:33:40+00:00",
+  "count": 40,
   "opportunities": [
+    {
+      "title": "WWF’s Russell E. Train Fellowships 2027/2028 for master’s or doctoral students ($15,000 per year)",
+      "organization": "WWF’s Russell E. Train",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.worldwildlife.org/our-work/science/russell-e-train-education-for-nature/russell-e-train-fellowships/",
+      "posted": "Thu, 15 Oct 2026 07:26:00 +0000"
+    },
+    {
+      "title": "The APDD Individual Research Fellowships 2027 for African Researchers.",
+      "organization": "APDD Individual Research",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.ssrc.org/programs/african-peacebuilding-network/apn-working-papers/",
+      "posted": "Thu, 15 Oct 2026 07:14:00 +0000"
+    },
+    {
+      "title": "Advisor II, Health Supply Chain,  Continuity of Integrated Health Services (CIHS) Project",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002948",
+      "posted": "Thu, 15 Oct 2026 00:00:00 +0000"
+    },
     {
       "title": "Global Social and Behaviour Change (SBC) Manager",
       "organization": "MSI Reproductive Choices",
@@ -246,15 +273,6 @@
       "posted": "Tue, 06 Oct 2026 09:52:00 +0000"
     },
     {
-      "title": "The International Water Association (IWA) & Grundfos Youth Action for SDG 6 Fellowship",
-      "organization": "International Water Association (IWA) & Grundfos Youth Action for SDG 6",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.iwa-network.org/iwa-grundfos-youth-fellowship",
-      "posted": "Tue, 06 Oct 2026 09:27:00 +0000"
-    },
-    {
       "title": "Pharmacist",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -350,16 +368,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/201",
       "posted": null,
       "first_seen": "Wed, 14 Oct 2026 19:49:49 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Thu, 15 Oct 2026 12:56:52 +0000"
     }
   ]
 }
