@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:49:49+00:00",
+  "generated_at": "2026-10-15T12:56:52+00:00",
   "count": 39,
   "opportunities": [
     {
@@ -282,15 +282,6 @@
       "posted": "Tue, 06 Oct 2026 00:00:00 +0000"
     },
     {
-      "title": "Administrative Officer Senior",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002916",
-      "posted": "Mon, 05 Oct 2026 00:00:00 +0000"
-    },
-    {
       "title": "Research Manager (Ethiopia)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -359,6 +350,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/201",
       "posted": null,
       "first_seen": "Wed, 14 Oct 2026 19:49:49 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Thu, 15 Oct 2026 12:56:52 +0000"
     }
   ]
 }
