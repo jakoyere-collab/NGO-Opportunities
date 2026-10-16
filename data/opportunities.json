@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:49:43+00:00",
+  "generated_at": "2026-10-16T19:07:42+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -19,6 +19,33 @@
       "remote": true,
       "apply_url": "https://wallacehouse.umich.edu/knight-wallace/about/",
       "posted": "Fri, 16 Oct 2026 11:28:15 +0000"
+    },
+    {
+      "title": "Technical Advisor II - Emergency Response and Recovery - LACRO Regional Focal Point",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002750",
+      "posted": "Fri, 16 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Senior Grants and Compliance Manager, Child SAFE",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002949",
+      "posted": "Fri, 16 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "USDA Food for Peace Chief of Party II",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002952",
+      "posted": "Fri, 16 Oct 2026 00:00:00 +0000"
     },
     {
       "title": "WWF’s Russell E. Train Fellowships 2027/2028 for master’s or doctoral students ($15,000 per year)",
@@ -341,36 +368,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/201",
       "posted": null,
       "first_seen": "Wed, 14 Oct 2026 19:49:49 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Fri, 16 Oct 2026 12:49:43 +0000"
-    },
-    {
-      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
-      "posted": null,
-      "first_seen": "Fri, 16 Oct 2026 12:49:43 +0000"
-    },
-    {
-      "title": "Senior Program Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/203",
-      "posted": null,
-      "first_seen": "Fri, 16 Oct 2026 12:49:43 +0000"
     }
   ]
 }
