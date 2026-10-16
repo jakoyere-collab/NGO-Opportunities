@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-15T19:33:40+00:00",
+  "generated_at": "2026-10-16T12:49:43+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The John S. Knight Journalism Fellowships 2027/2028 at Stanford University, USA ($135,000 stipend & Fully Funded)",
+      "organization": "John S. Knight Journalism",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://jsk.stanford.edu/become-a-fellow",
+      "posted": "Fri, 16 Oct 2026 11:44:38 +0000"
+    },
+    {
+      "title": "The Knight-Wallace Journalism Fellowship 2027/2028 for mid-career Journalists to study at the University of Michighan-USA (Fully Funded)",
+      "organization": "Knight-Wallace Journalism",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://wallacehouse.umich.edu/knight-wallace/about/",
+      "posted": "Fri, 16 Oct 2026 11:28:15 +0000"
+    },
     {
       "title": "WWF’s Russell E. Train Fellowships 2027/2028 for master’s or doctoral students ($15,000 per year)",
       "organization": "WWF’s Russell E. Train",
@@ -255,51 +273,6 @@
       "posted": "Wed, 07 Oct 2026 03:07:32 +0000"
     },
     {
-      "title": "The Afya na Haki (Ahaki) Litigating Reproductive Justice in Africa (LIRA) Fellowship Programme 2026 for young African Professionals.",
-      "organization": "Afya na Haki (Ahaki) Litigating Reproductive Justice in Africa (LIRA)",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.afyanahaki.org/",
-      "posted": "Tue, 06 Oct 2026 09:57:00 +0000"
-    },
-    {
-      "title": "French Government’s Make Our Planet Great Again (MOPGA) Scholarship Program 2027 for early-career Researchers (Funded Study in France).",
-      "organization": "French Government’s Make Our Planet Great Again (MOPGA) Scholarship",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.campusfrance.org/en/mopga-2027-visiting-fellowship-program-for-early-career-researchers",
-      "posted": "Tue, 06 Oct 2026 09:52:00 +0000"
-    },
-    {
-      "title": "Pharmacist",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
-      "posted": "Tue, 06 Oct 2026 03:33:56 +0000"
-    },
-    {
-      "title": "Technical Advisor II, Supply Chain EMPOWER RAPID",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002848",
-      "posted": "Tue, 06 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Business Development Specialist II - Short Term",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002899",
-      "posted": "Tue, 06 Oct 2026 00:00:00 +0000"
-    },
-    {
       "title": "Research Manager (Ethiopia)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -368,6 +341,36 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/201",
       "posted": null,
       "first_seen": "Wed, 14 Oct 2026 19:49:49 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Fri, 16 Oct 2026 12:49:43 +0000"
+    },
+    {
+      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
+      "posted": null,
+      "first_seen": "Fri, 16 Oct 2026 12:49:43 +0000"
+    },
+    {
+      "title": "Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/203",
+      "posted": null,
+      "first_seen": "Fri, 16 Oct 2026 12:49:43 +0000"
     }
   ]
 }
