@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:49:48+00:00",
+  "generated_at": "2026-10-17T18:02:01+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -264,33 +264,6 @@
       "posted": "Thu, 08 Oct 2026 07:24:59 +0000"
     },
     {
-      "title": "Energy Project Manager",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000154156649",
-      "posted": "Wed, 07 Oct 2026 16:52:54 +0000"
-    },
-    {
-      "title": "Agribusiness and Livelihoods Advisor",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000154089000",
-      "posted": "Wed, 07 Oct 2026 12:27:23 +0000"
-    },
-    {
-      "title": "Youth Employment and Mobilisation Advisor",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000154088789",
-      "posted": "Wed, 07 Oct 2026 12:25:39 +0000"
-    },
-    {
       "title": "Research Manager (Ethiopia)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -369,6 +342,36 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/84",
       "posted": null,
       "first_seen": "Sat, 17 Oct 2026 11:49:48 +0000"
+    },
+    {
+      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
+      "posted": null,
+      "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
+    },
+    {
+      "title": "Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/203",
+      "posted": null,
+      "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
+    },
+    {
+      "title": "Program Manager / Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/204",
+      "posted": null,
+      "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
     }
   ]
 }
