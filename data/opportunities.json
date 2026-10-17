@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T19:07:42+00:00",
+  "generated_at": "2026-10-17T11:49:48+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -45,6 +45,15 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002952",
+      "posted": "Fri, 16 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Technical Advisor I, Supply Chain - EMPOWER/RAPID",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002953",
       "posted": "Fri, 16 Oct 2026 00:00:00 +0000"
     },
     {
@@ -282,24 +291,6 @@
       "posted": "Wed, 07 Oct 2026 12:25:39 +0000"
     },
     {
-      "title": "Dental Assistant - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
-      "posted": "Wed, 07 Oct 2026 08:42:41 +0000"
-    },
-    {
-      "title": "Medical Doctor - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-abuja-549",
-      "posted": "Wed, 07 Oct 2026 03:07:32 +0000"
-    },
-    {
       "title": "Research Manager (Ethiopia)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -368,6 +359,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/201",
       "posted": null,
       "first_seen": "Wed, 14 Oct 2026 19:49:49 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Sat, 17 Oct 2026 11:49:48 +0000"
     }
   ]
 }
