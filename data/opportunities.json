@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-19T15:07:40+00:00",
-  "count": 39,
+  "generated_at": "2026-10-19T20:47:41+00:00",
+  "count": 38,
   "opportunities": [
+    {
+      "title": "Chargé-e des Opérations - Sénégal",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8571322-charge-e-des-operations-senegal",
+      "posted": "Mon, 19 Oct 2026 18:06:02 +0200"
+    },
+    {
+      "title": "Senior Officer, Client Acquisition & Retention -Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-lagos-654",
+      "posted": "Mon, 19 Oct 2026 10:56:19 +0000"
+    },
     {
       "title": "People and Culture Intern",
       "organization": "EHA Clinics",
@@ -19,6 +37,15 @@
       "remote": true,
       "apply_url": "https://akismet.com/privacy/",
       "posted": "Mon, 19 Oct 2026 00:04:00 +0000"
+    },
+    {
+      "title": "Registered Nurse - Yaba Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
+      "posted": "Sun, 18 Oct 2026 14:14:48 +0000"
     },
     {
       "title": "Pharmacist",
@@ -228,15 +255,6 @@
       "posted": "Mon, 12 Oct 2026 13:18:48 +0000"
     },
     {
-      "title": "The World Bank Government Analytics Fellowship Program 2027 for government officials (Fully Funded to Washington DC, United States)",
-      "organization": "World Bank Government Analytics",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.worldbank.org/en/publication/government-analytics/brief/government-analytics-fellowship",
-      "posted": "Fri, 09 Oct 2026 15:59:10 +0000"
-    },
-    {
       "title": "Research Manager (PMU) (India)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -335,36 +353,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/204",
       "posted": null,
       "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
-    },
-    {
-      "title": "Talent Roster - Technical Design Consultant – Proposal Design",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
-      "posted": "",
-      "first_seen": "Sun, 18 Oct 2026 12:16:42 +0000"
-    },
-    {
-      "title": "Research Manager (Ethiopia)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
-      "posted": null,
-      "first_seen": "Mon, 19 Oct 2026 15:07:40 +0000"
-    },
-    {
-      "title": "Talent Roster - Subject Matter Expert – Proposal Design",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1597",
-      "posted": "",
-      "first_seen": "Mon, 19 Oct 2026 15:07:40 +0000"
     }
   ]
 }
