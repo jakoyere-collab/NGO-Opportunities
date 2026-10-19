@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-18T18:21:36+00:00",
-  "count": 40,
+  "generated_at": "2026-10-19T15:07:40+00:00",
+  "count": 39,
   "opportunities": [
+    {
+      "title": "People and Culture Intern",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/people-and-culture-intern-583",
+      "posted": "Mon, 19 Oct 2026 06:57:56 +0000"
+    },
+    {
+      "title": "Climate Risk Lab Data Science and Machine Learning Fellowship 2027 for recent PhD, MSc, or first-class graduates.",
+      "organization": "Climate Risk Lab Data Science and Machine Learning",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://akismet.com/privacy/",
+      "posted": "Mon, 19 Oct 2026 00:04:00 +0000"
+    },
     {
       "title": "Pharmacist",
       "organization": "EHA Clinics",
@@ -10,6 +28,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
       "posted": "Sun, 18 Oct 2026 12:29:24 +0000"
+    },
+    {
+      "title": "Medical Doctor - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-doctor-abuja-549",
+      "posted": "Sun, 18 Oct 2026 12:15:16 +0000"
     },
     {
       "title": "The John S. Knight Journalism Fellowships 2027/2028 at Stanford University, USA ($135,000 stipend & Fully Funded)",
@@ -210,60 +237,6 @@
       "posted": "Fri, 09 Oct 2026 15:59:10 +0000"
     },
     {
-      "title": "Harvard Global Health Institute LEAD Fellowship Program 2027/2028 for Promoting Women in Global Health. (Fully Funded)",
-      "organization": "Harvard Global Health Institute LEAD",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://globalhealth.harvard.edu/2027-2028-harvard-lead-fellowship-application-is-now-open/",
-      "posted": "Fri, 09 Oct 2026 14:58:30 +0000"
-    },
-    {
-      "title": "Gestionnaire logistique Bamako",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8525741-gestionnaire-logistique-bamako",
-      "posted": "Fri, 09 Oct 2026 14:41:04 +0200"
-    },
-    {
-      "title": "Chargé Logistique Ségou",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8525592-charge-logistique-segou",
-      "posted": "Fri, 09 Oct 2026 14:26:06 +0200"
-    },
-    {
-      "title": "Assistant Manager, Laboratory and Diagnotics",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/assistant-manager-laboratory-and-diagnotics-180",
-      "posted": "Fri, 09 Oct 2026 10:14:46 +0000"
-    },
-    {
-      "title": "Registered Nurse - Yaba Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
-      "posted": "Fri, 09 Oct 2026 08:15:41 +0000"
-    },
-    {
-      "title": "The Atlantic Fellows for Social and Economic Equity Programme 2027/2028 for social-change leaders (Fully Funded study at London School of Economics and Political Science)",
-      "organization": "Atlantic",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.lse.ac.uk/study-at-lse/Graduate/degree-programmes-2024/MSc-inequalities-and-social-science",
-      "posted": "Fri, 09 Oct 2026 04:23:00 +0000"
-    },
-    {
       "title": "Research Manager (PMU) (India)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -372,6 +345,26 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1596",
       "posted": "",
       "first_seen": "Sun, 18 Oct 2026 12:16:42 +0000"
+    },
+    {
+      "title": "Research Manager (Ethiopia)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
+      "posted": null,
+      "first_seen": "Mon, 19 Oct 2026 15:07:40 +0000"
+    },
+    {
+      "title": "Talent Roster - Subject Matter Expert – Proposal Design",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1597",
+      "posted": "",
+      "first_seen": "Mon, 19 Oct 2026 15:07:40 +0000"
     }
   ]
 }
