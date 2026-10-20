@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:07:57+00:00",
+  "generated_at": "2026-10-20T19:43:23+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -19,6 +19,15 @@
       "remote": true,
       "apply_url": "https://www.ifa.de/en/funding/crossculture-programme/",
       "posted": "Tue, 20 Oct 2026 11:32:24 +0000"
+    },
+    {
+      "title": "Technical Advisor I-Shelter & Settlements RAPID",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002777",
+      "posted": "Tue, 20 Oct 2026 00:00:00 +0000"
     },
     {
       "title": "Chargé-e des Opérations - Sénégal",
@@ -273,26 +282,6 @@
       "posted": "Mon, 12 Oct 2026 13:18:48 +0000"
     },
     {
-      "title": "Research Manager (PMU) (India)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
-      "posted": null,
-      "first_seen": "Sat, 10 Oct 2026 14:05:26 +0000"
-    },
-    {
-      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
-      "posted": null,
-      "first_seen": "Sat, 10 Oct 2026 19:37:53 +0000"
-    },
-    {
       "title": "Country Launch Manager, Philippines",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -371,6 +360,16 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/204",
       "posted": null,
       "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
+    },
+    {
+      "title": "Research Manager (Ethiopia)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
+      "posted": null,
+      "first_seen": "Tue, 20 Oct 2026 19:43:23 +0000"
     }
   ]
 }
