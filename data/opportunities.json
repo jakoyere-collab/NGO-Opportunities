@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-20T19:43:23+00:00",
+  "generated_at": "2026-10-21T13:18:36+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Media Relations Specialist - Suisse",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8584333-media-relations-specialist-suisse",
+      "posted": "Wed, 21 Oct 2026 13:58:51 +0200"
+    },
+    {
+      "title": "MEALIntern",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8582560-mealintern",
+      "posted": "Wed, 21 Oct 2026 10:27:05 +0200"
+    },
     {
       "title": "The HP-UCL IOE Fellowship in AI in Education – global executive leadership programme for senior education leaders (Funded)",
       "organization": "HP-UCL IOE",
@@ -350,26 +368,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/203",
       "posted": null,
       "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
-    },
-    {
-      "title": "Program Manager / Senior Program Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/204",
-      "posted": null,
-      "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
-    },
-    {
-      "title": "Research Manager (Ethiopia)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
-      "posted": null,
-      "first_seen": "Tue, 20 Oct 2026 19:43:23 +0000"
     }
   ]
 }
