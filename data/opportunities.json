@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-23T12:57:01+00:00",
-  "count": 39,
+  "generated_at": "2026-10-23T19:38:28+00:00",
+  "count": 40,
   "opportunities": [
+    {
+      "title": "Medical Laboratory Scientist - Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
+      "posted": "Fri, 23 Oct 2026 06:38:29 +0000"
+    },
+    {
+      "title": "The DAAD Heilbronn AI Fellowship 2026/2027 for International Postdoctoral Researchers in Artificial Intelligence (Funded study in Germany)",
+      "organization": "DAAD Heilbronn AI",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://bildungscampus.hn/en/",
+      "posted": "Fri, 23 Oct 2026 05:29:00 +0000"
+    },
     {
       "title": "Finance Officer",
       "organization": "Catholic Relief Services (CRS)",
@@ -246,33 +264,6 @@
       "posted": "Wed, 14 Oct 2026 11:46:19 +0000"
     },
     {
-      "title": "Senior Manager Impact and Intelligence",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000155329491",
-      "posted": "Tue, 13 Oct 2026 18:09:44 +0000"
-    },
-    {
-      "title": "Senior Manager Operations and Allocations",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000155331169",
-      "posted": "Tue, 13 Oct 2026 18:07:50 +0000"
-    },
-    {
-      "title": "Associate",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000155330728",
-      "posted": "Tue, 13 Oct 2026 18:04:36 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -361,6 +352,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/199",
       "posted": null,
       "first_seen": "Fri, 23 Oct 2026 12:57:01 +0000"
+    },
+    {
+      "title": "Research Manager / Senior Research Manager, Philippines",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/200",
+      "posted": null,
+      "first_seen": "Fri, 23 Oct 2026 19:38:28 +0000"
+    },
+    {
+      "title": "Program Manager / Senior Program Manager",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/204",
+      "posted": null,
+      "first_seen": "Fri, 23 Oct 2026 19:38:28 +0000"
     }
   ]
 }
