@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-22T19:37:25+00:00",
+  "generated_at": "2026-10-23T12:57:01+00:00",
   "count": 39,
   "opportunities": [
+    {
+      "title": "Finance Officer",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002900",
+      "posted": "Fri, 23 Oct 2026 00:00:00 +0000"
+    },
     {
       "title": "The Policy Center for the New South (PCNS) Raisina Young Fellows Programme 2027 for emerging leaders worldwide (Fully Funded to New Delhi, India)",
       "organization": "Policy Center for the New South (PCNS) Raisina Young",
@@ -19,6 +28,15 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/human-resource-generalist-coordinator-1020",
       "posted": "Thu, 22 Oct 2026 01:53:54 +0000"
+    },
+    {
+      "title": "RAPID Grants and Compliance Manager",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002645",
+      "posted": "Thu, 22 Oct 2026 00:00:00 +0000"
     },
     {
       "title": "The WIPO Global Innovation Index Fellowship 2027 for international research (6,000 CHF monthly stipend and funded to Geneva, Switzerland)",
@@ -255,51 +273,6 @@
       "posted": "Tue, 13 Oct 2026 18:04:36 +0000"
     },
     {
-      "title": "Human Resource Generalist",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/human-resource-generalist-1020",
-      "posted": "Tue, 13 Oct 2026 03:57:13 +0000"
-    },
-    {
-      "title": "Humanitarian Operations Technical Advisor I, RAPID - ESARO",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002624",
-      "posted": "Tue, 13 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor Sr, Commercial Lending Partnerships",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002833",
-      "posted": "Tue, 13 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Technical Advisor Sr, Development Bank Partnerships",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002834",
-      "posted": "Tue, 13 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Advisor Sr, GCF Pipeline and Capture Lead (US Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002946",
-      "posted": "Tue, 13 Oct 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -358,6 +331,36 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/193",
       "posted": null,
       "first_seen": "Wed, 21 Oct 2026 19:45:55 +0000"
+    },
+    {
+      "title": "Research Manager (PMU) (India)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
+      "posted": null,
+      "first_seen": "Fri, 23 Oct 2026 12:57:01 +0000"
+    },
+    {
+      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
+      "posted": null,
+      "first_seen": "Fri, 23 Oct 2026 12:57:01 +0000"
+    },
+    {
+      "title": "Country Launch Manager, Philippines",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/199",
+      "posted": null,
+      "first_seen": "Fri, 23 Oct 2026 12:57:01 +0000"
     }
   ]
 }
