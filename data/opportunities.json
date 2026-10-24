@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-23T19:38:28+00:00",
+  "generated_at": "2026-10-24T12:19:13+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Finance Manager",
+      "organization": "INTERSOS",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://www.intersos.org/en/field-eng/#intersosorg-vacancies/vacancy-details/6acf344e4a40cae9dbeb74c4/",
+      "posted": "Fri, 23 Oct 2026 23:55:38 +0000"
+    },
+    {
+      "title": "Program Quality, Evidence & Learning Director – Nigeria",
+      "organization": "Global Peace and Prosperity Initiative",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "http://app.jobvite.com/m?3lfmynwm",
+      "posted": "Fri, 23 Oct 2026 23:12:38 +0000"
+    },
     {
       "title": "Medical Laboratory Scientist - Lagos",
       "organization": "EHA Clinics",
@@ -30,6 +48,24 @@
       "posted": "Fri, 23 Oct 2026 00:00:00 +0000"
     },
     {
+      "title": "Sr Finance Officer RAPID",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002974",
+      "posted": "Fri, 23 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Senior Advisor, Staff Well-Being and Workforce Resilience",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002977",
+      "posted": "Fri, 23 Oct 2026 00:00:00 +0000"
+    },
+    {
       "title": "The Policy Center for the New South (PCNS) Raisina Young Fellows Programme 2027 for emerging leaders worldwide (Fully Funded to New Delhi, India)",
       "organization": "Policy Center for the New South (PCNS) Raisina Young",
       "type": "Fellowship",
@@ -46,6 +82,24 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/human-resource-generalist-coordinator-1020",
       "posted": "Thu, 22 Oct 2026 01:53:54 +0000"
+    },
+    {
+      "title": "Logistics Assistant - Mandalay",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8587011-logistics-assistant-mandalay",
+      "posted": "Thu, 22 Oct 2026 03:12:14 +0200"
+    },
+    {
+      "title": "Project Assistant_ Taungoo",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8587005-project-assistant_-taungoo",
+      "posted": "Thu, 22 Oct 2026 02:48:14 +0200"
     },
     {
       "title": "RAPID Grants and Compliance Manager",
@@ -82,6 +136,15 @@
       "remote": true,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8582560-mealintern",
       "posted": "Wed, 21 Oct 2026 10:27:05 +0200"
+    },
+    {
+      "title": "MEAL Assistant - Mandalay",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8581387-meal-assistant-mandalay",
+      "posted": "Wed, 21 Oct 2026 08:52:07 +0200"
     },
     {
       "title": "The HP-UCL IOE Fellowship in AI in Education – global executive leadership programme for senior education leaders (Funded)",
@@ -255,15 +318,6 @@
       "posted": "Thu, 15 Oct 2026 00:00:00 +0000"
     },
     {
-      "title": "Global Social and Behaviour Change (SBC) Manager",
-      "organization": "MSI Reproductive Choices",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://jobs.dayforcehcm.com/en-GB/msichoices/CANDIDATEPORTALINT/jobs/9975",
-      "posted": "Wed, 14 Oct 2026 11:46:19 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -312,66 +366,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/203",
       "posted": null,
       "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
-    },
-    {
-      "title": "Research Manager (Ethiopia)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/193",
-      "posted": null,
-      "first_seen": "Wed, 21 Oct 2026 19:45:55 +0000"
-    },
-    {
-      "title": "Research Manager (PMU) (India)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/196",
-      "posted": null,
-      "first_seen": "Fri, 23 Oct 2026 12:57:01 +0000"
-    },
-    {
-      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
-      "posted": null,
-      "first_seen": "Fri, 23 Oct 2026 12:57:01 +0000"
-    },
-    {
-      "title": "Country Launch Manager, Philippines",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/199",
-      "posted": null,
-      "first_seen": "Fri, 23 Oct 2026 12:57:01 +0000"
-    },
-    {
-      "title": "Research Manager / Senior Research Manager, Philippines",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/200",
-      "posted": null,
-      "first_seen": "Fri, 23 Oct 2026 19:38:28 +0000"
-    },
-    {
-      "title": "Program Manager / Senior Program Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/204",
-      "posted": null,
-      "first_seen": "Fri, 23 Oct 2026 19:38:28 +0000"
     }
   ]
 }
