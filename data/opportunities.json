@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:40:07+00:00",
+  "generated_at": "2026-10-26T20:48:59+00:00",
   "count": 37,
   "opportunities": [
     {
@@ -19,6 +19,15 @@
       "remote": false,
       "apply_url": "https://www.solidarites.org/fr/depuis-1980/travailler-avec-nous/offres-emploi/deposer-votre-candidature/?jobId=PA3FK026203F3VBQB6G8N8NVU-117568&#038;langCode=fr_FR",
       "posted": "Mon, 26 Oct 2026 13:54:57 +0000"
+    },
+    {
+      "title": "Program Manager I, Emergency Response and Recovery, ESARO",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002601",
+      "posted": "Mon, 26 Oct 2026 00:00:00 +0000"
     },
     {
       "title": "IDM-Africa Fellowship Programme 2027",
@@ -330,16 +339,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Mon, 26 Oct 2026 14:40:07 +0000"
-    },
-    {
-      "title": "Country Launch Manager, Philippines",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/199",
       "posted": null,
       "first_seen": "Mon, 26 Oct 2026 14:40:07 +0000"
     }
