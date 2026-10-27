@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T13:44:26+00:00",
-  "count": 39,
+  "generated_at": "2026-10-27T20:18:45+00:00",
+  "count": 40,
   "opportunities": [
     {
       "title": "The UN DPoA Mid-Term Review Journalism Fellowship 2027 for journalists from Least Developed Countries (Fully Funded to Doha, Qatar)",
@@ -10,6 +10,15 @@
       "remote": true,
       "apply_url": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
       "posted": "Tue, 27 Oct 2026 11:29:38 +0000"
+    },
+    {
+      "title": "The Internews’ Earth Journalism Network (EJN) Reporting Fellowships for Journalists to Cover BBNJ COP1 in New York City, USA",
+      "organization": "Internews’ Earth Journalism Network (EJN) Reporting",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+      "posted": "Tue, 27 Oct 2026 05:55:00 +0000"
     },
     {
       "title": "Local Government Areas Coordinator -Kebbi State",
@@ -309,26 +318,6 @@
       "posted": "Sun, 18 Oct 2026 12:15:16 +0000"
     },
     {
-      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
-      "posted": null,
-      "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
-    },
-    {
-      "title": "Senior Program Manager",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/203",
-      "posted": null,
-      "first_seen": "Sat, 17 Oct 2026 18:02:01 +0000"
-    },
-    {
       "title": "Research Manager (Ethiopia)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -357,6 +346,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/198",
       "posted": null,
       "first_seen": "Sun, 25 Oct 2026 12:50:45 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Tue, 27 Oct 2026 20:18:45 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Tue, 27 Oct 2026 20:18:45 +0000"
     }
   ]
 }
