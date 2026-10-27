@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-10-26T20:48:59+00:00",
-  "count": 37,
+  "generated_at": "2026-10-27T13:44:26+00:00",
+  "count": 39,
   "opportunities": [
+    {
+      "title": "The UN DPoA Mid-Term Review Journalism Fellowship 2027 for journalists from Least Developed Countries (Fully Funded to Doha, Qatar)",
+      "organization": "UN DPoA Mid-Term Review Journalism",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+      "posted": "Tue, 27 Oct 2026 11:29:38 +0000"
+    },
+    {
+      "title": "Local Government Areas Coordinator -Kebbi State",
+      "organization": "Nutrition International",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://apply.workable.com/j/11E2FC8443/apply",
+      "posted": "Tue, 27 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Procurement Manager, Egypt & Yemen (Middle East Remote, Arabic & English Required)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002978",
+      "posted": "Tue, 27 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Sir Cyril Taylor Young African Leaders Program 2027 (Fully-funded)",
+      "organization": "Sir Cyril Taylor Charitable Foundation",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.youthassembly.org/2026/10/16/young-african-leaders-scholarships/",
+      "posted": "Mon, 26 Oct 2026 20:22:05 +0000"
+    },
     {
       "title": "NIGERIA – GRANTS & PARTNERSHIP HEAD OF DEPARTMENT (M/F) – ABUDJA",
       "organization": "Solidarités International",
@@ -273,16 +309,6 @@
       "posted": "Sun, 18 Oct 2026 12:15:16 +0000"
     },
     {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Sat, 17 Oct 2026 11:49:48 +0000"
-    },
-    {
       "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -331,16 +357,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/198",
       "posted": null,
       "first_seen": "Sun, 25 Oct 2026 12:50:45 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Mon, 26 Oct 2026 14:40:07 +0000"
     }
   ]
 }
