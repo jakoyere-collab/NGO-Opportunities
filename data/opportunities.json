@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:40:20+00:00",
+  "generated_at": "2026-10-28T20:40:52+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -28,6 +28,24 @@
       "remote": false,
       "apply_url": "https://grnh.se/ja9oxdjf1us",
       "posted": "Wed, 28 Oct 2026 11:45:01 +0000"
+    },
+    {
+      "title": "Pharmacist",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
+      "posted": "Wed, 28 Oct 2026 09:23:48 +0000"
+    },
+    {
+      "title": "Registered Nurse - Yaba Lagos",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/registered-nurse-yaba-lagos-1011",
+      "posted": "Wed, 28 Oct 2026 09:23:11 +0000"
     },
     {
       "title": "Locum Doctor - Abuja",
@@ -345,26 +363,6 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/196",
       "posted": null,
       "first_seen": "Sun, 25 Oct 2026 12:50:45 +0000"
-    },
-    {
-      "title": "Research Associate / Senior Research Associate (Weather Initiative)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/198",
-      "posted": null,
-      "first_seen": "Sun, 25 Oct 2026 12:50:45 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Tue, 27 Oct 2026 20:18:45 +0000"
     }
   ]
 }
