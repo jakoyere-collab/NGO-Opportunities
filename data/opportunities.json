@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T20:40:52+00:00",
-  "count": 40,
+  "generated_at": "2026-10-29T14:44:59+00:00",
+  "count": 39,
   "opportunities": [
     {
       "title": "Nigeria Supply Chain Coordinator – Logistics & Delivery",
@@ -318,33 +318,6 @@
       "posted": "Mon, 19 Oct 2026 18:06:02 +0200"
     },
     {
-      "title": "Senior Officer, Client Acquisition & Retention -Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/senior-officer-client-acquisition-retention-lagos-654",
-      "posted": "Mon, 19 Oct 2026 10:56:19 +0000"
-    },
-    {
-      "title": "People and Culture Intern",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/people-and-culture-intern-583",
-      "posted": "Mon, 19 Oct 2026 06:57:56 +0000"
-    },
-    {
-      "title": "Climate Risk Lab Data Science and Machine Learning Fellowship 2027 for recent PhD, MSc, or first-class graduates.",
-      "organization": "Climate Risk Lab Data Science and Machine Learning",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://akismet.com/privacy/",
-      "posted": "Mon, 19 Oct 2026 00:04:00 +0000"
-    },
-    {
       "title": "Research Manager (Ethiopia)",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -363,6 +336,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/196",
       "posted": null,
       "first_seen": "Sun, 25 Oct 2026 12:50:45 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Thu, 29 Oct 2026 14:44:59 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Manager Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
+      "posted": null,
+      "first_seen": "Thu, 29 Oct 2026 14:44:59 +0000"
     }
   ]
 }
