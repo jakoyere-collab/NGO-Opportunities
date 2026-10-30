@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-30T14:41:13+00:00",
-  "count": 39,
+  "generated_at": "2026-10-30T20:15:17+00:00",
+  "count": 40,
   "opportunities": [
+    {
+      "title": "The Gates Foundation AI Fellows Program 2027 for young African Innovators.",
+      "organization": "Gates Foundation AI",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://gatesfoundation.wd1.myworkdayjobs.com/Gates/job/Nairobi-Kenya/AI-Fellow---Africa-Regional-Offices_B021830-1",
+      "posted": "Fri, 30 Oct 2026 16:39:23 +0000"
+    },
     {
       "title": "Senior Manager Operations and Allocations",
       "organization": "SNV",
@@ -37,6 +46,24 @@
       "remote": true,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8640446-project-officer_-taungoo",
       "posted": "Fri, 30 Oct 2026 08:02:55 +0100"
+    },
+    {
+      "title": "HR Business Partner I",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003011",
+      "posted": "Fri, 30 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Deputy Finance Manager RAPID",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003010",
+      "posted": "Fri, 30 Oct 2026 00:00:00 +0000"
     },
     {
       "title": "Infrastructure / Irrigation Engineer",
@@ -325,24 +352,6 @@
       "remote": true,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8587011-logistics-assistant-mandalay",
       "posted": "Thu, 22 Oct 2026 03:12:14 +0200"
-    },
-    {
-      "title": "Project Assistant_ Taungoo",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8587005-project-assistant_-taungoo",
-      "posted": "Thu, 22 Oct 2026 02:48:14 +0200"
-    },
-    {
-      "title": "RAPID Grants and Compliance Manager",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002645",
-      "posted": "Thu, 22 Oct 2026 00:00:00 +0000"
     },
     {
       "title": "The WIPO Global Innovation Index Fellowship 2027 for international research (6,000 CHF monthly stipend and funded to Geneva, Switzerland)",
