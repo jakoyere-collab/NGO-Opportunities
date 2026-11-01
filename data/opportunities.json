@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-31T19:37:49+00:00",
+  "generated_at": "2026-11-01T14:36:36+00:00",
   "count": 39,
   "opportunities": [
+    {
+      "title": "Pharmacist (Re-announced)",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8647063-pharmacist-re-announced",
+      "posted": "Sun, 01 Nov 2026 08:31:13 +0100"
+    },
     {
       "title": "The Gates Foundation AI Fellows Program 2027 for young African Innovators.",
       "organization": "Gates Foundation AI",
@@ -336,22 +345,14 @@
       "posted": "Thu, 22 Oct 2026 14:47:05 +0000"
     },
     {
-      "title": "Human Resource Generalist Coordinator",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/human-resource-generalist-coordinator-1020",
-      "posted": "Thu, 22 Oct 2026 01:53:54 +0000"
-    },
-    {
-      "title": "Logistics Assistant - Mandalay",
-      "organization": "Terre des hommes",
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
       "type": "Job",
       "location": "Regional (incl. Nigeria)",
       "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8587011-logistics-assistant-mandalay",
-      "posted": "Thu, 22 Oct 2026 03:12:14 +0200"
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Sun, 01 Nov 2026 14:36:36 +0000"
     }
   ]
 }
