@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T14:36:36+00:00",
-  "count": 39,
+  "generated_at": "2026-11-01T19:57:37+00:00",
+  "count": 38,
   "opportunities": [
     {
       "title": "Pharmacist (Re-announced)",
@@ -154,6 +154,15 @@
       "remote": false,
       "apply_url": "https://grnh.se/ja9oxdjf1us",
       "posted": "Wed, 28 Oct 2026 11:45:01 +0000"
+    },
+    {
+      "title": "Human Resource Generalist Coordinator",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/human-resource-generalist-coordinator-1020",
+      "posted": "Wed, 28 Oct 2026 11:23:22 +0000"
     },
     {
       "title": "Pharmacist",
@@ -334,25 +343,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002977",
       "posted": "Fri, 23 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "The Policy Center for the New South (PCNS) Raisina Young Fellows Programme 2027 for emerging leaders worldwide (Fully Funded to New Delhi, India)",
-      "organization": "Policy Center for the New South (PCNS) Raisina Young",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.policycenter.ma/events/pcns-youth-community-call-applications-raisina-young-fellows-programme-2027",
-      "posted": "Thu, 22 Oct 2026 14:47:05 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Associate Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
-      "posted": null,
-      "first_seen": "Sun, 01 Nov 2026 14:36:36 +0000"
     }
   ]
 }
