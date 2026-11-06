@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-11-06T15:27:53+00:00",
-  "count": 39,
+  "generated_at": "2026-11-06T21:09:36+00:00",
+  "count": 40,
   "opportunities": [
+    {
+      "title": "The Sir Cyril Taylor Young African Leaders Fellowship Program 2027 for young changemakers (Fully Funded to the 2027 AFS Youth Assembly in Switzerland)",
+      "organization": "Sir Cyril Taylor Young African Leaders",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.youthassembly.org/2026/10/16/young-african-leaders-scholarships/",
+      "posted": "Fri, 06 Nov 2026 16:53:16 +0000"
+    },
+    {
+      "title": "The Hurford Youth Fellows Program 2027 for emerging youth Leaders (Fully Funded to Washington D.C., United States)",
+      "organization": "Hurford Youth",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "http://www.ned.org/ideas/",
+      "posted": "Fri, 06 Nov 2026 16:08:13 +0000"
+    },
+    {
+      "title": "The Center for Effective Global Action (CEGA) 2027/2028 Visiting Fellowship for African researchers.",
+      "organization": "Center for Effective Global Action (CEGA) 2027/2028 Visiting",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://cega.submittable.com/submit",
+      "posted": "Fri, 06 Nov 2026 15:28:53 +0000"
+    },
+    {
+      "title": "NED Reagan-Fascell Democracy Fellows Program 2027/2028 for democracy activists, journalists, civil society leaders & scholars Worldwide (Fully Funded to Washington DC, USA).",
+      "organization": "NED Reagan-Fascell Democracy",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.nedfellowships.org/",
+      "posted": "Fri, 06 Nov 2026 05:18:00 +0000"
+    },
+    {
+      "title": "Global Awards and Project Support (GAPS) Director II",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003039",
+      "posted": "Fri, 06 Nov 2026 00:00:00 +0000"
+    },
     {
       "title": "The MCW Global’s Young Leaders Fellowship 2027 for young changemakers worldwide (Fully Funded to New York, USA)",
       "organization": "MCW Global’s Young Leaders",
@@ -120,15 +165,6 @@
       "posted": "Sun, 01 Nov 2026 08:31:13 +0100"
     },
     {
-      "title": "The Gates Foundation AI Fellows Program 2027 for young African Innovators.",
-      "organization": "Gates Foundation AI",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://gatesfoundation.wd1.myworkdayjobs.com/Gates/job/Nairobi-Kenya/AI-Fellow---Africa-Regional-Offices_B021830-1",
-      "posted": "Fri, 30 Oct 2026 16:39:23 +0000"
-    },
-    {
       "title": "Senior Manager Operations and Allocations",
       "organization": "SNV",
       "type": "Job",
@@ -192,15 +228,6 @@
       "posted": "Thu, 29 Oct 2026 23:51:31 +0000"
     },
     {
-      "title": "The Heinrich Böll Foundation’s (HBS) Feminist Futures Fellowship 2027 for young feminists (Fully Funded to CSW 71 in New York, USA)",
-      "organization": "Heinrich Böll Foundation’s (HBS) Feminist Futures",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women/csw69-2025/preparations",
-      "posted": "Thu, 29 Oct 2026 16:22:19 +0000"
-    },
-    {
       "title": "Driver - Abuja",
       "organization": "EHA Clinics",
       "type": "Job",
@@ -208,15 +235,6 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/driver-abuja-693",
       "posted": "Thu, 29 Oct 2026 10:03:15 +0000"
-    },
-    {
-      "title": "The Mozilla Foundation’s Fellowship 2027/2028 for innovators worldwide ($125,000 in funding)",
-      "organization": "Mozilla Foundation’s",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
-      "posted": "Thu, 29 Oct 2026 04:06:00 +0000"
     },
     {
       "title": "Manager I, Financial Planning & Analysis, Reporting - (US Only)",
@@ -345,16 +363,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://precisiondev.bamboohr.com/careers/205",
-      "posted": null,
-      "first_seen": "Fri, 06 Nov 2026 15:27:53 +0000"
-    },
-    {
-      "title": "Research Associate / Sr Research Associate (Heat Forecast)",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/206",
       "posted": null,
       "first_seen": "Fri, 06 Nov 2026 15:27:53 +0000"
     }
