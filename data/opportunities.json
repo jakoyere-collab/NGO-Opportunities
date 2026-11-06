@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T21:40:53+00:00",
-  "count": 40,
+  "generated_at": "2026-11-06T15:27:53+00:00",
+  "count": 39,
   "opportunities": [
     {
       "title": "The MCW Global’s Young Leaders Fellowship 2027 for young changemakers worldwide (Fully Funded to New York, USA)",
@@ -309,33 +309,6 @@
       "posted": "Wed, 28 Oct 2026 08:20:44 +0000"
     },
     {
-      "title": "The UN DPoA Mid-Term Review Journalism Fellowship 2027 for journalists from Least Developed Countries (Fully Funded to Doha, Qatar)",
-      "organization": "UN DPoA Mid-Term Review Journalism",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
-      "posted": "Tue, 27 Oct 2026 11:29:38 +0000"
-    },
-    {
-      "title": "Local Government Areas Coordinator -Kebbi State",
-      "organization": "Nutrition International",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://apply.workable.com/j/11E2FC8443/apply",
-      "posted": "Tue, 27 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Procurement Manager, Egypt & Yemen (Middle East Remote, Arabic & English Required)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002978",
-      "posted": "Tue, 27 Oct 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Associate Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -364,6 +337,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/202",
       "posted": null,
       "first_seen": "Thu, 05 Nov 2026 15:54:34 +0000"
+    },
+    {
+      "title": "Program Manager (Heat Forecast)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/205",
+      "posted": null,
+      "first_seen": "Fri, 06 Nov 2026 15:27:53 +0000"
+    },
+    {
+      "title": "Research Associate / Sr Research Associate (Heat Forecast)",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/206",
+      "posted": null,
+      "first_seen": "Fri, 06 Nov 2026 15:27:53 +0000"
     }
   ]
 }
