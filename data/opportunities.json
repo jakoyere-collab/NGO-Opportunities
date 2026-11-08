@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-07T19:43:16+00:00",
+  "generated_at": "2026-11-08T14:38:31+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028",
+      "organization": "CEGA Visiting Fellowship 2027-2028",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://cega.submittable.com/login?returnUrl=%2Fsubmit%2F372266%2F2027-28-cega-visiting-fellowship-final",
+      "posted": "Sat, 07 Nov 2026 22:00:09 +0000"
+    },
     {
       "title": "The Sir Cyril Taylor Young African Leaders Fellowship Program 2027 for young changemakers (Fully Funded to the 2027 AFS Youth Assembly in Switzerland)",
       "organization": "Sir Cyril Taylor Young African Leaders",
@@ -156,15 +165,6 @@
       "posted": "Mon, 02 Nov 2026 00:00:00 +0000"
     },
     {
-      "title": "Hive Colab Mastercard Foundation EdTech Fellowship 2027 for growth-stage Ugandan EdTech Ventures.",
-      "organization": "Hive Colab Mastercard Foundation EdTech",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.edtech.hivecolab.com/apply",
-      "posted": "Sun, 01 Nov 2026 23:51:00 +0000"
-    },
-    {
       "title": "Pharmacist (Re-announced)",
       "organization": "Terre des hommes",
       "type": "Job",
@@ -235,33 +235,6 @@
       "remote": false,
       "apply_url": "https://www.intersos.org/en/what-we-do/nigeria/",
       "posted": "Thu, 29 Oct 2026 23:51:31 +0000"
-    },
-    {
-      "title": "Driver - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/driver-abuja-693",
-      "posted": "Thu, 29 Oct 2026 10:03:15 +0000"
-    },
-    {
-      "title": "Manager I, Financial Planning & Analysis, Reporting - (US Only)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003004",
-      "posted": "Thu, 29 Oct 2026 00:00:00 +0000"
-    },
-    {
-      "title": "FP&A Global Process Sr. Manager",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003006",
-      "posted": "Thu, 29 Oct 2026 00:00:00 +0000"
     },
     {
       "title": "Expression of Interest for Research Associate Positions",
@@ -372,6 +345,36 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1600",
       "posted": "",
       "first_seen": "Sat, 07 Nov 2026 14:29:54 +0000"
+    },
+    {
+      "title": "Talent Roster – Proposal Writer",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1635",
+      "posted": "",
+      "first_seen": "Sun, 08 Nov 2026 14:38:31 +0000"
+    },
+    {
+      "title": "Costing/ Budgeting consultant – Office of Business Development",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1654",
+      "posted": "",
+      "first_seen": "Sun, 08 Nov 2026 14:38:31 +0000"
+    },
+    {
+      "title": "Chief Financial Officer - Africa/Netherlands",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1675",
+      "posted": "",
+      "first_seen": "Sun, 08 Nov 2026 14:38:31 +0000"
     }
   ]
 }
