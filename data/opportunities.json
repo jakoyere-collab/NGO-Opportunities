@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:38:31+00:00",
+  "generated_at": "2026-11-08T20:02:33+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -109,6 +109,15 @@
       "remote": true,
       "apply_url": "https://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm",
       "posted": "Wed, 04 Nov 2026 18:55:05 +0000"
+    },
+    {
+      "title": "Driver - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/driver-abuja-693",
+      "posted": "Wed, 04 Nov 2026 01:24:18 +0000"
     },
     {
       "title": "Project Officer - Infrastructure",
@@ -363,16 +372,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1654",
-      "posted": "",
-      "first_seen": "Sun, 08 Nov 2026 14:38:31 +0000"
-    },
-    {
-      "title": "Chief Financial Officer - Africa/Netherlands",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1675",
       "posted": "",
       "first_seen": "Sun, 08 Nov 2026 14:38:31 +0000"
     }
