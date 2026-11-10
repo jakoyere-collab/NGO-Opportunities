@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-09T17:57:40+00:00",
+  "generated_at": "2026-11-10T15:55:22+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Chatham House Research Fellow Africa Programme 2026-2027",
+      "organization": "Chatham House",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://careers.chathamhouse.org/pages/research-fellow-east-africa-africa-programme",
+      "posted": "Mon, 09 Nov 2026 21:16:58 +0000"
+    },
     {
       "title": "Airtel Africa Foundation Tech Fellowship 2026/2027 Undergraduate Scholarship for young Nigerians. (Fully Funded)",
       "organization": "Airtel Africa Foundation Tech",
@@ -12,6 +21,15 @@
       "posted": "Mon, 09 Nov 2026 15:51:28 +0000"
     },
     {
+      "title": "Stagiaire Ressources Humaines Dakar, Sénégal",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8690352-stagiaire-ressources-humaines-dakar-senegal",
+      "posted": "Mon, 09 Nov 2026 13:18:28 +0100"
+    },
+    {
       "title": "Nurse (Maternity Coverage) - Teknaf, Cox's Bazar",
       "organization": "Terre des hommes",
       "type": "Job",
@@ -19,6 +37,15 @@
       "remote": true,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8688701-nurse-maternity-coverage-teknaf-cox-s-bazar",
       "posted": "Mon, 09 Nov 2026 11:36:21 +0100"
+    },
+    {
+      "title": "The African Wildlife Foundation (AWF) Geospatial Leaders Fellowship (GIS) 2027 for mid-level conservation GIS professionals.",
+      "organization": "African Wildlife Foundation (AWF) Geospatial Leaders",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://awfchuckwallprogram.submit.com/show/18",
+      "posted": "Mon, 09 Nov 2026 08:42:00 +0000"
     },
     {
       "title": "The Johannesburg Institute for Advanced Study (JIAS) Writing Fellowships 2027 for emerging African creatives (Fully Funded to Johannesburg, South Africa)",
@@ -37,6 +64,15 @@
       "remote": true,
       "apply_url": "https://meetings.icann.org/en/",
       "posted": "Mon, 09 Nov 2026 04:04:00 +0000"
+    },
+    {
+      "title": "Travel Coordinator II",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003042",
+      "posted": "Mon, 09 Nov 2026 00:00:00 +0000"
     },
     {
       "title": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028",
@@ -91,24 +127,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003039",
       "posted": "Fri, 06 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "title": "The MCW Global’s Young Leaders Fellowship 2027 for young changemakers worldwide (Fully Funded to New York, USA)",
-      "organization": "MCW Global’s Young Leaders",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://mcwglobal.org/young-leaders-fellowship-2027/",
-      "posted": "Thu, 05 Nov 2026 17:26:17 +0000"
-    },
-    {
-      "title": "The Equality Fund Journalism Fellowship 2027 for Journalists from the Global South ($4000 CAD stipend)",
-      "organization": "Equality Fund Journalism",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html",
-      "posted": "Thu, 05 Nov 2026 16:43:31 +0000"
     },
     {
       "title": "Pharmacist",
@@ -358,26 +376,6 @@
       "location": "Nigeria",
       "remote": false,
       "apply_url": "https://1.adp.com/XcgGV43rxm3",
-      "posted": null,
-      "first_seen": "Mon, 09 Nov 2026 17:57:40 +0000"
-    },
-    {
-      "title": "Manager, National Poverty Lab",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://1.adp.com/5sA7mtIjgfk",
-      "posted": null,
-      "first_seen": "Mon, 09 Nov 2026 17:57:40 +0000"
-    },
-    {
-      "title": "Research Associate",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://1.adp.com/t7Gh3nos7EE",
       "posted": null,
       "first_seen": "Mon, 09 Nov 2026 17:57:40 +0000"
     }
