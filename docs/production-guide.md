@@ -4,19 +4,30 @@ A repeatable checklist for turning a script in `docs/scripts/` into a published 
 
 ## 1. Generate the video
 
-- Use an AI avatar tool (HeyGen or Synthesia to start — both have free/low-cost tiers) or a stock-footage-plus-voiceover tool (Pictory, InVideo) if you prefer that style.
+- Use an AI avatar tool — HeyGen is the current pick for this channel (see walkthrough below); Synthesia is a solid alternative if you prefer its enterprise/training-oriented feature set. A stock-footage-plus-voiceover tool (Pictory, InVideo) works too if you prefer that style.
 - Feed in each scene's voiceover line and on-screen text from the script.
 - Add the logo as a burned-in watermark (see below) as part of the export, not as an afterthought.
 - Export vertical (9:16) to be Shorts-eligible, or horizontal (16:9) for a standard long-form upload.
 
-### Synthesia walkthrough (first-time setup)
+### HeyGen walkthrough (first-time setup)
 
-1. Sign up at synthesia.io (free trial or a paid plan — check current pricing; free/trial tiers typically stamp Synthesia's own watermark on exports).
-2. Set up your **Brand Kit** first (Settings → Brand Kit): upload `assets/logo.png` and your brand colors. This auto-applies your logo to every video you make afterward — one-time setup.
-3. Create new video → blank/AI-avatar template → pick an avatar and voice.
-4. Build one scene per script section: paste that scene's *Voiceover* line into the script box (the avatar reads it aloud), add the *On-screen text* as a text overlay on the same scene, and set the *Visual suggestion* as the scene's background (stock library or your own upload).
-5. Add a final scene for the **Call to action**.
-6. Preview scene-by-scene for timing and pacing, confirm the logo is showing (via Brand Kit), then Generate/Export and download the MP4.
+1. Sign up at heygen.com. The free plan is watermarked and capped at a few short videos a month — go with the **Creator** plan (check current pricing on their site, it changes) if you want the watermark removed and enough monthly minutes to cover 2–3 videos a week.
+2. Set up your **Brand Kit** (look for "Brand Kit" in the sidebar or workspace settings — HeyGen has moved this before, so check nearby menus if it's not where you expect): upload your logo (`assets/logo.png`) and set brand colors — navy `#0A2A43`, blue `#1E6FB8`, green `#3FA34D`, orange `#F2994A` (from `styles.css`). One-time setup, benefit forever.
+3. Create new video → **Avatar video** project.
+4. Pick a stock avatar with a professional, approachable tone matching the channel (no need to clone your own face/voice for this use case).
+5. Pick a voice from HeyGen's voice library and language (English); the Voice Director controls let you tune pacing/tone if the default read feels off.
+6. Build scenes one at a time, mapping directly onto the script structure:
+   - Scene 1 = the script's **Hook** line.
+   - One scene per numbered *Scene* in the script — paste that scene's *Voiceover* line into the script box (the avatar reads it aloud).
+   - Add the script's *On-screen text* as a text overlay on that same scene.
+   - For *Visual suggestion*, either pick a matching stock background/video from HeyGen's library or upload your own image for that scene.
+7. Repeat for the **Call to action** as a final scene.
+8. Preview the whole thing scene-by-scene: check lip-sync, timing, that captions aren't cut off, and that the avatar's pacing feels natural.
+9. Confirm your logo shows on every scene (via Brand Kit) — if it isn't applied automatically, check that scene's branding toggle.
+10. Generate/Export the video — rendering takes a few minutes depending on length.
+11. Download the MP4, then work through the upload checklist below (title, description, thumbnail, playlist, Public visibility).
+
+Start with `docs/scripts/cv-01-the-6-second-cv.md` — it's already broken into exactly this scene structure.
 
 ## 2. Watermark — always both layers
 
