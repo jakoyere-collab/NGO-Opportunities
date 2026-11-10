@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-10T15:55:22+00:00",
+  "generated_at": "2026-11-10T21:33:32+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Volunteer / Intern",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8700738-volunteer-intern",
+      "posted": "Tue, 10 Nov 2026 17:52:36 +0100"
+    },
     {
       "title": "Chatham House Research Fellow Africa Programme 2026-2027",
       "organization": "Chatham House",
@@ -366,16 +375,6 @@
       "location": "Regional (incl. Nigeria)",
       "remote": true,
       "apply_url": "https://1.adp.com/Pwm2QyWcSKS",
-      "posted": null,
-      "first_seen": "Mon, 09 Nov 2026 17:57:40 +0000"
-    },
-    {
-      "title": "Associate Research and Policy Manager",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://1.adp.com/XcgGV43rxm3",
       "posted": null,
       "first_seen": "Mon, 09 Nov 2026 17:57:40 +0000"
     }
