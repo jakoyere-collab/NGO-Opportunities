@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-11T22:22:07+00:00",
+  "generated_at": "2026-11-12T16:26:22+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Human Resources Manager",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8710668-human-resources-manager",
+      "posted": "Thu, 12 Nov 2026 13:49:34 +0100"
+    },
     {
       "title": "The Center for Effective Global Action (CEGA) Fellowship Program 2027/2028 for African Researchers (monetary stipend and fully funded UC Berkeley Residency)",
       "organization": "Center for Effective Global Action (CEGA)",
@@ -217,15 +226,6 @@
       "remote": false,
       "apply_url": "https://theirc.wd1.myworkdayjobs.com/External_Careers/job/Abuja-Nigeria/Associate-Designer_JR00005797",
       "posted": "Tue, 03 Nov 2026 08:30:58 +0000"
-    },
-    {
-      "title": "Technical Advisor I, Supply Chain - EMPOWER/RAPID",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002953",
-      "posted": "Mon, 02 Nov 2026 00:00:00 +0000"
     },
     {
       "title": "Expression of Interest for Research Associate Positions",
