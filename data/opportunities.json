@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-11-13T15:47:21+00:00",
+  "generated_at": "2026-11-13T21:44:27+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The Bayer Foundation Scientific Fellowships 2027 for Master, PhD, and Medical Students (10.000 € grant)",
+      "organization": "Bayer Foundation Scientific",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.bayer-foundation.com/en/science/fellowships",
+      "posted": "Fri, 13 Nov 2026 20:27:13 +0000"
+    },
+    {
+      "title": "The WIPO IP and Women Fellowship 2027 for young professionals (CHF 6,000 monthly stipend)",
+      "organization": "WIPO IP and Women",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://wipo.taleo.net/careersection/wp_2_fel/jobdetail.ftl?job=26331-FEL",
+      "posted": "Fri, 13 Nov 2026 19:35:56 +0000"
+    },
     {
       "title": "Dental Assistant - Lagos",
       "organization": "EHA Clinics",
@@ -10,6 +28,33 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/dental-assistant-lagos-585",
       "posted": "Fri, 13 Nov 2026 00:31:24 +0000"
+    },
+    {
+      "title": "Manager I Information Security",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003061",
+      "posted": "Fri, 13 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Director I, Emergency Program Response Team (EPRT)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003062",
+      "posted": "Fri, 13 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Manager I Everyday AI & Automation- (Global Remote)",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003063",
+      "posted": "Fri, 13 Nov 2026 00:00:00 +0000"
     },
     {
       "title": "Ashoka Young Changemakers Program – Nigeria 2027",
@@ -145,24 +190,6 @@
       "remote": true,
       "apply_url": "https://jobs.tdh.org/en-GB/jobs/8688701-nurse-maternity-coverage-teknaf-cox-s-bazar",
       "posted": "Mon, 09 Nov 2026 11:36:21 +0100"
-    },
-    {
-      "title": "The African Wildlife Foundation (AWF) Geospatial Leaders Fellowship (GIS) 2027 for mid-level conservation GIS professionals.",
-      "organization": "African Wildlife Foundation (AWF) Geospatial Leaders",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://awfchuckwallprogram.submit.com/show/18",
-      "posted": "Mon, 09 Nov 2026 08:42:00 +0000"
-    },
-    {
-      "title": "The Johannesburg Institute for Advanced Study (JIAS) Writing Fellowships 2027 for emerging African creatives (Fully Funded to Johannesburg, South Africa)",
-      "organization": "Johannesburg Institute for Advanced Study (JIAS) Writing",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=zVp4-u82vEGKlImEEyfgRYRZan3qdWNHlWHI_g61215UM0hSRVg4TEwyOFIySk1BUUQ0Rlo1NkRDWi4u",
-      "posted": "Mon, 09 Nov 2026 04:57:00 +0000"
     },
     {
       "title": "Travel Coordinator II",
@@ -347,36 +374,6 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1675",
       "posted": "",
       "first_seen": "Mon, 09 Nov 2026 17:57:40 +0000"
-    },
-    {
-      "title": "Associate Director, Right-Fit Evidence Unit",
-      "organization": "Innovations for Poverty Action (IPA)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://1.adp.com/g2qYiJQwf7M",
-      "posted": null,
-      "first_seen": "Mon, 09 Nov 2026 17:57:40 +0000"
-    },
-    {
-      "title": "Country Director, Kenya",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/208",
-      "posted": null,
-      "first_seen": "Fri, 13 Nov 2026 15:47:21 +0000"
-    },
-    {
-      "title": "Accounting Opportunities, Global Finance (Junior Accountant to Senior Accountant)",
-      "organization": "IFDC",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1677",
-      "posted": "",
-      "first_seen": "Fri, 13 Nov 2026 15:47:21 +0000"
     }
   ]
 }
