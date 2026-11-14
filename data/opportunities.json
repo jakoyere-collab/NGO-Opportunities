@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:44:27+00:00",
+  "generated_at": "2026-11-14T14:36:43+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -228,24 +228,6 @@
       "posted": "Thu, 05 Nov 2026 04:33:21 +0000"
     },
     {
-      "title": "Driver - Abuja",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/driver-abuja-693",
-      "posted": "Wed, 04 Nov 2026 01:24:18 +0000"
-    },
-    {
-      "title": "Project Officer - Infrastructure",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003026",
-      "posted": "Wed, 04 Nov 2026 00:00:00 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -374,6 +356,26 @@
       "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1675",
       "posted": "",
       "first_seen": "Mon, 09 Nov 2026 17:57:40 +0000"
+    },
+    {
+      "title": "Expression of Interest for Research Associate Positions",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/84",
+      "posted": null,
+      "first_seen": "Sat, 14 Nov 2026 14:36:43 +0000"
+    },
+    {
+      "title": "Country Director, Kenya",
+      "organization": "Precision Development (PxD)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://precisiondev.bamboohr.com/careers/208",
+      "posted": null,
+      "first_seen": "Sat, 14 Nov 2026 14:36:43 +0000"
     }
   ]
 }
