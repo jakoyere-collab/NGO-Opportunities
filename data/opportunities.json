@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:05:32+00:00",
+  "generated_at": "2026-11-15T20:39:27+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -19,6 +19,15 @@
       "remote": true,
       "apply_url": "https://wipo.taleo.net/careersection/wp_2_fel/jobdetail.ftl?job=26331-FEL",
       "posted": "Fri, 13 Nov 2026 19:35:56 +0000"
+    },
+    {
+      "title": "Pharmacist",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
+      "posted": "Fri, 13 Nov 2026 02:28:15 +0000"
     },
     {
       "title": "Dental Assistant - Lagos",
@@ -138,6 +147,15 @@
       "posted": "Wed, 11 Nov 2026 06:29:56 +0000"
     },
     {
+      "title": "People and Culture Intern",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/people-and-culture-intern-583",
+      "posted": "Wed, 11 Nov 2026 02:18:21 +0000"
+    },
+    {
       "title": "Administrative Officer Senior",
       "organization": "Catholic Relief Services (CRS)",
       "type": "Job",
@@ -208,26 +226,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003039",
       "posted": "Fri, 06 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Expression of Interest for Research Manager Positions",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/85",
-      "posted": null,
-      "first_seen": "Thu, 05 Nov 2026 15:54:34 +0000"
-    },
-    {
-      "title": "Expression of Interest for Field Officers and Senior Field Officers in Kenya",
-      "organization": "Precision Development (PxD)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://precisiondev.bamboohr.com/careers/202",
-      "posted": null,
-      "first_seen": "Thu, 05 Nov 2026 15:54:34 +0000"
     },
     {
       "title": "Program Manager (Heat Forecast)",
