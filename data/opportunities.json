@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T20:13:52+00:00",
+  "generated_at": "2026-11-15T15:05:32+00:00",
   "count": 40,
   "opportunities": [
     {
@@ -210,24 +210,6 @@
       "posted": "Fri, 06 Nov 2026 00:00:00 +0000"
     },
     {
-      "title": "Pharmacist",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
-      "posted": "Thu, 05 Nov 2026 05:33:36 +0000"
-    },
-    {
-      "title": "People and Culture Intern",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/people-and-culture-intern-583",
-      "posted": "Thu, 05 Nov 2026 04:33:21 +0000"
-    },
-    {
       "title": "Expression of Interest for Research Manager Positions",
       "organization": "Precision Development (PxD)",
       "type": "Job",
@@ -376,6 +358,26 @@
       "apply_url": "https://precisiondev.bamboohr.com/careers/208",
       "posted": null,
       "first_seen": "Sat, 14 Nov 2026 14:36:43 +0000"
+    },
+    {
+      "title": "Accounting Opportunities, Global Finance (Junior Accountant to Senior Accountant)",
+      "organization": "IFDC",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.silkroad.com/IFDC/Careers/jobs/1677",
+      "posted": "",
+      "first_seen": "Sun, 15 Nov 2026 15:05:32 +0000"
+    },
+    {
+      "title": "Associate Director, Right-Fit Evidence Unit",
+      "organization": "Innovations for Poverty Action (IPA)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://1.adp.com/g2qYiJQwf7M",
+      "posted": null,
+      "first_seen": "Sun, 15 Nov 2026 15:05:32 +0000"
     }
   ]
 }
