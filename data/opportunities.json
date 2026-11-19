@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-11-18T16:48:44+00:00",
+  "generated_at": "2026-11-19T16:55:17+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The Reporters Without Borders (RSF) Berlin Fellowship 2027 for journalists worldwide (Fully Funded to Berlin, Germany)",
+      "organization": "Reporters Without Borders (RSF) Berlin",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.berlin.de/sen/wirtschaft/europa-und-internationales/landesstelle-fuer-entwicklungszusammenarbeit/foerderung-ez-projekte/artikel.723938.php",
+      "posted": "Thu, 19 Nov 2026 15:36:55 +0000"
+    },
+    {
+      "title": "The taz Panter Foundation Rest & Resilience Fellowship 2027 for journalists worldwide (Fully Funded to Berlin, Germany)",
+      "organization": "taz Panter Foundation Rest & Resilience",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://taz.de/taz-panterstiftung/rest-resilience-fellowship/!v=2c0b2d3c-7081-46a5-9256-f9fb6ebf81f2/",
+      "posted": "Thu, 19 Nov 2026 14:59:12 +0000"
+    },
     {
       "title": "French-African Foundation Young Leaders Program 2027",
       "organization": "French-African Foundation",
@@ -102,6 +120,15 @@
       "posted": "Wed, 18 Nov 2026 00:00:00 +0000"
     },
     {
+      "title": "Global Awards and Project Support (GAPS) Director II",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003039",
+      "posted": "Wed, 18 Nov 2026 00:00:00 +0000"
+    },
+    {
       "title": "Knight Science Journalism Academic-Year Fellowship at MIT 2027/2028 for Science Journalists worldwide ($USD $87,500 Stipend)",
       "organization": "Knight Science Journalism Academic-Year",
       "type": "Fellowship",
@@ -181,6 +208,15 @@
       "remote": true,
       "apply_url": "https://jobs.smartrecruiters.com/SNV/744000161999819",
       "posted": "Tue, 17 Nov 2026 06:12:08 +0000"
+    },
+    {
+      "title": "Volunteer / Intern",
+      "organization": "Terre des hommes",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8745920-volunteer-intern",
+      "posted": "Mon, 16 Nov 2026 10:05:26 +0100"
     },
     {
       "title": "Senior Officer, Client Acquisition & Retention -Lagos",
@@ -300,15 +336,6 @@
       "posted": "Thu, 12 Nov 2026 08:18:19 +0000"
     },
     {
-      "title": "The DSTI-NRF Policy Fellowship Programme Cohort 2 (24-month placements) for early- and mid-career South African professionals.",
-      "organization": "DSTI-NRF Policy",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://forms.gle/gUDuvrmPRFeuRmbK9",
-      "posted": "Thu, 12 Nov 2026 05:07:00 +0000"
-    },
-    {
       "title": "Global Talent Acquisition Specialist II, CWARO Remote (Fluency in English & French required)",
       "organization": "Catholic Relief Services (CRS)",
       "type": "Job",
@@ -316,15 +343,6 @@
       "remote": true,
       "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003057",
       "posted": "Thu, 12 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "title": "The Center for Effective Global Action (CEGA) Fellowship Program 2027/2028 for African Researchers (monetary stipend and fully funded UC Berkeley Residency)",
-      "organization": "Center for Effective Global Action (CEGA)",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html",
-      "posted": "Wed, 11 Nov 2026 19:26:40 +0000"
     },
     {
       "title": "Programme Officer - TradeMark Africa - Nigeria",
@@ -343,24 +361,6 @@
       "remote": false,
       "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
       "posted": "Wed, 11 Nov 2026 08:13:37 +0000"
-    },
-    {
-      "title": "People and Culture Intern",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/people-and-culture-intern-583",
-      "posted": "Wed, 11 Nov 2026 02:18:21 +0000"
-    },
-    {
-      "title": "Administrative Officer Senior",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002916",
-      "posted": "Wed, 11 Nov 2026 00:00:00 +0000"
     }
   ]
 }
