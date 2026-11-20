@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-11-19T16:55:17+00:00",
+  "generated_at": "2026-11-20T16:29:58+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "Senior Manager Impact and Intelligence",
+      "organization": "SNV",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000162706282",
+      "posted": "Fri, 20 Nov 2026 10:54:08 +0000"
+    },
+    {
+      "title": "Senior Manager Operations and Allocations",
+      "organization": "SNV",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000162704567",
+      "posted": "Fri, 20 Nov 2026 10:51:48 +0000"
+    },
+    {
+      "title": "Associate",
+      "organization": "SNV",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000162703925",
+      "posted": "Fri, 20 Nov 2026 10:47:04 +0000"
+    },
+    {
+      "title": "People and Culture Intern",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/people-and-culture-intern-583",
+      "posted": "Fri, 20 Nov 2026 03:26:12 +0000"
+    },
+    {
+      "title": "Advisor II, Award Management Advisor, World Bank/Multi-lateral Development Banks",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002791",
+      "posted": "Fri, 20 Nov 2026 00:00:00 +0000"
+    },
     {
       "title": "The Reporters Without Borders (RSF) Berlin Fellowship 2027 for journalists worldwide (Fully Funded to Berlin, Germany)",
       "organization": "Reporters Without Borders (RSF) Berlin",
@@ -316,51 +361,6 @@
       "remote": true,
       "apply_url": "https://forms.ashoka.org/4938040",
       "posted": "Thu, 12 Nov 2026 22:03:24 +0000"
-    },
-    {
-      "title": "Human Resources Manager",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8710668-human-resources-manager",
-      "posted": "Thu, 12 Nov 2026 13:49:34 +0100"
-    },
-    {
-      "title": "Mental Health and Psychosocial Support Flying Manager - Nigeria - M/F",
-      "organization": "ALIMA",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://alliance.alima.ngo/jobs/mental-health-and-psychosocial-support-flying-manager-nigeria-m-f-558",
-      "posted": "Thu, 12 Nov 2026 08:18:19 +0000"
-    },
-    {
-      "title": "Global Talent Acquisition Specialist II, CWARO Remote (Fluency in English & French required)",
-      "organization": "Catholic Relief Services (CRS)",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003057",
-      "posted": "Thu, 12 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "title": "Programme Officer - TradeMark Africa - Nigeria",
-      "organization": "Development Aid",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://tma-jobs.bidnexus.ai/",
-      "posted": "Wed, 11 Nov 2026 19:06:59 +0000"
-    },
-    {
-      "title": "Medical Laboratory Scientist - Lagos",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/medical-laboratory-scientist-lagos-576",
-      "posted": "Wed, 11 Nov 2026 08:13:37 +0000"
     }
   ]
 }
