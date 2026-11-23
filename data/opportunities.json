@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-11-22T21:24:39+00:00",
+  "generated_at": "2026-11-23T19:38:11+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The Tor Community Fellowship 2027 for human rights defenders, journalists, technologists, and researchers (500 USD monthly stipend)",
+      "organization": "Tor Community",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://forum.torproject.org/t/call-for-applications-tor-community-fellowship/22490",
+      "posted": "Mon, 23 Nov 2026 16:04:45 +0000"
+    },
+    {
+      "title": "Technical Advisor - Maternal and Newborn Health and Nutrition (MNHN)",
+      "organization": "Nutrition International",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://apply.workable.com/nutritionintl/j/033E0C1B4E/",
+      "posted": "Mon, 23 Nov 2026 13:33:32 +0000"
+    },
+    {
+      "title": "Global Platform Network Coordinator",
+      "organization": "MS ActionAid Denmark",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://ms.recruiting.mindkey-app.com/en-US/vacancy/21112026",
+      "posted": "Mon, 23 Nov 2026 13:29:09 +0000"
+    },
+    {
+      "title": "Digital Platforms and Design Officer",
+      "organization": "MS ActionAid Denmark",
+      "type": "Job",
+      "location": "Regional (incl. Nigeria)",
+      "remote": true,
+      "apply_url": "https://ms.recruiting.mindkey-app.com/en-US/vacancy/19112026",
+      "posted": "Mon, 23 Nov 2026 13:21:05 +0000"
+    },
+    {
+      "title": "The Yale Council on African Studies Visiting African Scholars Fellowship 2027/2028 for African academics.",
+      "organization": "Yale Council on African Studies Visiting African Scholars",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://africanstudies.org/jobs/visiting-african-scholars-fellowship-yale-council-on-african-studies/",
+      "posted": "Mon, 23 Nov 2026 04:46:00 +0000"
+    },
     {
       "title": "Senior Project Officer- ILO",
       "organization": "Terre des hommes",
@@ -291,15 +336,6 @@
       "posted": "Tue, 17 Nov 2026 13:42:47 +0100"
     },
     {
-      "title": "Governance Coordinator, Calabar",
-      "organization": "Wildlife Conservation Society",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://nigeria.wcs.org/Staff/career1/ID/26862/Governance-Coordinator-Calabar.aspx",
-      "posted": "Tue, 17 Nov 2026 12:09:59 +0000"
-    },
-    {
       "title": "The West African Health Organisation (WAHO) 2026/2027 Doctoral and Master’s Scholarships in Public Health.",
       "organization": null,
       "type": "Fellowship",
@@ -325,42 +361,6 @@
       "remote": true,
       "apply_url": "https://eabiodesign.org/apply",
       "posted": "Tue, 17 Nov 2026 07:56:00 +0000"
-    },
-    {
-      "title": "Consultant – Strengthening and Operationalization of the Tripartite Public-Private Dialogue and Investment Climate Reforms in Togo",
-      "organization": "SNV",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.smartrecruiters.com/SNV/744000161999819",
-      "posted": "Tue, 17 Nov 2026 06:12:08 +0000"
-    },
-    {
-      "title": "Pharmacist",
-      "organization": "EHA Clinics",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://erp.eha.ng/jobs/detail/pharmacist-546",
-      "posted": "Tue, 17 Nov 2026 03:36:30 +0000"
-    },
-    {
-      "title": "The Bayer Foundation Scientific Fellowships 2027 for Master, PhD, and Medical Students (10.000 € grant)",
-      "organization": "Bayer Foundation Scientific",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.bayer-foundation.com/en/science/fellowships",
-      "posted": "Fri, 13 Nov 2026 20:27:13 +0000"
-    },
-    {
-      "title": "The WIPO IP and Women Fellowship 2027 for young professionals (CHF 6,000 monthly stipend)",
-      "organization": "WIPO IP and Women",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://wipo.taleo.net/careersection/wp_2_fel/jobdetail.ftl?job=26331-FEL",
-      "posted": "Fri, 13 Nov 2026 19:35:56 +0000"
     }
   ]
 }
