@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-11-23T19:38:11+00:00",
+  "generated_at": "2026-11-24T19:11:48+00:00",
   "count": 40,
   "opportunities": [
+    {
+      "title": "The AUDA-NEPAD Energize Africa Health Fellows Programme 2026/2027 for African professionals (All-inclusive gross annual remuneration of US$27,200)",
+      "organization": "AUDA-NEPAD Energize Africa Health",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://www.nepad.org/work-with-us/careers/energize-africa-health-fellows-15-positions",
+      "posted": "Tue, 24 Nov 2026 15:42:20 +0000"
+    },
+    {
+      "title": "Dental Therapist - Abuja",
+      "organization": "EHA Clinics",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://erp.eha.ng/jobs/detail/dental-therapist-abuja-171",
+      "posted": "Tue, 24 Nov 2026 11:28:35 +0000"
+    },
+    {
+      "title": "IT Administrator I",
+      "organization": "Catholic Relief Services (CRS)",
+      "type": "Job",
+      "location": "Nigeria",
+      "remote": false,
+      "apply_url": "https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3003116",
+      "posted": "Tue, 24 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Yale Council on African Studies Visiting African Scholars Fellowship 2027-2028",
+      "organization": "Yale Council on African Studies",
+      "type": "Fellowship",
+      "location": "Remote / Varies",
+      "remote": true,
+      "apply_url": "https://apply.interfolio.com/197684",
+      "posted": "Mon, 23 Nov 2026 18:06:00 +0000"
+    },
     {
       "title": "The Tor Community Fellowship 2027 for human rights defenders, journalists, technologists, and researchers (500 USD monthly stipend)",
       "organization": "Tor Community",
@@ -318,24 +354,6 @@
       "posted": "Tue, 17 Nov 2026 16:02:29 +0000"
     },
     {
-      "title": "HR Assistant - Maiduguri",
-      "organization": "INTERSOS",
-      "type": "Job",
-      "location": "Nigeria",
-      "remote": false,
-      "apply_url": "https://forms.gle/tywEvhphsFmcpd1z9",
-      "posted": "Tue, 17 Nov 2026 15:51:50 +0000"
-    },
-    {
-      "title": "MENA Regional Director",
-      "organization": "Terre des hommes",
-      "type": "Job",
-      "location": "Regional (incl. Nigeria)",
-      "remote": true,
-      "apply_url": "https://jobs.tdh.org/en-GB/jobs/8755227-mena-regional-director",
-      "posted": "Tue, 17 Nov 2026 13:42:47 +0100"
-    },
-    {
       "title": "The West African Health Organisation (WAHO) 2026/2027 Doctoral and Master’s Scholarships in Public Health.",
       "organization": null,
       "type": "Fellowship",
@@ -343,24 +361,6 @@
       "remote": true,
       "apply_url": "https://ee.kobotoolbox.org/single/fb1d88e034c42ce479b3112aba24aa38",
       "posted": "Tue, 17 Nov 2026 08:39:00 +0000"
-    },
-    {
-      "title": "The International Court of Justice (ICJ) Judicial Fellowship Programme 2027/2028 for recent Law Graduates – The Hague, Netherlands.",
-      "organization": "International Court of Justice (ICJ) Judicial",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://www.icj-cij.org/judicial-fellows-program",
-      "posted": "Tue, 17 Nov 2026 08:12:08 +0000"
-    },
-    {
-      "title": "The East Africa Biodesign Fellowship 2027/2028 Health Innovation Fellowship for African Innovators (Funded)",
-      "organization": "East Africa Biodesign",
-      "type": "Fellowship",
-      "location": "Remote / Varies",
-      "remote": true,
-      "apply_url": "https://eabiodesign.org/apply",
-      "posted": "Tue, 17 Nov 2026 07:56:00 +0000"
     }
   ]
 }
